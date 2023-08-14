@@ -1,0 +1,16 @@
+{
+	"name": "Connect OARE to OStim SA",
+	"modpack": "OARE",
+	"length": 0.0,
+	"speeds":[],
+	"actors":[],
+	"navigations":[
+		{
+			"origin": "OStim2PStandingApartMF",
+			"destination": "OpS|Sta!Sta|Ap|Standing",
+			"description": "Access Open Animations RE...",
+			"icon": "OARE/Standing_apart/Standing"
+		}
+	],
+	"actors":[]
+}
