@@ -1,0 +1,47 @@
+{
+	"name": "OARE: Standing",
+	"modpack": "OARE",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "_Ho-Standing"
+		}
+	],
+	"navigations":[
+		{
+			"origin": "OStim2PStandingApartMF",
+			"destination": "Standing_apart",
+			"description": "Access Open Animations RE...",
+			"icon": "OStim/icons/OARE/standing_apart/Standing"
+		},
+		{
+			"destination": "OStim2PStandingCloseFF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle",
+		"intro"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true,
+			"penisAngle":"6"
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}
