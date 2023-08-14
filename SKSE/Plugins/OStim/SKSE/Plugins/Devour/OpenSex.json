@@ -1,0 +1,32 @@
+{
+	"baseScenesDouble": [
+		"OpS|Sta!Sta|Ap|Standing",
+        "OpS|Sit!Sit|Ap|Sitting",
+        "OpS|Sta!Kne|Ap|MaleStandingFemaleKneeling"
+	],
+	"replacerScenesDouble": [
+		"OpS|Sta!Sta|Ap|StandingDevourVampireMaleAndFemale",
+        "OpS|Sit!Sit|Ap|SittingVampireMaleAndFemale",
+        "OpS|Sta!Kne|Ap|MaleStandingFemaleKneelingDevourVampireMaleAndFemale"
+	],
+	"baseScenesMale": [
+		"OpS|Sta!Sta|Ap|Standing",
+        "OpS|Sit!Sit|Ap|Sitting",
+        "OpS|Sta!Kne|Ap|MaleStandingFemaleKneeling"
+	],
+	"replacerScenesMale": [
+		"OpS|Sta!Sta|Ap|StandingDevourVampireMale",
+        "OpS|Sit!Sit|Ap|SittingVampireMale",
+        "OpS|Sta!Kne|Ap|MaleStandingFemaleKneelingDevourVampireMale"
+	],
+	"baseScenesFemale": [
+		"OpS|Sta!Sta|Ap|Standing",
+        "OpS|Sit!Sit|Ap|Sitting",
+        "OpS|Sta!Kne|Ap|MaleStandingFemaleKneeling"
+	],
+	"replacerScenesFemale": [
+		"OpS|Sta!Sta|Ap|StandingDevourVampireFemale",
+        "OpS|Sit!Sit|Ap|SittingVampireFemale",
+        "OpS|Sta!Kne|Ap|MaleStandingFemaleKneelingDevourVampireFemale"
+	]
+}

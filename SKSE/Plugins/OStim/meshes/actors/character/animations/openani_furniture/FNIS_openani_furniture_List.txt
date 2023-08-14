@@ -1,0 +1,181 @@
+b -Tn _Ap-BenchIdle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdle\_Ap-BenchIdle_0.hkx
+b -Tn _Ap-BenchIdle_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdle\_Ap-BenchIdle_1.hkx
+b -Tn _Ap-BenchIdleFemaleFacingAway_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdleFemaleFacingAway\_Ap-BenchIdleFemaleFacingAway_0.hkx
+b -Tn _Ap-BenchIdleFemaleFacingAway_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdleFemaleFacingAway\_Ap-BenchIdleFemaleFacingAway_1.hkx
+b -Tn _Ap-BenchIdleFemaleSitting_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdleFemaleSitting\_Ap-BenchIdleFemaleSitting_0.hkx
+b -Tn _Ap-BenchIdleFemaleSitting_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdleFemaleSitting\_Ap-BenchIdleFemaleSitting_1.hkx
+b -Tn _Ap-BenchIdleBothSitting_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdleBothSitting\_Ap-BenchIdleBothSitting_0.hkx
+b -Tn _Ap-BenchIdleBothSitting_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdleBothSitting\_Ap-BenchIdleBothSitting_1.hkx
+b -Tn _Ap-BenchBothSittingFaceEachother_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchBothSittingFaceEachother\_Ap-BenchBothSittingFaceEachother_0.hkx
+b -Tn _Ap-BenchBothSittingFaceEachother_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchBothSittingFaceEachother\_Ap-BenchBothSittingFaceEachother_1.hkx
+b -Tn _Em-BenchBothSittingKiss_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Em\BenchBothSittingKiss\_Em-BenchBothSittingKiss_0.hkx
+b -Tn _Em-BenchBothSittingKiss_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Em\BenchBothSittingKiss\_Em-BenchBothSittingKiss_1.hkx
+b -Tn _Ho-BenchSitting_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ho\BenchSitting\_Ho-BenchSitting_0.hkx
+b -Tn _Ho-BenchSitting_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ho\BenchSitting\_Ho-BenchSitting_1.hkx
+b -Tn _Ho-BenchKneelingFemale_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ho\BenchKneelingFemale\_Ho-BenchKneelingFemale_0.hkx
+b -Tn _Ho-BenchKneelingFemale_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ho\BenchKneelingFemale\_Ho-BenchKneelingFemale_1.hkx
+b -Tn _Cr-BenchGropingBreast_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S1_0.hkx
+b -Tn _Cr-BenchGropingBreast_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S1_1.hkx
+b -Tn _Cr-BenchGropingBreast_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S2_0.hkx
+b -Tn _Cr-BenchGropingBreast_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S1_1.hkx
+b -Tn _Cr-BenchGropingBreast_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S3_0.hkx
+b -Tn _Cr-BenchGropingBreast_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S1_1.hkx
+b -Tn _Cr-BenchGropingBreast_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S4_0.hkx
+b -Tn _Cr-BenchGropingBreast_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Cr\BenchGropingBreast\_Cr-BenchGropingBreast_S1_1.hkx
+b -Tn _HJ-BenchSideBySideHJ_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S1_0.hkx
+b -Tn _HJ-BenchSideBySideHJ_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S1_1.hkx
+b -Tn _HJ-BenchSideBySideHJ_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S2_0.hkx
+b -Tn _HJ-BenchSideBySideHJ_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S2_1.hkx
+b -Tn _HJ-BenchSideBySideHJ_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S3_0.hkx
+b -Tn _HJ-BenchSideBySideHJ_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S3_1.hkx
+b -Tn _HJ-BenchSideBySideHJ_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S4_0.hkx
+b -Tn _HJ-BenchSideBySideHJ_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchSideBySideHJ\_HJ-BenchSideBySideHJ_S4_1.hkx
+b -Tn _HJ-BenchEarLickingHJ_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S1_0.hkx
+b -Tn _HJ-BenchEarLickingHJ_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S1_1.hkx
+b -Tn _HJ-BenchEarLickingHJ_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S2_0.hkx
+b -Tn _HJ-BenchEarLickingHJ_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S2_1.hkx
+b -Tn _HJ-BenchEarLickingHJ_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S3_0.hkx
+b -Tn _HJ-BenchEarLickingHJ_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S3_1.hkx
+b -Tn _HJ-BenchEarLickingHJ_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S4_0.hkx
+b -Tn _HJ-BenchEarLickingHJ_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\HJ\BenchEarLickingHJ\_HJ-BenchEarLickingHJ_S4_1.hkx
+b -Tn _BJ-BenchSittingBlowjob_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S1_0.hkx
+b -Tn _BJ-BenchSittingBlowjob_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S1_1.hkx
+b -Tn _BJ-BenchSittingBlowjob_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S2_0.hkx
+b -Tn _BJ-BenchSittingBlowjob_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S2_1.hkx
+b -Tn _BJ-BenchSittingBlowjob_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S3_0.hkx
+b -Tn _BJ-BenchSittingBlowjob_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S3_1.hkx
+b -Tn _BJ-BenchSittingBlowjob_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S4_0.hkx
+b -Tn _BJ-BenchSittingBlowjob_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\BJ\BenchSittingBlowjob\_BJ-BenchSittingBlowjob_S4_1.hkx
+b -Tn _Sx-BenchRearSex_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S1_0.hkx
+b -Tn _Sx-BenchRearSex_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S1_1.hkx
+b -Tn _Sx-BenchRearSex_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S2_0.hkx
+b -Tn _Sx-BenchRearSex_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S2_1.hkx
+b -Tn _Sx-BenchRearSex_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S3_0.hkx
+b -Tn _Sx-BenchRearSex_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S3_1.hkx
+b -Tn _Sx-BenchRearSex_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S4_0.hkx
+b -Tn _Sx-BenchRearSex_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSex\_Sx-BenchRearSex_S4_1.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S1_0.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S1_1.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S2_0.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S2_1.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S3_0.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S3_1.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S4_0.hkx
+b -Tn _Sx-BenchRearSexHandsOnMaleKnees_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchRearSexHandsOnMaleKnees\_Sx-BenchRearSexHandsOnMaleKnees_S4_1.hkx
+b -Tn _Sx-BenchSittingSex_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S1_0.hkx
+b -Tn _Sx-BenchSittingSex_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S1_1.hkx
+b -Tn _Sx-BenchSittingSex_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S2_0.hkx
+b -Tn _Sx-BenchSittingSex_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S2_1.hkx
+b -Tn _Sx-BenchSittingSex_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S3_0.hkx
+b -Tn _Sx-BenchSittingSex_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S3_1.hkx
+b -Tn _Sx-BenchSittingSex_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S4_0.hkx
+b -Tn _Sx-BenchSittingSex_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Sx\BenchSittingSex\_Sx-BenchSittingSex_S4_1.hkx
+
+b -Tn _Ap-CookingPotIdle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotIdle\_Ap-CookingPotIdle_0.hkx
+b -o _Ap-CookingPotIdle_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotIdle\_Ap-CookingPotIdle_1.hkx AnimObjectSpoon
+b -Tn _Ap-CookingPotMaleApproach_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotMaleApproach\_Ap-CookingPotMaleApproach_0.hkx
+b -o _Ap-CookingPotMaleApproach_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotMaleApproach\_Ap-CookingPotMaleApproach_1.hkx AnimObjectSpoon
+b -Tn _Cr-CookingPotButtGrab_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotButtGrab\_Cr-CookingPotButtGrab_S1_0.hkx
+b -o _Cr-CookingPotButtGrab_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotButtGrab\_Cr-CookingPotButtGrab_S1_1.hkx AnimObjectSpoon
+b -Tn _Cr-CookingPotButtGrab_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotButtGrab\_Cr-CookingPotButtGrab_S2_0.hkx
+b -o _Cr-CookingPotButtGrab_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotButtGrab\_Cr-CookingPotButtGrab_S2_1.hkx AnimObjectSpoon
+b -Tn _Cr-CookingPotButtGrab_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotButtGrab\_Cr-CookingPotButtGrab_S3_0.hkx
+b -o _Cr-CookingPotButtGrab_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotButtGrab\_Cr-CookingPotButtGrab_S3_1.hkx AnimObjectSpoon
+b -Tn _Cr-CookingPotKissGropeBreasts_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S1_0.hkx
+b -o _Cr-CookingPotKissGropeBreasts_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S1_1.hkx AnimObjectSpoon
+b -Tn _Cr-CookingPotKissGropeBreasts_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S2_0.hkx
+b -o _Cr-CookingPotKissGropeBreasts_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S2_1.hkx AnimObjectSpoon
+b -Tn _Cr-CookingPotKissGropeBreasts_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S3_0.hkx
+b -o _Cr-CookingPotKissGropeBreasts_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S3_1.hkx AnimObjectSpoon
+b -Tn _Cr-CookingPotKissGropeBreasts_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S4_0.hkx
+b -o _Cr-CookingPotKissGropeBreasts_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotKissGropeBreasts\_Cr-CookingPotKissGropeBreasts_S4_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSex_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S1_0.hkx
+b -o _Sx-CookingPotSex_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S1_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSex_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S2_0.hkx
+b -o _Sx-CookingPotSex_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S2_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSex_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S3_0.hkx
+b -o _Sx-CookingPotSex_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S3_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSex_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S4_0.hkx
+b -o _Sx-CookingPotSex_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSex\_Sx-CookingPotSex_S4_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexNoHands_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S1_0.hkx
+b -o _Sx-CookingPotSexNoHands_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S1_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexNoHands_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S2_0.hkx
+b -o _Sx-CookingPotSexNoHands_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S2_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexNoHands_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S3_0.hkx
+b -o _Sx-CookingPotSexNoHands_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S3_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexNoHands_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S4_0.hkx
+b -o _Sx-CookingPotSexNoHands_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexNoHands\_Sx-CookingPotSexNoHands_S4_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexRaisedLeg_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S1_0.hkx
+b -o _Sx-CookingPotSexRaisedLeg_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S1_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexRaisedLeg_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S2_0.hkx
+b -o _Sx-CookingPotSexRaisedLeg_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S2_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexRaisedLeg_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S3_0.hkx
+b -o _Sx-CookingPotSexRaisedLeg_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S3_1.hkx AnimObjectSpoon
+b -Tn _Sx-CookingPotSexRaisedLeg_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S4_0.hkx
+b -o _Sx-CookingPotSexRaisedLeg_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Sx\CookingPotSexRaisedLeg\_Sx-CookingPotSexRaisedLeg_S4_1.hkx AnimObjectSpoon
+
+b -Tn _Ap-ShelfIdle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdle\_Ap-ShelfIdle_0.hkx
+b -Tn _Ap-ShelfIdle_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdle\_Ap-ShelfIdle_1.hkx
+b -Tn _Ap-ShelfIdleBentOver_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdleBentOver\_Ap-ShelfIdleBentOver_0.hkx
+b -Tn _Ap-ShelfIdleBentOver_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdleBentOver\_Ap-ShelfIdleBentOver_1.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S1_0.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S1_1.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S2_0.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S2_1.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S3_0.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S3_1.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S4_0.hkx
+b -Tn _Sx-ShelfRearSexBentOver_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S4_1.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S1_0.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S1_1.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S2_0.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S2_1.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S3_0.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S3_1.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S4_0.hkx
+b -Tn _Sx-ShelfRearSexBentOverBreastGrab_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOverBreastGrab\_Sx-ShelfRearSexBentOverBreastGrab_S4_1.hkx
+
+b -Tn _Ap-TableIdle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ap\TableIdle\_Ap-TableIdle_0.hkx
+b -Tn _Ap-TableIdle_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ap\TableIdle\_Ap-TableIdle_1.hkx
+b -Tn _Ap-TableIdleFacingEachOther_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ap\TableIdleFacingEachOther\_Ap-TableIdleFacingEachOther_0.hkx
+b -Tn _Ap-TableIdleFacingEachOther_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ap\TableIdleFacingEachOther\_Ap-TableIdleFacingEachOther_1.hkx
+b -Tn _Ho-TableIdleHolding_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ho\TableIdleHolding\_Ho-TableIdleHolding_0.hkx
+b -Tn _Ho-TableIdleHolding_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ho\TableIdleHolding\_Ho-TableIdleHolding_1.hkx
+b -Tn _Ap-TableIdleSittingFemale_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ap\TableIdleSittingFemale\_Ap-TableIdleSittingFemale_0.hkx
+b -Tn _Ap-TableIdleSittingFemale_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ap\TableIdleSittingFemale\_Ap-TableIdleSittingFemale_1.hkx
+b -Tn _Ho-TableIdleSittingFemaleHolding_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ho\TableIdleSittingFemaleHolding\_Ho-TableIdleSittingFemaleHolding_0.hkx
+b -Tn _Ho-TableIdleSittingFemaleHolding_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Ho\TableIdleSittingFemaleHolding\_Ho-TableIdleSittingFemaleHolding_1.hkx
+b -Tn _Em-TableKiss_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Em\TableKiss\_Em-TableKiss_0.hkx
+b -Tn _Em-TableKiss_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Em\TableKiss\_Em-TableKiss_1.hkx
+b -Tn _Pf2-TableSittingFingering_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S1_0.hkx
+b -Tn _Pf2-TableSittingFingering_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S1_1.hkx
+b -Tn _Pf2-TableSittingFingering_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S2_0.hkx
+b -Tn _Pf2-TableSittingFingering_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S2_1.hkx
+b -Tn _Pf2-TableSittingFingering_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S3_0.hkx
+b -Tn _Pf2-TableSittingFingering_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S3_1.hkx
+b -Tn _Pf2-TableSittingFingering_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S4_0.hkx
+b -Tn _Pf2-TableSittingFingering_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Pf2\TableSittingFingering\_Pf2-TableSittingFingering_S4_1.hkx
+b -Tn _BJ-TableLieBackOral_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S1_0.hkx
+b -Tn _BJ-TableLieBackOral_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S1_1.hkx
+b -Tn _BJ-TableLieBackOral_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S2_0.hkx
+b -Tn _BJ-TableLieBackOral_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S2_1.hkx
+b -Tn _BJ-TableLieBackOral_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S3_0.hkx
+b -Tn _BJ-TableLieBackOral_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S3_1.hkx
+b -Tn _BJ-TableLieBackOral_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S4_0.hkx
+b -Tn _BJ-TableLieBackOral_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\BJ\TableLieBackOral\_BJ-TableLieBackOral_S4_1.hkx
+b -Tn _Sx-TableSittingSex_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S1_0.hkx
+b -Tn _Sx-TableSittingSex_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S1_1.hkx
+b -Tn _Sx-TableSittingSex_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S2_0.hkx
+b -Tn _Sx-TableSittingSex_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S2_1.hkx
+b -Tn _Sx-TableSittingSex_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S3_0.hkx
+b -Tn _Sx-TableSittingSex_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S3_1.hkx
+b -Tn _Sx-TableSittingSex_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S4_0.hkx
+b -Tn _Sx-TableSittingSex_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableSittingSex\_Sx-TableSittingSex_S4_1.hkx
+b -Tn _Sx-TableMissionary_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S1_0.hkx
+b -Tn _Sx-TableMissionary_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S1_1.hkx
+b -Tn _Sx-TableMissionary_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S2_0.hkx
+b -Tn _Sx-TableMissionary_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S2_1.hkx
+b -Tn _Sx-TableMissionary_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S3_0.hkx
+b -Tn _Sx-TableMissionary_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S3_1.hkx
+b -Tn _Sx-TableMissionary_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S4_0.hkx
+b -Tn _Sx-TableMissionary_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\TabLe\Sx\TableMissionary\_Sx-TableMissionary_S4_1.hkx
