@@ -4,7 +4,11 @@
   "length": 2,
   "destination": "OpS_Sta!Squ_Ap_MaleStandingFemaleSquatting",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+		{
+			"animation": "_Ap-GoToMaleStandingFemaleSquatting"
+		}
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -14,9 +18,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 7,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -25,
       "tags": [
         "standing"
@@ -26,8 +31,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": 25,
       "tags": [
         "squatting"

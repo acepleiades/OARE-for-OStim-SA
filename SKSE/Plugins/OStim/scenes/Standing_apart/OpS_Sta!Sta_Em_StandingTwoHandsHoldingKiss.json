@@ -1,31 +1,31 @@
 {
-  "name": "Standing 3PP Hub",
-  "modPack": "OpS_addon",
+  "name": "Standing Two Hands Holding Kiss",
+  "modPack": "OpS",
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Sta!Sta_Ap_Standing",
-      "priority": 0,
+      "destination": "OpS_Sta!Sta_Em_StandingTwoHandsHolding",
+	  "description": "Return to standing holding two hands",
+	  "icon": "OARE/oare_return",
+      "priority": -1000,
       "noWarnings": false
     }
   ],
   "speeds": [
     {
-      "animation": "_Ho-Standing",
+      "animation": "_Em-StandingTwoHandsHoldingKiss",
       "playbackSpeed": 1,
       "displaySpeed": 1
     }
   ],
   "defaultSpeed": 0,
-  "noRandomSelection": true,
-  "tags": [
-    "idle"
-  ],
+  "noRandomSelection": false,
+  "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 6,
       "scaleHeight": 120.748,
       "tags": [
@@ -36,7 +36,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
       "tags": [
         "standing"
@@ -45,5 +45,16 @@
       "autoTransitions": {}
     }
   ],
-  "actions": []
+  "actions": [
+    {
+      "type": "holdinghand",
+      "actor": 0,
+      "target": 1
+    },
+    {
+      "type": "kissing",
+      "actor": 0,
+      "target": 1
+    }
+  ]
 }

@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Cr_StandingGropingBreasts",
-      "priority": 0,
+	  "description": "Grope {1}",
+	  "icon": "OARE/oare_return",
+      "priority": -1000,
       "noWarnings": false
     }
   ],
@@ -38,9 +40,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 7,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -100,
       "tags": [
         "standing"
@@ -50,8 +53,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "lookLeft": 40,
       "tags": [
