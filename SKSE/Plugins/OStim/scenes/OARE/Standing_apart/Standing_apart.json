@@ -1,0 +1,82 @@
+{
+	"name": "OARE: Standing",
+	"modpack": "OARE",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "_Ho-Standing"
+		}
+	],
+	"navigations":[
+		{
+			"origin": "OStim2PStandingApartMF",
+			"description": "Access Open Animations RE...",
+			"icon": "OARE/Standing_apart/Standing"
+		},
+		{
+			"destination": "HeadCaress",
+			"description": "Caress your partner's head",
+			"icon": "OARE/Standing_apart/HeadCaress",
+			"priority": 1000
+		},
+		{
+			"destination": "ActionMaleCaressCheekStroke",
+			"description": "Caress your partner's cheek",
+			"icon": "OARE/Standing_apart/ActionMaleCaressCheekStroke",
+			"priority": 1002
+		},
+		{
+			"destination": "ActionMaleCaressHug",
+			"description": "Caress and hug your partner",
+			"icon": "OARE/Standing_apart/ActionMaleCaressHug",
+			"priority": 1003
+		},
+		{
+			"destination": "ActionMaleKiss",
+			"description": "Kiss your partner",
+			"icon": "OARE/Standing_apart/ActionMaleKiss",
+			"priority": 1004
+		},
+		{
+			"destination": "ActionFemaleCaressCheekStroke",
+			"description": "Partner caresses your cheek",
+			"icon": "OARE/Standing_apart/ActionFemaleCaressCheekStroke",
+			"priority": 1005
+		},
+		{
+			"destination": "ActionFemaleCaressCheekStroke",
+			"description": "Partner caresses your cheek",
+			"icon": "OStim/symbols/return",
+			"priority": 1006
+		},			
+		{
+			"destination": "OStim2PStandingCloseFF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle",
+		"intro"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true,
+			"penisAngle":"6"
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

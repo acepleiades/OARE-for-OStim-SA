@@ -1,0 +1,68 @@
+{
+	"name": "OARE: HeadCaress",
+	"modpack": "OARE",
+	"length": 2,
+	"speeds":[
+		{
+			"animation": "_Ho-HeadCaress_S1",
+			"playbackSpeed": 1,
+			"displaySpeed": "0.5"
+		},
+		{
+			"animation": "_Ho-HeadCaress_S2",
+			"playbackSpeed": 1,
+			"displaySpeed": "1"
+		},
+		{
+			"animation": "_Ho-HeadCaress_S3",
+			"playbackSpeed": 1,
+			"displaySpeed": "2"
+		},
+		{
+			"animation": "_Ho-HeadCaress_S4",
+			"playbackSpeed": 1,
+			"displaySpeed": "2.5"
+		}
+	],
+	"navigations":[
+		{			
+			"destination": "Standing_apart",
+			"description": "Return",
+			"icon": "OStim/icons/OARE/Standing_apart/Standing"
+		}
+	],
+	"tags":[
+		"action"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true,
+			"penisAngle":"6"
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "pattingHead",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "heavybreathing",
+			"actor": 1,
+			"target": 1
+		}
+	]
+}

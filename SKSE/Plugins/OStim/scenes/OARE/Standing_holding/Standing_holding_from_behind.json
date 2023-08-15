@@ -1,0 +1,40 @@
+{
+	"name": "OARE: StandingHoldingfromBehind",
+	"modpack": "OARE",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "_Ho-StandingHoldingFromBehind"
+		}
+	],
+	"navigations":[		
+		{
+			"destination": "OStim2PStandingCloseFF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true,
+			"penisAngle":"6"
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

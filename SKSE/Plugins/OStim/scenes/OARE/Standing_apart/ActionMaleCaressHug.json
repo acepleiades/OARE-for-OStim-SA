@@ -1,0 +1,33 @@
+{
+	"name": "OARE: ActionMaleCaressHug",
+	"modpack": "OARE",
+	"length": 4,
+	"speeds":[
+		{
+			"animation": "_Ap-MalePC_CaressHug"
+		}
+	],
+	"destination": "Standing_apart",
+	"tags":[
+		"action"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true,
+			"penisAngle":"6"
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}
