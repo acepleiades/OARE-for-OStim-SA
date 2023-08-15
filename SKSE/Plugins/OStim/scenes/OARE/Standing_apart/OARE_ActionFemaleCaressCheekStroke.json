@@ -1,13 +1,13 @@
 {
-	"name": "OARE: ActionMaleKiss",
+	"name": "OARE: ActionFemaleCaressCheekStroke",
 	"modpack": "OARE",
-	"length": 5,
+	"length": 4.5,
 	"speeds":[
 		{
-			"animation": "_Ap-MalePC_Kiss1"
+			"animation": "_Ap-ActionFemaleCaressCheekStroke"
 		}
 	],
-	"destination": "Standing_apart",
+	"destination": "OARE_Standing_apart",
 	"tags":[
 		"action"
 	],

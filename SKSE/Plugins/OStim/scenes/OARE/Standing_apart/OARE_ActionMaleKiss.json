@@ -1,22 +1,15 @@
 {
-	"name": "OARE: Standing Holding",
+	"name": "OARE: ActionMaleKiss",
 	"modpack": "OARE",
-	"length": 2.0,
+	"length": 5,
 	"speeds":[
 		{
-			"animation": "_Ho-StandingHolding"
+			"animation": "_Ap-MalePC_Kiss1"
 		}
 	],
-	"navigations":[
-		{
-			"destination": "OStim2PStandingCloseFF",
-			"description": "Return",
-			"icon": "OStim/symbols/return",
-			"priority": -1000
-		}
-	],
+	"destination": "OARE_Standing_apart",
 	"tags":[
-		"idle"
+		"action"
 	],
 	"actors":[
 		{

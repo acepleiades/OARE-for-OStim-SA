@@ -6,29 +6,29 @@
 		{
 			"animation": "_Ho-HeadCaress_S1",
 			"playbackSpeed": 1,
-			"displaySpeed": "0.5"
+			"displaySpeed": 0.5
 		},
 		{
 			"animation": "_Ho-HeadCaress_S2",
 			"playbackSpeed": 1,
-			"displaySpeed": "1"
+			"displaySpeed": 1
 		},
 		{
 			"animation": "_Ho-HeadCaress_S3",
 			"playbackSpeed": 1,
-			"displaySpeed": "2"
+			"displaySpeed": 2
 		},
 		{
 			"animation": "_Ho-HeadCaress_S4",
 			"playbackSpeed": 1,
-			"displaySpeed": "2.5"
+			"displaySpeed": 2.5
 		}
 	],
 	"navigations":[
 		{			
-			"destination": "Standing_apart",
+			"destination": "OARE_Standing_apart",
 			"description": "Return",
-			"icon": "OStim/icons/OARE/Standing_apart/Standing"
+			"icon": "OARE/Standing_apart/Standing"
 		}
 	],
 	"tags":[

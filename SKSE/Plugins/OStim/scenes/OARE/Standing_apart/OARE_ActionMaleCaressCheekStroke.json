@@ -1,16 +1,16 @@
 {
-	"name": "OARE: ActionFemaleCaressCheekStroke",
+	"name": "OARE: ActionMaleCaressCheekStroke",
 	"modpack": "OARE",
-	"length": 4.5,
+	"length": 5,
 	"speeds":[
 		{
-			"animation": "_Ap-ActionFemaleCaressCheekStroke"
+			"animation": "_Ap-MalePC_CaressCheekStroke"
 		}
 	],
-	"destination": "Standing_apart",
-	"tags":[
+	"tags":[		
 		"action"
 	],
+	"destination": "OARE_Standing_apart",
 	"actors":[
 		{
 			"intendedSex": "male",
