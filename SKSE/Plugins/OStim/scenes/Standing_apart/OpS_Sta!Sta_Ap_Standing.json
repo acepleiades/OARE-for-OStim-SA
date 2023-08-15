@@ -21,21 +21,24 @@
 	  "description": "Sit down with {1}",
       "priority": 2,
       "noWarnings": false,
-	  "border": "fce5cd"
+	  "border": "fce5cd",
+	  "icon": "OARE/oare_return"
     },
 	{
       "destination": "OpS_Sta!Sta_Ap_GoToMaleStandingFemaleSquatting",
 	  "description": "Have {1} squat",
       "priority": 3,
       "noWarnings": false,
-	  "border": "fce5cd"
+	  "border": "fce5cd",
+	  "icon": "OARE/oare_return"
     },
     {
       "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
 	  "description": "Have {1} kneel",
       "priority": 4,
       "noWarnings": false,
-	  "border": "fce5cd"
+	  "border": "fce5cd",
+	  "icon": "OARE/oare_return"
     },
 	{
       "destination": "OpS_Sta!Sta_Em_GoToStandingHandHolding",
