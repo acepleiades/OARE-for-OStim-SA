@@ -1,0 +1,114 @@
+{
+  "name": "Standing Holding from Behind",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_Sta!Sta_Ho_GoBackStandingHoldingFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Em_HoldHandFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Em_CuddleFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Ho_StandingSpankIdle",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_StandingHolding!FromBehind_Ho_SHFBMaleUndressFemaleTorso1",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Cr_GropingBreastsFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Squ_Ho_SquattingGropingButt",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Cr_GropingFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!Sta_VJ_CunnilingusRear",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_HJ_ThighfuckFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Po_ButtjobFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Sx_StandingRearSex",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Ho_RubbingAssAgainstCrotch",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-StandingHoldingFromBehind",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -7,
+      "scaleHeight": 120.748,
+      "lookUp": -35,
+      "lookLeft": -25,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": 35,
+      "lookLeft": 50,
+      "tags": [
+        "facingaway",
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

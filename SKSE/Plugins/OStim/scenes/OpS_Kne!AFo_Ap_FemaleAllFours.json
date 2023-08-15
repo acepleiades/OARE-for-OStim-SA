@@ -1,0 +1,108 @@
+{
+  "name": "Female All Fours",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_Kne!LyB_Ho_SpreadLegsFemale",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!AFo_Sx_Doggystyle",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyF!LyF_Sx_ProneSexFemaleLegsIn",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!Kne_Sx_AceRearKneelingSex",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!LyB_Ho_SpreadLegsFemale",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!AFo_FJ_AceBentOverFootjob",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!AFo_Sx_AceBackItUp",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!Kne_Sx_AceReverseCowgirl",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-FemaleAllFours",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+      "lookUp": -50,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -100,
+      "lookLeft": 30,
+      "tags": [
+        "allfours",
+        "facingaway"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

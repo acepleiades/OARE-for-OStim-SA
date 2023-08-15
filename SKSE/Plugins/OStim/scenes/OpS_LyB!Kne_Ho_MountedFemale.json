@@ -1,0 +1,81 @@
+{
+  "name": "Mounted Female",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_LyB!Kne_Ho_GoToReverseMountedFemale",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!Sit_Ho_MountedFemaleFeetOnChest",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Mounted!Female_Em_MaleLyingKiss",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Mounted!Female_HJ_MaleLyingHJ",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!Kne_Cr_MountedGrind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!Kne_Sx_CowgirlKneesOnGround",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-MountedFemale",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "lookUp": 25,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -70,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

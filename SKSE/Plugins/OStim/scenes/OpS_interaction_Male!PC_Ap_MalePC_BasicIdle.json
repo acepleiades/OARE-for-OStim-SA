@@ -1,0 +1,104 @@
+{
+  "name": "Male PC Basic Idle",
+  "modPack": "OpS_interaction",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_Chatter",
+      "priority": 0,
+      "description": "MalePC_Chatter",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_ChatterFail",
+      "priority": 0,
+      "description": "MalePC_ChatterFail",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_Court",
+      "priority": 0,
+      "description": "MalePC_Court",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_CourtFail",
+      "priority": 0,
+      "description": "MalePC_CourtFail",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_CaressHug",
+      "priority": 0,
+      "description": "MalePC_CaressHug",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_CaressHoldHands",
+      "priority": 0,
+      "description": "MalePC_CaressHoldHands",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_CaressCheekStroke",
+      "priority": 0,
+      "description": "MalePC_CaressCheekStroke",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_CaressFail",
+      "priority": 0,
+      "description": "MalePC_CaressFail",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Male!PC_Ap_MalePC_Kiss1",
+      "priority": 0,
+      "description": "MalePC_Kiss1",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_interaction_Female!PC_Ap_FemalePC_BasicIdle",
+      "priority": 0,
+      "description": "FemalePC_BasicIdle",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-MalePC_BasicIdle",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Sleeping Idle",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-SleepingIdle",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle",
+    "spooning"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingside"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingside"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "sleeping",
+      "actor": 0
+    },
+    {
+      "type": "sleeping",
+      "actor": 1
+    },
+    {
+      "type": "sleepingsound",
+      "actor": 1,
+      "target": 1
+    }
+  ]
+}

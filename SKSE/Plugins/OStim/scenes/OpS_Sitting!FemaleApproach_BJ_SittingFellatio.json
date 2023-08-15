@@ -1,0 +1,85 @@
+{
+  "name": "Sitting Fellatio",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioHandOnHead",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioLyingFemale",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioForwardBend",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_BJ-SittingFellatio_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_BJ-SittingFellatio_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_BJ-SittingFellatio_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_BJ-SittingFellatio_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -3,
+      "scaleHeight": 120.748,
+      "lookUp": -100,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -100,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "blowjob",
+      "actor": 1,
+      "target": 0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Bench Idle",
+  "modPack": "OpS_furniture",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleFemaleSitting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Ben!Ch_Cr_BenchGropingBreast",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleFemaleFacingAway",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleBothSitting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleFemaleSitting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Ben!Ch_Ho_BenchKneelingFemale",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Ben!Ch_Ho_BenchSitting",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-BenchIdle",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "bench",
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "lookUp": 50,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -50,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

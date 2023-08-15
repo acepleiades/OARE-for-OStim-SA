@@ -1,0 +1,42 @@
+{
+  "name": "Redirect to 3P Standing Idle",
+  "modPack": "OpS",
+  "length": 1,
+  "destination": "OpS_Mounted!Female_HJ_MaleLyingHJ",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 7,
+      "scaleHeight": 120.748,
+      "expressionAction": 1,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "expressionAction": 2,
+      "lookUp": -25,
+      "lookLeft": -25,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

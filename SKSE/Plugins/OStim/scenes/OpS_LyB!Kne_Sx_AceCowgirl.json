@@ -1,0 +1,40 @@
+{
+  "name": "Redirect to Cowgirl Knees on Ground",
+  "modPack": "OpS",
+  "length": 1,
+  "destination": "OpS_LyB!Kne_Sx_CowgirlKneesOnGround",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 0,
+      "scaleHeight": 120.748,
+      "lookUp": 25,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -80,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

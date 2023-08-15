@@ -1,0 +1,73 @@
+{
+  "name": "Standing Kiss and Fingering",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Cr-StandingKissFingering_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Cr-StandingKissFingering_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_Cr-StandingKissFingering_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    },
+    {
+      "animation": "_Cr-StandingKissFingering_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2.5
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "kissing",
+      "actor": 0,
+      "target": 1
+    },
+    {
+      "type": "vaginalfingering",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

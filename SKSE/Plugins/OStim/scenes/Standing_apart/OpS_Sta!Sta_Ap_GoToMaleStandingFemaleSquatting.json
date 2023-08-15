@@ -1,0 +1,40 @@
+{
+  "name": "Transition into Standing Holding",
+  "modPack": "OpS",
+  "length": 2,
+  "destination": "OpS_Sta!Squ_Ap_MaleStandingFemaleSquatting",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 7,
+      "scaleHeight": 120.748,
+      "lookUp": -25,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": 25,
+      "tags": [
+        "squatting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}
