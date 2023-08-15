@@ -6,7 +6,7 @@
   {
 		"origin": "OStim2PStandingApartMF",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/Standing_apart/Standing"
+		"icon": "OARE/oare"
 	},
     {
       "destination": "OpS_Sta!Sta_Ho_GoToStandingHolding",
