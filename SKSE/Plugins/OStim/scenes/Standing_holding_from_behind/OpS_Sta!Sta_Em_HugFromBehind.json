@@ -5,7 +5,10 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Em_CuddleFromBehind",
-      "priority": 0,
+      "description": "Return...",
+      "priority": -1000,
+      "border": "fce5cd",
+      "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -29,6 +32,7 @@
       "intendedSex": "any",
       "sosBend": -7,
       "scaleHeight": 120.748,
+      "scale": 1.03,
       "lookUp": -35,
       "lookLeft": -25,
       "tags": [
@@ -41,6 +45,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+      "scale": 1.0,
       "lookUp": 35,
       "lookLeft": 50,
       "tags": [
