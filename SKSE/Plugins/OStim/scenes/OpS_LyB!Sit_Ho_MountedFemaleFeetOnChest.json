@@ -1,0 +1,61 @@
+{
+  "name": "Mounted Female Feet On Chest",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_LyB!Sit_Ho_MountedFemaleTickle",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!Kne_Ho_MountedFemale",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!Sit_HJ_MountedHJFeet",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-MountedFemaleFeetOnChest",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "lookUp": -100,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -75,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

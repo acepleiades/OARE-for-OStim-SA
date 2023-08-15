@@ -1,0 +1,40 @@
+{
+  "name": "Go Back Reverse Mounted Female",
+  "modPack": "OpS",
+  "length": 4,
+  "destination": "OpS_LyB!Kne_Ho_MountedFemale",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "lookUp": -60,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -35,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

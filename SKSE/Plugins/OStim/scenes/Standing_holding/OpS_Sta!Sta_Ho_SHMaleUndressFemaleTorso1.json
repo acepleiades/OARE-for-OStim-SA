@@ -1,0 +1,34 @@
+{
+  "name": "SHMaleUndressFemaleTorso1",
+  "modPack": "OpS",
+  "length": 1.5,
+  "destination": "OpS_Sta!Sta_Ho_SHMaleUndressFemaleTorso2",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -5,
+      "scaleHeight": 120.748,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

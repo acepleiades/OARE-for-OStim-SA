@@ -1,0 +1,46 @@
+{
+  "name": "Standing Undressing Female Bottom",
+  "modPack": "OpS",
+  "length": 6,
+  "destination": "OpS_Sta!Sta_Ap_Standing",
+  "navigations": [],
+  "speeds": [
+		{
+			"animation": "_Ap-StandingUndressingFemaleBottom"
+		}
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition",
+    "undressing"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -50,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

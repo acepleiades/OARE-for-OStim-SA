@@ -1,0 +1,37 @@
+{
+  "name": "Squatting Spank",
+  "modPack": "OpS",
+  "length": 3,
+  "destination": "OpS_Sta!Squ_Ho_SquattingGropingButt",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "tags": [
+        "squatting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -100,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Transition into Reverse Cowgirl, Mounted",
+  "modPack": "OpS",
+  "length": 1.75,
+  "destination": "OpS_LyB!Kne_Sx_ReverseCowgirlMounted",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -5,
+      "scaleHeight": 120.748,
+      "lookUp": -75,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -50,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

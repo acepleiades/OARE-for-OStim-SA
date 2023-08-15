@@ -1,0 +1,54 @@
+{
+  "name": "Male Sleeping Back",
+  "modPack": "OpS_solo",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_solo_L!ying_Ap_MaleSleepingSide",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_solo_L!ying_Ap_MaleSleepingFront",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_solo_L!ying_Ap_MaleSoloLyingIdle",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-MaleSleepingBack",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "sleeping",
+      "actor": 0
+    }
+  ]
+}

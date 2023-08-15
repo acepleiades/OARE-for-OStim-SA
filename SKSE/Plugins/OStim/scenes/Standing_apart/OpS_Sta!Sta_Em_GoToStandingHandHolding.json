@@ -1,0 +1,44 @@
+{
+  "name": "Transition into Standing Hand Holding",
+  "modPack": "OpS",
+  "length": 1.5,
+  "destination": "OpS_Sta!Sta_Em_StandingHandHolding",
+  "navigations": [],
+  "speeds": [
+	{
+		"animation": "_Em-GoToStandingHandHolding"
+	}
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

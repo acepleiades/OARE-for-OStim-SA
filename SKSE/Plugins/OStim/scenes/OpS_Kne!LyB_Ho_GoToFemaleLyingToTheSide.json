@@ -1,0 +1,39 @@
+{
+  "name": "Female Lying To The Side",
+  "modPack": "OpS",
+  "length": 2,
+  "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -25,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -50,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

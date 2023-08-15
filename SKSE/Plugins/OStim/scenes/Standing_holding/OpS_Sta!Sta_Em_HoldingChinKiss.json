@@ -1,0 +1,60 @@
+{
+  "name": "Holding Chin Kiss",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_Sta!Sta_Em_HoldingChin",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Em_HoldingChin",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Em-HoldingChinKiss",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "kissing",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

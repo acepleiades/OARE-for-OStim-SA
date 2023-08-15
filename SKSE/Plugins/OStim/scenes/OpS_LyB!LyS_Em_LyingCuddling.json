@@ -1,0 +1,61 @@
+{
+  "name": "Lying Cuddling",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!AFo_Em_LyingCuddlingApproach",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Em-LyingCuddling",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle",
+    "spooning"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingside"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -50,
+      "tags": [
+        "lyingside"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

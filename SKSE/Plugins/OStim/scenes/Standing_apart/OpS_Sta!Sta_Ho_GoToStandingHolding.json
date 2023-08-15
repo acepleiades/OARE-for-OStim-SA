@@ -1,0 +1,46 @@
+{
+  "name": "Transition into Standing Holding",
+  "modPack": "OpS",
+  "length": 1.5,
+  "destination": "OpS_Sta!Sta_Ho_StandingHolding",
+  "navigations": [],
+  "speeds": [
+		{
+			"animation": "_Ho-GoToStandingHolding"
+		}
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -10,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 10,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

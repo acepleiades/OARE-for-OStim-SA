@@ -1,0 +1,65 @@
+{
+  "name": "Standing Two Hands Holding",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_Sta!Sta_Em_StandingTwoHandsHoldingKiss",
+	  "description": "Kiss {1} while holding two hands",
+	  "icon": "OARE/Standing_apart/StandingTwoHandsHoldingKiss",
+	  "border": "dd7e5e",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Em_StandingHandHolding",
+	  "description": "Return back to holding hands",
+	  "icon": "OARE/oare_return",
+      "priority": -1000,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Em-StandingTwoHandsHolding",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "holdinghand",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

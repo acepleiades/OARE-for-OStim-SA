@@ -1,0 +1,78 @@
+{
+  "name": "Chair Groping Breast",
+  "modPack": "OpS_furniture",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_furniture_Cha!Ir_Ap_ChairIdle",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Cr-BenchGropingBreast_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_Cr-BenchGropingBreast_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Cr-BenchGropingBreast_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_Cr-BenchGropingBreast_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "bench",
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "lookUp": -50,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -100,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "gropingbreast",
+      "actor": 0,
+      "target": 1
+    },
+    {
+      "type": "heavybreathing",
+      "actor": 1,
+      "target": 1
+    }
+  ]
+}

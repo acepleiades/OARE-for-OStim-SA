@@ -1,0 +1,34 @@
+{
+  "name": "SHFBMaleUndressFemaleTorso1",
+  "modPack": "OpS",
+  "length": 1,
+  "destination": "OpS_StandingHolding!FromBehind_Ho_SHFBMaleUndressFemaleTorso2",
+  "navigations": [],
+  "speeds": [],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -7,
+      "scaleHeight": 120.748,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

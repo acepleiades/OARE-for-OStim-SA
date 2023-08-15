@@ -1,0 +1,86 @@
+{
+  "name": "Lying Boob Job",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_LyB!Sit_BoJ_AceLyingTitfuck",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyB!Sit_BoJ_AceLyingBoobjob_MaleClimax",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_BoJ-AceLyingBoobjob_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_BoJ-AceLyingBoobjob_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_BoJ-AceLyingBoobjob_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_BoJ-AceLyingBoobjob_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {
+        "climax": "OpS|LyB!Sit|BoJ|AceLyingBoobjob_MaleClimax"
+      }
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -25,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "boobjob",
+      "actor": 1,
+      "target": 0
+    },
+    {
+      "type": "heavybreathing",
+      "actor": 1,
+      "target": 1
+    }
+  ]
+}

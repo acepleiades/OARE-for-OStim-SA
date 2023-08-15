@@ -1,0 +1,80 @@
+{
+  "name": "Prone Sex Female Legs In",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_LyF!LyF_Sx_ProneSexFemaleLegsOut",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyF!LyF_Sx_ProneSexEmbraceFemaleLegsIn",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!AFo_Ap_FemaleAllFours",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Sx-ProneSexFemaleLegsIn_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_Sx-ProneSexFemaleLegsIn_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Sx-ProneSexFemaleLegsIn_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_Sx-ProneSexFemaleLegsIn_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "prone"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 5,
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingfront"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingfront"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "vaginalsex",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

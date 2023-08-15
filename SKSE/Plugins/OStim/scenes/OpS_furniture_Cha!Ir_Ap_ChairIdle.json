@@ -1,0 +1,78 @@
+{
+  "name": "Chair Idle",
+  "modPack": "OpS_furniture",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OpS_furniture_Cha!Ir_Ap_ChairIdleFemaleSitting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Cha!Ir_Cr_ChairGropingBreast",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Cha!Ir_Ap_ChairIdleFemaleFacingAway",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Cha!Ir_Ap_ChairIdleFemaleSitting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_furniture_Cha!Ir_Ho_ChairKneelingFemale",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_addon_Cha!Ir_Ap_ChairAddonHub",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-BenchIdle",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "chair",
+  "tags": [
+    "idle",
+    "intro"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "lookUp": 50,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "lookUp": -50,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}
