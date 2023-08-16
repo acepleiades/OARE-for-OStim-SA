@@ -5,7 +5,10 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHoldingFromBehind",
-      "priority": 0,
+      "description": "Return...",
+      "priority": -1000,
+      "border": "fce5cd",
+      "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -31,16 +34,17 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 0,
       "scaleHeight": 120.748,
+      "scale": 1.03,
       "lookUp": -75,
       "lookLeft": -25,
       "tags": [
@@ -53,6 +57,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+      "scale": 1.0,
       "tags": [
         "facingaway",
         "standing"

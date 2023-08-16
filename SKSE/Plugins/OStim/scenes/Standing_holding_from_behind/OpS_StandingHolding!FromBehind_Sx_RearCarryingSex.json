@@ -5,8 +5,11 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Sx_StandingRearSex",
-      "priority": 0,
-      "noWarnings": false
+       "description": "Return...",
+       "priority": -1000,
+       "border": "fce5cd",
+       "icon": "OARE/oare_return",
+       "noWarnings": false
     }
   ],
   "speeds": [

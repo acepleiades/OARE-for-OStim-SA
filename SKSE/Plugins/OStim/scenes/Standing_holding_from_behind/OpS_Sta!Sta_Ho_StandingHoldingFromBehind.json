@@ -14,7 +14,7 @@
             "destination": "OpS_Sta!Sta_Em_HoldHandFromBehind",
             "description": "Hold {1}'s hand.",
             "border": "dd7e5e",
-            "icon": "OARE/oare",
+            "icon": "OARE/Standing_holding_from_behind/HoldHandFromBehind",
             "priority": 1,
             "noWarnings": false
         },
@@ -30,16 +30,8 @@
             "destination": "OpS_Sta!Sta_Ho_StandingSpankIdle",
             "description": "Spank {1}'s butt.",
             "border": "dd7e5e",
-            "icon": "OARE/Standing_holding_from_behind/CuddleFromBehind",
+            "icon": "OARE/Standing_holding_from_behind/StandingSpankIdle",
             "priority": 1001,
-            "noWarnings": false
-        },
-        {
-            "destination": "OpS_StandingHolding!FromBehind_Ho_SHFBMaleUndressFemaleTorso1",
-            "description": "Undress {1}'s top.",
-            "border": "dd7e5e",
-            "icon": "OARE/oare_top",
-            "priority": 2000,
             "noWarnings": false
         },
         {
@@ -91,19 +83,27 @@
             "noWarnings": false
         },
         {
-            "destination": "OpS_Sta!Sta_Sx_StandingRearSex",
-            "description": "Have sex with {1}.",
-            "border": "e05a4e",
-            "icon": "OARE/Standing_holding_from_behind/StandingRearSex",
-            "priority": 3006,
-            "noWarnings": false
-        },
-        {
             "destination": "OpS_Sta!Sta_Ho_RubbingAssAgainstCrotch",
             "description": "({1}) Rub against {0}.",
             "border": "e05a4e",
             "icon": "OARE/Standing_holding_from_behind/RubbingAssAgainstCrotch",
+            "priority": 3006,
+            "noWarnings": false
+        },
+        {
+            "destination": "OpS_Sta!Sta_Sx_StandingRearSex",
+            "description": "Have sex with {1}.",
+            "border": "e05a4e",
+            "icon": "OARE/Standing_holding_from_behind/StandingRearSex",
             "priority": 3007,
+            "noWarnings": false
+        },
+        {
+            "destination": "OpS_StandingHolding!FromBehind_Ho_SHFBMaleUndressFemaleTorso1",
+            "description": "Undress {1}'s top.",
+            "border": "dd7e5e",
+            "icon": "OARE/oare_top",
+            "priority": 4000,
             "noWarnings": false
         }
     ],

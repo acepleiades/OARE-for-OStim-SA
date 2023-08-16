@@ -5,7 +5,10 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHoldingFromBehind",
-      "priority": 0,
+      "description": "Return...",
+      "priority": -1000,
+      "border": "fce5cd",
+      "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -31,7 +34,7 @@
       "displaySpeed": 2.5
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
@@ -41,6 +44,7 @@
       "intendedSex": "any",
       "sosBend": -7,
       "scaleHeight": 120.748,
+      "scale": 1.03,
       "lookUp": -75,
       "lookLeft": 50,
       "tags": [
@@ -51,8 +55,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+      "scale": 1.0,
       "lookLeft": -75,
       "tags": [
         "facingaway",

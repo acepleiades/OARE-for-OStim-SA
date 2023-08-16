@@ -5,8 +5,11 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Sx_StandingRearSex",
-      "priority": 0,
-      "noWarnings": false
+       "description": "Return...",
+       "priority": -1000,
+       "border": "fce5cd",
+       "icon": "OARE/oare_return",
+       "noWarnings": false
     }
   ],
   "speeds": [
@@ -36,7 +39,7 @@
       "displaySpeed": 2.5
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 2,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
@@ -46,6 +49,7 @@
       "intendedSex": "any",
       "sosBend": -3,
       "scaleHeight": 120.748,
+      "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "standing"
@@ -57,6 +61,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+      "scale": 1.0,
       "tags": [
         "bendover",
         "facingaway",
