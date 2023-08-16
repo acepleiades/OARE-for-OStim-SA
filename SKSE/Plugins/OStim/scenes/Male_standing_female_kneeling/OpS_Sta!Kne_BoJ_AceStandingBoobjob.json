@@ -1,32 +1,50 @@
 {
-  "name": "Rubbing Penis Against Face",
+  "name": "Standing Boob Job",
   "modPack": "OpS",
   "length": 2,
   "navigations": [
     {
       "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
-    }
+    },
+    {
+      "destination": "OpS_Sta!Kne_BoJ_AceStandingTittyfuck",
+      "priority": 0,
+	  "description": "Fuck {1}'s breasts",
+	  "icon": "OARE/Male_standing_female_kneeling/AceStandingTittyfuck",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Kne_BoJ_AceStandingBoobjob_MaleClimax",
+      "priority": 0,
+	  "description": "Climax.",
+	  "icon": "OARE/oare_return",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }    
   ],
   "speeds": [
     {
-      "animation": "_Po-AceRubbingPenisAgainstFace_S1",
+      "animation": "_BoJ-AceStandingBoobjob_S1",
       "playbackSpeed": 1,
       "displaySpeed": 0.5
     },
     {
-      "animation": "_Po-AceRubbingPenisAgainstFace_S2",
+      "animation": "_BoJ-AceStandingBoobjob_S2",
       "playbackSpeed": 1,
       "displaySpeed": 1
     },
     {
-      "animation": "_Po-AceRubbingPenisAgainstFace_S3",
+      "animation": "_BoJ-AceStandingBoobjob_S3",
       "playbackSpeed": 1,
       "displaySpeed": 1.5
     },
     {
-      "animation": "_Po-AceRubbingPenisAgainstFace_S4",
+      "animation": "_BoJ-AceStandingBoobjob_S4",
       "playbackSpeed": 1,
       "displaySpeed": 2
     }
@@ -40,20 +58,22 @@
       "type": "npc",
       "intendedSex": "any",
       "sosBend": 2,
-      "scaleHeight": 67,
+      "scaleHeight": 60,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "standing"
       ],
       "feetOnGround": true,
-      "autoTransitions": {}
+      "autoTransitions": {
+        "climax": "OpS|Sta!Kne|BoJ|AceStandingBoobjob_MaleClimax"
+      }
     },
     {
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
-      "lookUp": -25,
-      "lookLeft": 50,
+	  "scale": 1.0,
       "tags": [
         "kneeling"
       ],
@@ -63,9 +83,9 @@
   ],
   "actions": [
     {
-      "type": "rubbingpenisagainstface",
-      "actor": 0,
-      "target": 1
+      "type": "boobjob",
+      "actor": 1,
+      "target": 0
     },
     {
       "type": "heavybreathing",

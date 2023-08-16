@@ -1,24 +1,27 @@
 {
-  "name": "Redirect to Squatting Fellatio Holding Head",
+  "name": "Kneeling Boobjob Climax",
   "modPack": "OpS",
-  "length": 1,
-  "destination": "OpS_Sta!Squ_BJ_SquattingFellatioHoldingHead",
+  "length": 10,
+  "destination": "OpS_Sta!Kne_Ho_AceStandingBoobjob_AfterClimax",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_BoJ-AceStandingBoobjob_MaleClimax"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "tags": [
-    "transition"
-  ],
+  "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
       "intendedSex": "any",
-      "sosBend": -1,
-      "scaleHeight": 67,
-      "lookUp": -50,
+      "sosBend": 2,
+      "scaleHeight": 60,
+	  "scale": 1.03,
       "tags": [
+        "climaxing",
         "standing"
       ],
       "feetOnGround": true,
@@ -28,7 +31,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
-      "lookUp": -100,
+	  "scale": 1.0,
       "tags": [
         "kneeling"
       ],
@@ -38,13 +41,13 @@
   ],
   "actions": [
     {
-      "type": "blowjob",
+      "type": "boobjob",
       "actor": 1,
       "target": 0
     },
     {
-      "type": "holdinghead",
-      "actor": 0,
+      "type": "heavybreathing",
+      "actor": 1,
       "target": 1
     }
   ]

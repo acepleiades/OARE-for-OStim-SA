@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Kne_BoJ_AceStandingBoobjob",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Do it again.",
+	  "icon": "OARE/Male_standing_female_kneeling/AceStandingBoobjob",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -33,6 +38,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -43,6 +49,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "kneeling"
       ],

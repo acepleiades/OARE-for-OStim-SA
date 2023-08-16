@@ -14,7 +14,7 @@
       "destination": "OpS_Sta!Squ_BJ_SquattingFellatioHoldingHead",
       "priority": 3000,
 	  "description": "Hold {1}'s head.",
-	  "icon": "OARE/oare_wip",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingFellatioHoldingHead",
 	  "border": "e05a4e",
       "noWarnings": false
     },
@@ -22,7 +22,7 @@
       "destination": "OpS_Sta!Squ_BJ_SquattingFellatioSelfPleasure",
       "priority": 3001,
 	  "description": "{1} masturbates.",
-	  "icon": "OARE/oare_wip",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingFellatioSelfPleasure",
 	  "border": "e05a4e",
       "noWarnings": false
     }   

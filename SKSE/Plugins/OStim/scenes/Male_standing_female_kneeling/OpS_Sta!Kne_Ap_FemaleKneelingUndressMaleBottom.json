@@ -4,7 +4,11 @@
   "length": 7,
   "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_Ap-FemaleKneelingUndressMaleBottom"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -18,6 +22,7 @@
       "intendedSex": "any",
       "sosBend": 8,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "standing"
@@ -29,6 +34,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "kneeling"
       ],

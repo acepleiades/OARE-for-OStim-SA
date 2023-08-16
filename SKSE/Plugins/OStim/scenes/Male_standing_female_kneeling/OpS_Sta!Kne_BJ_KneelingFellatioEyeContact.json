@@ -4,20 +4,28 @@
   "length": 2,
   "navigations": [
     {
+      "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+	{
       "destination": "OpS_Sta!Kne_BJ_KneelingFellatioEyeContactHoldLegs",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Hold {0}'s legs.",
+	  "icon": "OARE/Male_standing_female_kneeling/KneelingFellatioEyeContactHoldLegs",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Kne_BJ_KneelingTongueFellatio",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Performs tongue fellation on {0}.",
+	  "icon": "OARE/Male_standing_female_kneeling/KneelingTongueFellatio",
+	  "border": "e05a4e",
       "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
-      "priority": 0,
-      "noWarnings": false
-    }
+    }    
   ],
   "speeds": [
     {
@@ -51,6 +59,7 @@
       "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 67,
+	  "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "standing"
@@ -62,6 +71,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": 100,
       "tags": [
         "kneeling"
