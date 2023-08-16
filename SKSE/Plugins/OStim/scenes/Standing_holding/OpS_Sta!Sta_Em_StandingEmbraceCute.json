@@ -5,7 +5,7 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-	  "description": "Return to standing holding",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "priority": -1000,
       "noWarnings": false
@@ -28,7 +28,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -42,7 +42,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -50,

@@ -1,24 +1,19 @@
 {
-  "name": "Standing Two Hands Holding Kiss",
+  "name": "Transition back from Standing Hand Holding",
   "modPack": "OpS",
-  "length": 2,
-  "navigations": [
-    {
-      "destination": "OpS_Sta!Sta_Em_StandingTwoHandsHolding",
-      "priority": 0,
-      "noWarnings": false
-    }
-  ],
+  "length": 1.5,
+  "destination": "OpS_Sta!Sta_Ap_Standing",
+  "navigations": [],
   "speeds": [
-    {
-      "animation": "_Em-StandingTwoHandsHoldingKiss",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
+		{
+			"animation": "_Em-GoBackStandingHandHolding"
+		}
+   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "tags": [],
+  "tags": [
+    "transition"
+  ],
   "autoTransitions": {},
   "actors": [
     {
@@ -26,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -36,6 +32,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],
@@ -43,16 +40,5 @@
       "autoTransitions": {}
     }
   ],
-  "actions": [
-    {
-      "type": "holdinghand",
-      "actor": 0,
-      "target": 1
-    },
-    {
-      "type": "kissing",
-      "actor": 0,
-      "target": 1
-    }
-  ]
+  "actions": []
 }

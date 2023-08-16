@@ -3,10 +3,17 @@
   "modPack": "OpS",
   "length": 2,
   "navigations": [
+	{
+      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
+      "priority": -1000,
+	  "description": "Return to standing holding",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
     {
       "destination": "OpS_Standing!Holding_Em_HoldingWaistKiss",
       "priority": 1000,
-	  "description": "Hold {1}'s waist while kissing",
+	  "description": "Hold {1}'s waist.",
 	  "icon": "OARE/Standing_holding/HoldingWaistKiss",
 	  "border": "dd7e5e",
       "noWarnings": false
@@ -14,16 +21,9 @@
     {
       "destination": "OpS_Standing!Holding_Em_StandingEmbraceKiss",
       "priority": 1001,
-	  "description": "Embrace {1} while kissing",
+	  "description": "({1}) Embrace {0}.",
 	  "icon": "OARE/Standing_holding/StandingEmbraceKiss",
 	  "border": "dd7e5e",
-      "noWarnings": false
-    },
-	{
-      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-      "priority": -1000,
-	  "description": "Return to standing holding",
-	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -43,7 +43,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -55,7 +55,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [

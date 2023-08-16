@@ -6,7 +6,7 @@
     {
       "destination": "OpS_Sta!Sta_Sx_StandingHoldingSex",
       "priority": -1000,
-	  "description": "Return back to standing holding sex",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
@@ -38,7 +38,7 @@
       "displaySpeed": 3
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},

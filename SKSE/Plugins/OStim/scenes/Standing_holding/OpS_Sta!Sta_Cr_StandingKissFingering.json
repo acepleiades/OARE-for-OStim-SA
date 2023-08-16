@@ -6,7 +6,7 @@
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHolding",
       "priority": -1000,
-	  "description": "Return to standing holding",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
@@ -33,14 +33,14 @@
       "displaySpeed": 2.5
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
