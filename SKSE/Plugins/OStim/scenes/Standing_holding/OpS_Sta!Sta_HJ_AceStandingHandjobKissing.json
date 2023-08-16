@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_HJ_AceStandingHandjob",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return to receiving a handjob from {1}",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -38,9 +40,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 4,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "standing"
@@ -50,8 +53,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 80,
+	  "scale": 1.0,
       "lookUp": -100,
       "lookLeft": 50,
       "tags": [

@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Sx_StandingHoldingSexKiss",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Kiss {1} while holding and having sex",
+	  "icon": "OARE/Standing_holding/StandingHoldingSexKiss",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return back to standing holding",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -48,9 +53,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 7,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "lookLeft": 25,
       "tags": [
@@ -61,8 +67,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -75,
       "lookLeft": 25,
       "tags": [

@@ -5,87 +5,130 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Ho_GoToStandingHoldingFromBehind",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Ho_GoBackStandingHolding",
-      "priority": 0,
+	  "description": "Hold {1} from behind",
+	  "icon": "OARE/Standing_holding_from_behind/StandingHoldingFromBehind",
+	  "border": "fce5cd",
+      "priority": 1,
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_Em_StandingHug",
-      "priority": 0,
+	  "description": "Hug {1}",
+	  "icon": "OARE/Standing_holding/StandingHug",
+	  "border": "dd7e5e",
+      "priority": 1000,
       "noWarnings": false
     },
+	{
+      "destination": "OpS_Sta!Sta_Em_HoldingChin",
+      "priority": 1001,
+	  "description": "Hold {1}'s chin",
+	  "icon": "OARE/Standing_holding/HoldingChin",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sta!Sta_Em_StandingEmbraceCute",
+      "priority": 1002,
+	  "description": "Embrace {1} cutely",
+	  "icon": "OARE/Standing_holding/StandingEmbraceCute",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sta!Sta_Em_GentleEmbrace",
+      "priority": 1003,
+	  "description": "Gently embrace {1}",
+	  "icon": "OARE/Standing_holding/GentleEmbrace",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sta!Sta_Em_PrincessCarryEmbrace",
+      "priority": 1004,
+	  "description": "Carry {1} like a princess",
+	  "icon": "OARE/Standing_holding/PrincessCarryEmbrace",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },	
     {
       "destination": "OpS_Sta!Sta_Ho_StandingKiss",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Em_PrincessCarryEmbrace",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Em_HoldingChin",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Ho_SHMaleUndressFemaleTorso1",
-      "priority": 0,
+      "priority": 1005,
+	  "description": "Kiss {1}",
+	  "icon": "OARE/Standing_holding/StandingKiss",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_Ho_HoldingGropingButt",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Grab {1}'s butt",
+	  "icon": "OARE/Standing_holding/HoldingGropingButt",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_Cr_StandingKissFingering",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Kne!Sta_VJ_KneelingCL",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Sx_StandingHoldingSex",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Sx_StandingCarryingSex",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Ho_GoBackStandingHolding",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Em_StandingEmbraceCute",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Em_GentleEmbrace",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Kiss and finger {1}",
+	  "icon": "OARE/Standing_holding/StandingKissFingering",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_HJ_AceStandingHandjob",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "Receive a handjob from {1}",
+	  "icon": "OARE/Standing_holding/AceStandingHandjob",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_HJ_HandjobKiss",
-      "priority": 0,
+      "priority": 3003,
+	  "description": "Receive a handjob while being kissed by {1}",
+	  "icon": "OARE/Standing_holding/AceStandingHandjobKissing",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!Sta_VJ_KneelingCL",
+      "priority": 3004,
+	  "description": "Kneel and munch on {1}",
+	  "icon": "OARE/Standing_holding/KneelingCL",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Sx_StandingHoldingSex",
+      "priority": 3005,
+	  "description": "Hold {1} while having sex",
+	  "icon": "OARE/Standing_holding/StandingHoldingSex",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Sx_StandingCarryingSex",
+      "priority": 3006,
+	  "description": "Carry {1} while having sex",
+	  "icon": "OARE/Standing_holding/StandingCarryingSex",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sta!Sta_Ho_SHMaleUndressFemaleTorso1",
+      "priority": 4000,
+	  "description": "Remove {1}'s top",
+	  "icon": "OARE/oare_top",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sta!Sta_Ho_GoBackStandingHolding",
+	  "description": "return to standing apart",
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
+      "priority": -1000,
       "noWarnings": false
     }
   ],
@@ -105,9 +148,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": -5,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -20,
       "tags": [
         "standing"
@@ -117,8 +161,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": 20,
       "tags": [
         "standing"

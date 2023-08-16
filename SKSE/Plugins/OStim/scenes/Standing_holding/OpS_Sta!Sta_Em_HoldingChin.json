@@ -6,31 +6,24 @@
     {
       "destination": "OpS_Sta!Sta_Em_HoldingChinHug",
       "priority": 0,
+	  "description": "Hug while holding {1}'s chin",
+	  "icon": "OARE/Standing_holding/HoldingChinHug",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_Em_HoldingChinKiss",
       "priority": 0,
+	  "description": "Kiss while holding {1}'s chin",
+	  "icon": "OARE/Standing_holding/HoldingChinKiss",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Em_HoldingChinHug",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Em_HoldingChinKiss",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return to standing holding",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -50,9 +43,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -20,
       "lookLeft": 40,
       "tags": [
@@ -63,8 +57,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": 20,
       "lookLeft": -40,
       "tags": [
