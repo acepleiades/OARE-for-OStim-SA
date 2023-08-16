@@ -3,8 +3,8 @@
 
 <br>
 
-Adult animations mod for **OStim NG**.
-How to install this mod: [Installation]
+Adult animations mod for **OStim SA**. <br>
+Nexus page: https://www.nexusmods.com/skyrimspecialedition/mods/98435
 
 <br>
 
@@ -54,7 +54,7 @@ Join the OStim Discord to see new developments: https://discord.gg/ostim
 
 [Discord]: https://discord.gg/RECvhVaRcU
 [Files]: https://drive.google.com/drive/folders/1-A4pRMkvOFldBcEZ8lMogyX2PulDrqEg?usp=sharing
-[Nexus]: https://www.nexusmods.com/skyrimspecialedition/mods/61167/
+[Nexus]: https://www.nexusmods.com/skyrimspecialedition/mods/98435/
 
 [Installation]: Documentation/Installation.md
 [License]: LICENSE
