@@ -6,61 +6,72 @@
     {
       "destination": "OpS_Kne!LyB_Ho_SpreadLegsFemale",
       "priority": 0,
+	  "description": "Turn {1} around and spreads their legs.",
+	  "icon": "OARE/Male_approach_female_spread_legs/SpreadLegsFemale",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
+      "priority": 1,
+	  "description": "Turn {1} to their side.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/FemaleLyingOnSide",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!AFo_Sx_Doggystyle",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Have sex with {1} (doggystyle).",
+	  "icon": "OARE/Male_approach_female_all-fours/Doggystyle",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyF!LyF_Sx_ProneSexFemaleLegsIn",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Have sex with {1} (prone).",
+	  "icon": "OARE/Male_approach_female_all-fours/ProneSexFemaleLegsIn",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!Kne_Sx_AceRearKneelingSex",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Kne!LyB_Ho_SpreadLegsFemale",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "Have sex with {1} (both kneeling, pulling arms).",
+	  "icon": "OARE/Male_approach_female_all-fours/AceRearKneelingSex",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!AFo_FJ_AceBentOverFootjob",
-      "priority": 0,
+      "priority": 3003,
+	  "description": "{1} pleasures with their feet (all fours).",
+	  "icon": "OARE/Male_approach_female_all-fours/AceBentOverFootjob",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!AFo_Sx_AceBackItUp",
-      "priority": 0,
+      "priority": 3004,
+	  "description": "{1} has sex with {0} (back it up).",
+	  "icon": "OARE/Male_approach_female_all-fours/AceBackItUp",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_AceReverseCowgirl",
-      "priority": 0,
+      "priority": 3005,
+	  "description": "{1} has sex with {0} (reverse cowgirl).",
+	  "icon": "OARE/Female_approach_reverse_mounted_female/AceReverseCowgirl",
+	  "border": "e05a4e",	  
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -83,6 +94,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "kneeling"
@@ -94,6 +106,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "lookLeft": 30,
       "tags": [

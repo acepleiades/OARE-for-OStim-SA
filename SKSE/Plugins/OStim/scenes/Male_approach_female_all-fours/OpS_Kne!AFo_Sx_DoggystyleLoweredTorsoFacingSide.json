@@ -1,32 +1,42 @@
 {
-  "name": "Back it up",
+  "name": "Doggystyle Lowered Torso Facing Side",
   "modPack": "OpS",
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Kne!AFo_Ap_FemaleAllFours",
-      "priority": 0,
+      "destination": "OpS_Kne!AFo_Sx_DoggystyleLoweredTorsoGrabArm",
+      "priority": 3000,
+	  "description": "",
+	  "icon": "OARE/Male_approach_female_all-fours/DoggystyleLoweredTorsoGrabArm",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!AFo_Sx_DoggystyleLoweredTorso",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
   "speeds": [
     {
-      "animation": "_Sx-AceBackItUp_S1",
+      "animation": "_Sx-DoggystyleLoweredTorsoFacingSide_S1",
       "playbackSpeed": 1,
       "displaySpeed": 0.5
     },
     {
-      "animation": "_Sx-AceBackItUp_S2",
+      "animation": "_Sx-DoggystyleLoweredTorsoFacingSide_S2",
       "playbackSpeed": 1,
       "displaySpeed": 1
     },
     {
-      "animation": "_Sx-AceBackItUp_S3",
+      "animation": "_Sx-DoggystyleLoweredTorsoFacingSide_S3",
       "playbackSpeed": 1,
       "displaySpeed": 1.5
     },
     {
-      "animation": "_Sx-AceBackItUp_S4",
+      "animation": "_Sx-DoggystyleLoweredTorsoFacingSide_S4",
       "playbackSpeed": 1,
       "displaySpeed": 2
     }
@@ -43,6 +53,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "kneeling"
@@ -54,7 +65,9 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
-      "lookUp": -50,
+	  "scale": 1.0,
+      "lookUp": -100,
+      "lookLeft": 75,
       "tags": [
         "allfours",
         "facingaway"
@@ -67,8 +80,7 @@
     {
       "type": "vaginalsex",
       "actor": 0,
-      "target": 1,
-      "performer": 1
+      "target": 1
     }
   ]
 }

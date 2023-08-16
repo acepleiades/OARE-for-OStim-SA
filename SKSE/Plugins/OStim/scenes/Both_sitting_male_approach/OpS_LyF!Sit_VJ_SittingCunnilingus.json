@@ -2,25 +2,28 @@
   "name": "Sitting Cunnilingus",
   "modPack": "OpS",
   "length": 2,
-  "navigations": [
-    {
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
-      "noWarnings": false
-    },
+  "navigations": [    
     {
       "destination": "OpS_LyF!Sit_VJ_SittingCunnilingusHairGrab",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} grabs {0}'s hair.",
+	  "icon": "OARE/Both_sitting_male_approach/SittingCunnilingusHairGrab",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyF!Sit_VJ_SittingCunnilingusLegsLocked",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "{1} wraps legs around {0}'s head.",
+	  "icon": "OARE/Both_sitting_male_approach/SittingCunnilingusLegsLocked",
+	  "border": "e05a4e",
       "noWarnings": false
     },
-    {
+	{
       "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -56,6 +59,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 100,
       "tags": [
         "lyingfront"
@@ -67,6 +71,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "sitting"

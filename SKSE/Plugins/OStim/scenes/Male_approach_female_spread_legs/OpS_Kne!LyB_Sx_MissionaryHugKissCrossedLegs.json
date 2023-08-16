@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_Kne!LyB_Sx_MissionaryHugKiss",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -43,6 +45,7 @@
       "intendedSex": "any",
       "sosBend": 7,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "kneeling"
       ],
@@ -53,6 +56,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "lyingback"
       ],

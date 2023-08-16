@@ -5,22 +5,33 @@
   "navigations": [
     {
       "destination": "OpS_Kne!LyS_Sx_LyingOnSideSexGrabArm",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Grab {1}'s arm.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!LyS_Sx_LyingOnSideSexRaisedLeg",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Raise {1}'s leg.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!LyS_Sx_LyingOnSideSexFromBehind",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "Lying on side sex from behind.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -56,6 +67,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -25,
       "tags": [
         "kneeling"
@@ -67,6 +79,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -50,
       "lookLeft": -75,
       "tags": [
