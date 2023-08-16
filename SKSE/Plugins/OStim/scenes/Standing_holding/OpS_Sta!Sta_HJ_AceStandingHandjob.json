@@ -4,18 +4,18 @@
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Sta!Sta_HJ_AceStandingHandjobKissing",
-      "priority": 3000,
-	  "description": "{1} kisses you while giving a handjob",
-	  "icon": "OARE/Standing_holding/AceStandingHandjobKissing",
-	  "border": "e05a4e",
+      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {
-      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-      "priority": -1000,
-	  "description": "Return back to standing holding",
-	  "icon": "OARE/oare_return",
+      "destination": "OpS_Sta!Sta_HJ_AceStandingHandjobKissing",
+      "priority": 3000,
+	  "description": "({1}) Kiss {0}.",
+	  "icon": "OARE/Standing_holding/AceStandingHandjobKissing",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -41,7 +41,7 @@
       "displaySpeed": 3
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
@@ -61,7 +61,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 80,
 	  "scale": 1.0,
       "lookUp": -100,

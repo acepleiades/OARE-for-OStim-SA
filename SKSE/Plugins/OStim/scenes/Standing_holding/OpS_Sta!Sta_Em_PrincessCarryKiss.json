@@ -6,7 +6,7 @@
     {
       "destination": "OpS_Sta!Sta_Em_PrincessCarryHandOnFace",
       "priority": -1000,
-	  "description": "Return to {1} touching your face while being carried like a princess",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
@@ -27,7 +27,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": 4,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -39,7 +39,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [],

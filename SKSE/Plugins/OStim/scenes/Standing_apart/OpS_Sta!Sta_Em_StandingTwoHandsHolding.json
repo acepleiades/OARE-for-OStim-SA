@@ -4,18 +4,18 @@
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Sta!Sta_Em_StandingTwoHandsHoldingKiss",
-	  "description": "Kiss {1} while holding two hands",
-	  "icon": "OARE/Standing_apart/StandingTwoHandsHoldingKiss",
-	  "border": "dd7e5e",
-      "priority": 0,
+      "destination": "OpS_Sta!Sta_Em_StandingHandHolding",
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "priority": -1000,
       "noWarnings": false
     },
     {
-      "destination": "OpS_Sta!Sta_Em_StandingHandHolding",
-	  "description": "Return back to holding hands",
-	  "icon": "OARE/oare_return",
-      "priority": -1000,
+      "destination": "OpS_Sta!Sta_Em_StandingTwoHandsHoldingKiss",
+	  "description": "Kiss {1}.",
+	  "icon": "OARE/Standing_apart/StandingTwoHandsHoldingKiss",
+	  "border": "dd7e5e",
+      "priority": 1000,
       "noWarnings": false
     }
   ],
@@ -33,7 +33,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -45,7 +45,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [

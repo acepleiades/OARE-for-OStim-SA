@@ -6,7 +6,7 @@
     {
       "destination": "OpS_Standing!Holding_Em_OutstretchedArmsKiss",
       "priority": -1000,
-	  "description": "Return back to kissing {1} with outstretched arms",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
@@ -33,14 +33,14 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -52,7 +52,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [

@@ -2,20 +2,20 @@
   "name": "Princess Carry Embrace",
   "modPack": "OpS",
   "length": 2,
-  "navigations": [    
-    {
-      "destination": "OpS_Sta!Sta_Em_PrincessCarryHandOnFace",
-      "priority": 1000,
-	  "description": "{1} places their hand on your face while being carried like a princess",
-	  "icon": "OARE/Standing_holding/PrincessCarryHandOnFace",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    },
+  "navigations": [
 	{
       "destination": "OpS_Sta!Sta_Ho_StandingHolding",
       "priority": -1000,
-	  "description": "Return to standing holding",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Em_PrincessCarryHandOnFace",
+      "priority": 1000,
+	  "description": "({1}) Touch {0}'s face.",
+	  "icon": "OARE/Standing_holding/PrincessCarryHandOnFace",
+	  "border": "dd7e5e",
       "noWarnings": false
     }
   ],
@@ -36,7 +36,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": 4,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -50,7 +50,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookLeft": -20,

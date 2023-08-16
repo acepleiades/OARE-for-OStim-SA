@@ -5,7 +5,7 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Ap_Standing",
-	  "description": "Return to standing",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "priority": -1000,
       "noWarnings": false
@@ -33,7 +33,7 @@
       "displaySpeed": 3
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
@@ -53,7 +53,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 80,
 	  "scale": 1.0,
       "lookUp": 75,

@@ -5,7 +5,7 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Em_StandingTwoHandsHolding",
-	  "description": "Return to standing holding two hands",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "priority": -1000,
       "noWarnings": false
@@ -25,9 +25,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -36,8 +37,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],

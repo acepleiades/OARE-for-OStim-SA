@@ -4,20 +4,20 @@
   "length": 2,
   "navigations": [
     {
+      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "priority": -1000,
+      "noWarnings": false
+    },
+    {
       "destination": "OpS_Standing!Holding_Em_StandingHandOnHeadCuddle",
-	  "description": "Hold {1}'s head while cuddling",
+	  "description": "Hold {1}'s head.",
 	  "icon": "OARE/Standing_holding/StandingHandOnHeadCuddle",
 	  "border": "dd7e5e",
       "priority": 0,
       "noWarnings": false
     },
-    {
-      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-	  "description": "Return to standing holding",
-	  "icon": "OARE/oare_return",
-      "priority": -1000,
-      "noWarnings": false
-    }
   ],
   "speeds": [
     {
