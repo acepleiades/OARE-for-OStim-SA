@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_LyS!Sit_Em_LapPillow",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -36,6 +38,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "lyingside"
@@ -47,6 +50,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "sitting"

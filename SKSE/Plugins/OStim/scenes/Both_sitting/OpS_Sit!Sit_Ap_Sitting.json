@@ -6,23 +6,23 @@
     {
       "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
       "priority": 0,
-	  "description": "",
-	  "icon": "",
-	  "border": "",
+	  "description": "Approach {1}.",
+	  "icon": "OARE/Both_sitting_male_approach/SittingMaleApproach",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 1000,
-	  "description": "",
-	  "icon": "",
-	  "border": "",
+      "priority": 1,
+	  "description": "Lie down with {1} spooning.",
+	  "icon": "OARE/Spooning/SpooningIdle ",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!Sit_Em_LapPillow",
-      "priority": 1001,
-	  "description": "",
+      "priority": 1000,
+	  "description": "Lay your head on {1}'s lap.",
 	  "icon": "OARE/Both_sitting/LapPillow",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -30,7 +30,7 @@
     {
       "destination": "OpS_Sit!Sit_Cr_SittingGropingBreast",
       "priority": 3000,
-	  "description": "",
+	  "description": "Touch {1}'s breasts.",
 	  "icon": "OARE/Both_sitting/SittingGropingBreast",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -38,7 +38,7 @@
     {
       "destination": "OpS_Sit!Sit_FJ_SittingFootjob",
       "priority": 3001,
-	  "description": "",
+	  "description": "{1} Masturbates {0} with feet.",
 	  "icon": "OARE/Both_sitting/SittingFootjob",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -46,7 +46,7 @@
     {
       "destination": "OpS_Sit!Sit_FJ_AceSittingFootjobFromBehind",
       "priority": 3002,
-	  "description": "",
+	  "description": "{1} Masturbates {0} with feet from behind.",
 	  "icon": "OARE/Both_sitting/AceSittingFootjobFromBehind",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -57,7 +57,7 @@
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",  
       "noWarnings": false
-    },
+    }
   ],
   "speeds": [
     {

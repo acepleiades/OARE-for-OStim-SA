@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_LyS!Sit_Em_LapPillowHeadStroke",
-      "priority": 0,
+      "priority": 1000,
+	  "description": "{1} strokes {0}'s head.",
+	  "icon": "OARE/Both_sitting/LapPillowHeadStroke",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Sit_Ap_Sitting",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -33,6 +38,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "lyingside"
@@ -44,6 +50,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -75,
       "tags": [
         "sitting"
