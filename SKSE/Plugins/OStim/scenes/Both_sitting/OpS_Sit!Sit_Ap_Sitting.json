@@ -6,53 +6,58 @@
     {
       "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
       "priority": 0,
+	  "description": "",
+	  "icon": "",
+	  "border": "",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Ap_Standing",
-      "priority": 0,
+      "priority": 1000,
+	  "description": "",
+	  "icon": "",
+	  "border": "",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!Sit_Em_LapPillow",
-      "priority": 0,
+      "priority": 1001,
+	  "description": "",
+	  "icon": "OARE/Both_sitting/LapPillow",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Sit_Cr_SittingGropingBreast",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sta!Sta_Ap_Standing",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "",
+	  "icon": "OARE/Both_sitting/SittingGropingBreast",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Sit_FJ_SittingFootjob",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "",
+	  "icon": "OARE/Both_sitting/SittingFootjob",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Sit_FJ_AceSittingFootjobFromBehind",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "",
+	  "icon": "OARE/Both_sitting/AceSittingFootjobFromBehind",
+	  "border": "e05a4e",
       "noWarnings": false
     },
-    {
-      "destination": "OpS_addon_Sit!Sit_Ap_Sitting3ppHub",
-      "priority": 0,
+	{
+      "destination": "OpS_Sta!Sta_Ap_Standing",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
-    }
+    },
   ],
   "speeds": [
     {
@@ -74,6 +79,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "sitting"
       ],
@@ -84,6 +90,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "sitting"
       ],
