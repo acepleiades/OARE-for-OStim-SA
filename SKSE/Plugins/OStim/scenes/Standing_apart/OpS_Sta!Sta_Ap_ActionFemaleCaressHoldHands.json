@@ -1,36 +1,23 @@
 {
-  "name": "Hug From Behind",
+  "name": "Action Female Caress Hold Hands",
   "modPack": "OpS",
-  "length": 2,
-  "navigations": [
-    {
-      "destination": "OpS_Sta!Sta_Em_CuddleFromBehind",
-      "priority": 0,
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Em-HugFromBehind",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
+  "length": 3.5,
+  "destination": "OpS_Sta!Sta_Ap_Standing",
+  "navigations": [],
+  "speeds": [],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
-    "cuddling",
-    "idle"
+    "action"
   ],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
       "intendedSex": "any",
-      "sosBend": -7,
+      "sosBend": 6,
       "scaleHeight": 120.748,
-      "lookUp": -35,
-      "lookLeft": -25,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -41,10 +28,8 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
-      "lookUp": 35,
-      "lookLeft": 50,
+	  "scale": 1.0,
       "tags": [
-        "facingaway",
         "standing"
       ],
       "feetOnGround": true,

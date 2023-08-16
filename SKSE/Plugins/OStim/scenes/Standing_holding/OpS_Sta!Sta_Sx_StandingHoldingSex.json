@@ -4,18 +4,18 @@
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Sta!Sta_Sx_StandingHoldingSexKiss",
-      "priority": 3000,
-	  "description": "Kiss {1} while holding and having sex",
-	  "icon": "OARE/Standing_holding/StandingHoldingSexKiss",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
       "destination": "OpS_Sta!Sta_Ho_StandingHolding",
       "priority": -1000,
 	  "description": "Return back to standing holding",
 	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Sta!Sta_Sx_StandingHoldingSexKiss",
+      "priority": 3000,
+	  "description": "Kiss {1}.",
+	  "icon": "OARE/Standing_holding/StandingHoldingSexKiss",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -46,7 +46,7 @@
       "displaySpeed": 3
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},

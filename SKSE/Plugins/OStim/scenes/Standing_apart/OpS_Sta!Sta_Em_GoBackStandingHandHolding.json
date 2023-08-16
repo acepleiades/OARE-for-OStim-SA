@@ -1,14 +1,18 @@
 {
-  "name": "Action Female Caress Hold Hands",
+  "name": "Transition back from Standing Hand Holding",
   "modPack": "OpS",
-  "length": 3.5,
+  "length": 1.5,
   "destination": "OpS_Sta!Sta_Ap_Standing",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+		{
+			"animation": "_Em-GoBackStandingHandHolding"
+		}
+   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
-    "action"
+    "transition"
   ],
   "autoTransitions": {},
   "actors": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -27,6 +32,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],

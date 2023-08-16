@@ -5,12 +5,18 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHoldingFromBehind",
-      "priority": 0,
+      "description": "Return...",
+      "priority": -1000,
+      "border": "fce5cd",
+      "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!Sta_VJ_CunnilingusRearHeadHeld",
-      "priority": 0,
+      "description": "({1}) Hold {0}'s head.",
+      "priority": 3000,
+      "border": "e05a4e",
+      "icon": "OARE/Standing_holding_from_behind/CunnilingusRearHeadHeld",
       "noWarnings": false
     }
   ],
@@ -36,7 +42,7 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
@@ -46,6 +52,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+      "scale": 1.03,
       "lookUp": -100,
       "tags": [
         "kneeling"
@@ -55,8 +62,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+      "scale": 1.0,
       "lookUp": -100,
       "lookLeft": -100,
       "tags": [

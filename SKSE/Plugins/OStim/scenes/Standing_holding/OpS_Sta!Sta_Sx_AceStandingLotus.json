@@ -6,7 +6,7 @@
     {
       "destination": "OpS_Sta!Sta_Sx_StandingCarryingSex",
       "priority": -1000,
-	  "description": "Return back to carrying sex",
+	  "description": "Return...",
 	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
@@ -33,7 +33,7 @@
       "displaySpeed": 2.5
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},

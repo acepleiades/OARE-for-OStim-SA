@@ -4,18 +4,18 @@
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Standing!Holding_Em_GropingButtKissOA",
-      "priority": 1000,
-	  "description": "Grope {1}'s butt while kissing with outstretched arms",
-	  "icon": "OARE/Standing_holding/GropingButtKissOA",
-	  "border": "dd7e5e",
+      "destination": "OpS_Standing!Holding_Em_StandingEmbraceKiss",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {
-      "destination": "OpS_Standing!Holding_Em_StandingEmbraceKiss",
-      "priority": -1000,
-	  "description": "Return back to embracing {1} while kissing",
-	  "icon": "OARE/oare_return",
+      "destination": "OpS_Standing!Holding_Em_GropingButtKissOA",
+      "priority": 1000,
+	  "description": "Touch {1}'s butt.",
+	  "icon": "OARE/Standing_holding/GropingButtKissOA",
+	  "border": "dd7e5e",
       "noWarnings": false
     }
   ],
@@ -35,7 +35,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "male",
+      "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -47,7 +47,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "female",
+      "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [

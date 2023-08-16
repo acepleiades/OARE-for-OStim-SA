@@ -4,7 +4,11 @@
   "length": 2.5,
   "destination": "OpS_Sta!Sta_Ho_StandingHolding",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_Ho-GoBackStandingHoldingFromBehind"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": -6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -27,6 +32,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "facingaway",
         "standing"
