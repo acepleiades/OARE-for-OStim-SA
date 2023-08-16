@@ -4,7 +4,11 @@
   "length": 2,
   "destination": "OpS_Sta!Sta_Ho_StandingHoldingFromBehind",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+		{
+			"animation": "_Ho-SHFBMaleUndressFemaleTorso2"
+		}
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [

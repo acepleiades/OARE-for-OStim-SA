@@ -4,7 +4,11 @@
   "length": 2.666,
   "destination": "OpS_Sta!Sta_Ho_StandingSpankIdle",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+		{
+			"animation": "_Ho-StandingSpank"
+		}
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [],
@@ -15,6 +19,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+      "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "standing"
@@ -26,6 +31,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+      "scale": 1.0,
       "lookUp": -30,
       "lookLeft": 75,
       "tags": [
