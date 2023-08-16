@@ -36,7 +36,7 @@
       "priority": 3,
       "noWarnings": false,
 	  "border": "fce5cd",
-	  "icon": "OARE/oare_wip"
+	  "icon": "OARE/Male_standing_female_squatting/MaleStandingFemaleSquatting"
     },
     {
       "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
@@ -44,7 +44,7 @@
       "priority": 4,
       "noWarnings": false,
 	  "border": "fce5cd",
-	  "icon": "OARE/oare_wip"
+	  "icon": "OARE/Male_standing_female_kneeling/MaleStandingFemaleKneeling"
     },
 	{
       "destination": "OpS_Sta!Sta_Em_GoToStandingHandHolding",

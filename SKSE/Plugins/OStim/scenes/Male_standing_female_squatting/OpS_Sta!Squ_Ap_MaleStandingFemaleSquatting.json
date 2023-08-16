@@ -14,7 +14,7 @@
       "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
       "priority": 0,
 	  "description": "{1} kneel.",
-	  "icon": "OARE/oare_wip",
+	  "icon": "OARE/Male_standing_female_kneeling/MaleStandingFemaleKneeling",
 	  "border": "fce5cd",
       "noWarnings": false
     }, 
@@ -22,7 +22,7 @@
       "destination": "OpS_Sta!Squ_HJ_SquattingHandjob",
       "priority": 3000,
 	  "description": "{1} Masturbates {0}.",
-	  "icon": "OARE/oare_wip",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingHandjob",
 	  "border": "e05a4e",
       "noWarnings": false
     },
@@ -30,7 +30,7 @@
       "destination": "OpS_Sta!Squ_BJ_SquattingFellatio",
       "priority": 3001,
 	  "description": "{1} Performs fellation on {0}.",
-	  "icon": "OARE/oare_wip",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingFellatio",
 	  "border": "e05a4e",
       "noWarnings": false
     },
@@ -38,7 +38,7 @@
       "destination": "OpS_Sta!Squ_BJ_SquattingMouthFuck",
       "priority": 3002,
 	  "description": "Mouth fuck {1}.",
-	  "icon": "OARE/oare_wip",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingMouthFuck",
 	  "border": "e05a4e",
       "noWarnings": false
     }, 
