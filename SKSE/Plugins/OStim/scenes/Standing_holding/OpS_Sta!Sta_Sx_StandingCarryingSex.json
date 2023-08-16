@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_Sta!Sta_Sx_AceStandingLotus",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Switch to Lotus position with {1}",
+	  "icon": "OARE/Standing_holding/AceStandingLotus",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Sta_Ho_StandingHolding",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return back to standing holding",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -48,9 +53,10 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 5,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "lookLeft": -25,
       "tags": [
@@ -61,8 +67,9 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -75,
       "lookLeft": -25,
       "tags": [

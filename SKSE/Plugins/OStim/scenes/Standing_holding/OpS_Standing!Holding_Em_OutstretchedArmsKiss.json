@@ -1,50 +1,44 @@
 {
-  "name": "Holding Groping Butt",
+  "name": "OutstretchedArmsKiss",
   "modPack": "OpS",
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Sta!Sta_Ho_StandingHolding",
+      "destination": "OpS_Standing!Holding_Em_GropingButtKissOA",
+      "priority": 1000,
+	  "description": "Grope {1}'s butt while kissing with outstretched arms",
+	  "icon": "OARE/Standing_holding/GropingButtKissOA",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Standing!Holding_Em_StandingEmbraceKiss",
       "priority": -1000,
-	  "description": "Return back to standing holding",
+	  "description": "Return back to embracing {1} while kissing",
 	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
   "speeds": [
     {
-      "animation": "_Ho-HoldingGropingButt_S1",
-      "playbackSpeed": 1,
-      "displaySpeed": 0.5
-    },
-    {
-      "animation": "_Ho-HoldingGropingButt_S2",
+      "animation": "_Em-OutstretchedArmsKiss",
       "playbackSpeed": 1,
       "displaySpeed": 1
-    },
-    {
-      "animation": "_Ho-HoldingGropingButt_S3",
-      "playbackSpeed": 1,
-      "displaySpeed": 1.5
-    },
-    {
-      "animation": "_Ho-HoldingGropingButt_S4",
-      "playbackSpeed": 1,
-      "displaySpeed": 2
     }
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "tags": [],
+  "tags": [
+    "idle"
+  ],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
       "intendedSex": "male",
-      "sosBend": 6,
+      "sosBend": -5,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
-      "lookUp": -100,
       "tags": [
         "standing"
       ],
@@ -56,8 +50,6 @@
       "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
-      "lookUp": -50,
-      "lookLeft": -50,
       "tags": [
         "standing"
       ],
@@ -67,13 +59,8 @@
   ],
   "actions": [
     {
-      "type": "gropingbutt",
+      "type": "kissing",
       "actor": 0,
-      "target": 1
-    },
-    {
-      "type": "heavybreathing",
-      "actor": 1,
       "target": 1
     }
   ]

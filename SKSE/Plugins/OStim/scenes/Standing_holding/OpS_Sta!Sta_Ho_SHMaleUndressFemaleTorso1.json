@@ -4,7 +4,11 @@
   "length": 1.5,
   "destination": "OpS_Sta!Sta_Ho_SHMaleUndressFemaleTorso2",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_Ho-SHMaleUndressFemaleTorso1"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -14,17 +18,19 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": -5,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [],
       "feetOnGround": true,
       "autoTransitions": {}
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [],
       "feetOnGround": true,
       "autoTransitions": {}
