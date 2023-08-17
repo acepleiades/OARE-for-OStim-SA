@@ -5,22 +5,33 @@
   "navigations": [
     {
       "destination": "OpS_Kne!LyB_BoJ_MountedTitfuckBreastGrab",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Grab {1}'s breasts.",
+	  "icon": "OARE/Both_sitting_male_approach/MountedTitfuckBreastGrab",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Kne!LyB_Po_OnTopMasturbation",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Masturbate on top of {1}.",
+	  "icon": "OARE/Both_sitting_male_approach/OnTopMasturbation",
+	  "border": "e05a4e",
       "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
-      "noWarnings": false
-    },
+    },    
     {
       "destination": "OpS_Kne!LyB_BoJ_MountedTitfuckCupping",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "{1} cups their breasts.",
+	  "icon": "OARE/Both_sitting_male_approach/MountedTitfuckCupping",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -56,6 +67,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "kneeling"
@@ -67,6 +79,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -30,
       "tags": [
         "lyingback"

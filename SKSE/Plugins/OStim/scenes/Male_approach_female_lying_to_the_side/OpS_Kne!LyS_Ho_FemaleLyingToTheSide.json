@@ -4,7 +4,11 @@
   "length": 1,
   "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_Ap-FemaleLyingOnSide"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "kneeling"
       ],
@@ -27,6 +32,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": 30,
       "lookLeft": -80,
       "tags": [

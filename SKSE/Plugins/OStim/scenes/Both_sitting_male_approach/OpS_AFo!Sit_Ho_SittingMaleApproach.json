@@ -4,7 +4,11 @@
   "length": 1,
   "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_Ap-OPRedirectToSittingMaleApproach"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "sitting"
       ],
@@ -27,6 +32,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "sitting"
       ],
