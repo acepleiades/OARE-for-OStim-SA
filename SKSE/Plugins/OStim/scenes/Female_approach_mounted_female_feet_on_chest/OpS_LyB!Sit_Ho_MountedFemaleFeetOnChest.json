@@ -5,17 +5,25 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Sit_Ho_MountedFemaleTickle",
-      "priority": 0,
+      "priority": 1000,
+	  "description": "Tickle {1}.",
+	  "icon": "OARE/Female_approach_mounted_feet_on_chest/",
+	  "border": "dd7e5e",
       "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyB!Kne_Ho_MountedFemale",
-      "priority": 0,
-      "noWarnings": false
-    },
+    },    
     {
       "destination": "OpS_LyB!Sit_HJ_MountedHJFeet",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} pleasures {0} with their hand while pressing their feet against {0}.",
+	  "icon": "OARE/Female_approach_mounted_feet_on_chest/",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_LyB!Kne_Ho_MountedFemale",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],

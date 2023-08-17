@@ -3,41 +3,53 @@
   "modPack": "OpS_furniture",
   "length": 2,
   "navigations": [
+    
     {
       "destination": "OpS_furniture_Tab!Le_Ap_TableIdleSittingFemale",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_furniture_Tab!Le_Ho_TableIdleHolding",
       "priority": 0,
+	  "description": "FEMALE Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Tab!Le_Pf2_TableSittingFingering",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Pleasure {1} with your hand.",
+	  "icon": "OARE/Furniture/TableSittingFingering",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_furniture_Tab!Le_BJ_TableLieBackOral",
+      "priority": 3001,
+	  "description": "{1} lies on their back and performs fellatio on {0}.",
+	  "icon": "OARE/Furniture/TableLieBackOral",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Tab!Le_Sx_TableSittingSex",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "Have sex with {1} (sitting).",
+	  "icon": "OARE/Furniture/TableSittingSex",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Tab!Le_Sx_TableMissionary",
-      "priority": 0,
+      "priority": 3003,
+	  "description": "Have sex with {1} (missionary).",
+	  "icon": "OARE/Furniture/TableMissionary",
+	  "border": "e05a4e",
       "noWarnings": false
-    },
-    {
-      "destination": "OpS_furniture_Tab!Le_Ho_TableIdleHolding",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_furniture_Tab!Le_BJ_TableLieBackOral",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_addon_Tab!Le_Ap_TableAddonHub",
-      "priority": 0,
-      "noWarnings": false
-    }
+    }    
   ],
   "speeds": [
     {
@@ -59,6 +71,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -69,6 +82,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],

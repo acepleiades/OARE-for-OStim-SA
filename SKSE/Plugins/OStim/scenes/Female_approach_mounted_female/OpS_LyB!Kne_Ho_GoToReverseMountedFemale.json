@@ -4,7 +4,11 @@
   "length": 3.5,
   "destination": "OpS_LyB!Kne_Ho_ReverseMountedFemale",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_Ho-GoToReverseMountedFemale"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -60,
       "tags": [
         "lyingback"
@@ -28,6 +33,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -35,
       "tags": [
         "kneeling"

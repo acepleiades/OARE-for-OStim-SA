@@ -2,15 +2,20 @@
   "name": "Lying Titfuck",
   "modPack": "OpS",
   "length": 2,
-  "navigations": [
-    {
-      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": 0,
-      "noWarnings": false
-    },
+  "navigations": [    
     {
       "destination": "OpS_LyB!Sit_BoJ_AceLyingBoobjob",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Have {1} perform a boobjob.",
+	  "icon": "OARE/Both_sitting_female_approach/",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -46,6 +51,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "lyingback"
       ],
@@ -56,6 +62,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -25,
       "tags": [
         "sitting"

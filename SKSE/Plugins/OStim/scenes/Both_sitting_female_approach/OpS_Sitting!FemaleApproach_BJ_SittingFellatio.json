@@ -5,22 +5,33 @@
   "navigations": [
     {
       "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioHandOnHead",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Hold {1}'s head and push down.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFellatioHandOnHead",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioLyingFemale",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "{1} lays down.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFellatioLyingFemale",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioForwardBend",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "{1} bends forward.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFellatioForwardBend",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -56,6 +67,7 @@
       "intendedSex": "any",
       "sosBend": -3,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -100,
       "tags": [
         "sitting"
@@ -67,6 +79,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "kneeling"

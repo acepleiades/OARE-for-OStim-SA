@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -26,6 +28,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "sitting"
       ],
@@ -35,6 +38,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "kneeling"
       ],

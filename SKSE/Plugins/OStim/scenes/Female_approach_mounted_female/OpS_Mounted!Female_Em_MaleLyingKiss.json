@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Kne_Ho_MountedFemale",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -28,6 +30,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "lyingback"
       ],
@@ -38,6 +41,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "lyingside"
       ],

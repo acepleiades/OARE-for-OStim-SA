@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -43,6 +45,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -75,
       "lookLeft": -50,
       "tags": [
@@ -55,6 +58,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -60,
       "lookLeft": 15,
       "tags": [

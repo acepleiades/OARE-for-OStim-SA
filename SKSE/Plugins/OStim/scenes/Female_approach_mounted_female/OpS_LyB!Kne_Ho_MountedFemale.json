@@ -3,39 +3,59 @@
   "modPack": "OpS",
   "length": 2,
   "navigations": [
+	{
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
+      "noWarnings": false
+    },
     {
       "destination": "OpS_LyB!Kne_Ho_GoToReverseMountedFemale",
       "priority": 0,
+	  "description": "Turn {1} around.",
+	  "icon": "OARE/Female_approach_reverse_mounted_female/ReverseMountedFemale",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Sit_Ho_MountedFemaleFeetOnChest",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": 0,
+      "priority": 1,
+	  "description": "{1} places their feet on {0}'s chest.",
+	  "icon": "OARE/Female_approach_mounted_female_feet_on_chest/MountedFemaleFeetOnChest",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_Mounted!Female_Em_MaleLyingKiss",
-      "priority": 0,
+      "priority": 1000,
+	  "description": "{1} kisses {0}",
+	  "icon": "OARE/Female_approach_mounted_female/MaleLyingKiss",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Mounted!Female_HJ_MaleLyingHJ",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} pleasures {0} with their hand.",
+	  "icon": "OARE/Female_approach_mounted_female/MaleLyingHJ",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Cr_MountedGrind",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "{1} rubs against {0}",
+	  "icon": "OARE/Female_approach_mounted_female/MountedGrind",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlKneesOnGround",
-      "priority": 0,
+      "priority": 3002,
+	"description": "{1} has sex with {0} (cowgirl}.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlKneesOnGround",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -58,6 +78,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 25,
       "tags": [
         "lyingback"
@@ -69,6 +90,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -70,
       "tags": [
         "kneeling"

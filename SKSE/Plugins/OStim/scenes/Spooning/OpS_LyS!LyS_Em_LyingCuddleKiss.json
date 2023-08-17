@@ -5,17 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!LyS_Cr_LyingCuddleKissMasturbation",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Pleasure {1} with your hand.",
+	  "icon": "OARE/Spooning/LyingCuddleKissMasturbation",
+	  "border": "",
       "noWarnings": false
     }
   ],
@@ -38,6 +38,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "lyingside"
       ],
@@ -48,6 +49,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "lyingside"
       ],
