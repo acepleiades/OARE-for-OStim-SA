@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Sit_BoJ_AceLyingBoobjob",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Do it again.",
+	  "icon": "OARE/oare_redo",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -33,6 +38,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "lyingback"
       ],
@@ -43,6 +49,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -35,
       "tags": [
         "sitting"

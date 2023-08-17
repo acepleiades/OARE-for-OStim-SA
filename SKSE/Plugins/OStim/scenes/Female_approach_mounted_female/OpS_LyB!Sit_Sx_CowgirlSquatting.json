@@ -5,22 +5,33 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Sit_Sx_CowgirlSquattingHandholding",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} holds both of {0}'s hands.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingHandholding",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlSquattingLetGo",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "{1} lets go of {0}.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingLetGo",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Sit_Sx_AceCowgirlLegsCrossed",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "{1} crosses their legs.",
+	  "icon": "OARE/Female_approach_mounted_female/AceCowgirlLegsCrossed",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlKneesOnGround",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -58,6 +69,7 @@
       "intendedSex": "any",
       "sosBend": -2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 25,
       "tags": [
         "lyingback"
@@ -69,6 +81,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "sitting"

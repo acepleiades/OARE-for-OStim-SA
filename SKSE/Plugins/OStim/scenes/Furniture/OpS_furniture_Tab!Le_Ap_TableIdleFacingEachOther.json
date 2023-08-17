@@ -4,23 +4,32 @@
   "length": 2,
   "navigations": [
     {
+      "origin": "OStimTable2PBehindMF",
+      "description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+    },
+    {
       "destination": "OpS_furniture_Tab!Le_Ho_TableIdleHolding",
       "priority": 0,
+	  "description": "Hold {1}.",
+	  "icon": "OARE/Furniture/TableIdleHolding",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Tab!Le_Ap_TableIdleSittingFemale",
-      "priority": 0,
+      "priority": 1,
+	  "description": "{1} sits on the table.",
+	  "icon": "OARE/Furniture/TableIdleSittingFemale",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Tab!Le_Ap_TableIdle",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_addon_Tab!Le_Ap_TableAddonHub",
-      "priority": 0,
+      "priority": 2,
+	  "description": "{1} turns around.",
+	  "icon": "OARE/Furniture/TableIdle",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],
@@ -45,6 +54,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -55,6 +65,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],

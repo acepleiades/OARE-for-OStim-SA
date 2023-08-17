@@ -5,27 +5,41 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlLeanBack",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} leans back.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlLeanBack",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlSquattingHandsOnBreasts",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "{1} holds their breasts",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingHandsOnBreasts",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlSquattingHandsOnHead",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "{1} holds their head.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingHandsOnHead",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Sit_Sx_CowgirlCircularGrind",
-      "priority": 0,
+      "priority": 3003,
+	  "description": "{1} varies into cowgirl, circular grind.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlCircularGrind",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Sit_Sx_CowgirlSquatting",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -63,6 +77,7 @@
       "intendedSex": "any",
       "sosBend": 0,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 25,
       "tags": [
         "lyingback"
@@ -74,6 +89,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -80,
       "tags": [
         "squatting"

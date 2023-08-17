@@ -5,22 +5,33 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Sit_Sx_CowgirlSquatting",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Vary into a squatting position.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquatting",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlKneesLetGo",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "{1} lets go of {0}.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlKneesLetGo",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_AceCowgirlPressingDown",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "{1} presses against {0}.",
+	  "icon": "OARE/Female_approach_mounted_female/AceCowgirlPressingDown",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Ho_MountedFemale",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -58,6 +69,7 @@
       "intendedSex": "any",
       "sosBend": 0,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 25,
       "tags": [
         "lyingback"
@@ -69,6 +81,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -80,
       "tags": [
         "kneeling"

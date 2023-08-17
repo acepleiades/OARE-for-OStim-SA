@@ -4,53 +4,66 @@
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
+      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     },
     {
-      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
+      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
       "priority": 0,
+	  "description": " {1} switches places with {0}.",
+	  "icon": "OARE/Both_sitting_male_approach/SittingMaleApproach",
+	  "border": "fce5cd",
       "noWarnings": false
-    },
+    },    
     {
       "destination": "OpS_LyB!Kne_Ho_MountedFemale",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
+      "priority": 1,
+	  "description": "{1} mounts {0}.",
+	  "icon": "OARE/Female_approach_mounted_female/MountedFemale",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproachKiss",
-      "priority": 0,
+      "priority": 1000,
+	  "description": "{1} kisses {0}.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFemaleApproachKiss",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatio",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} performs fellatio on {0}.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFellatio",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sitting!FemaleApproach_HJ_HJAndLicking",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "{1} pleasures {0} with their hand while licking.",
+	  "icon": "OARE/Both_sitting_female_approach/HJAndLicking",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Sit_BoJ_AceLyingBoobjob",
-      "priority": 0,
+      "priority": 3002,
+	  "description": "Have {1} perform a boobjob.",
+	  "icon": "OARE/Both_sitting_female_approach/AceLyingBoobjob",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Sit_Sx_SittingSex",
-      "priority": 0,
+      "priority": 3003,
+	  "description": "{1} has sex with {0} (sitting).",
+	  "icon": "OARE/Both_sitting_female_approach/SittingSex",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -73,6 +86,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "sitting"
       ],
@@ -82,6 +96,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": 40,
       "tags": [
         "kneeling"

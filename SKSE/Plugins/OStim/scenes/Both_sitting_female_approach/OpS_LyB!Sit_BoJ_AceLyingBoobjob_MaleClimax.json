@@ -4,7 +4,11 @@
   "length": 14,
   "destination": "OpS_LyB!Sit_Ho_AceLyingBoobjob_AfterClimax",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_BoJ-AceLyingBoobjob_MaleClimax"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "climaxing",
         "lyingback"
@@ -28,6 +33,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -35,
       "tags": [
         "sitting"

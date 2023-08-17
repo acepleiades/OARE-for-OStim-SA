@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlSquattingLetGo",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -43,6 +45,7 @@
       "intendedSex": "any",
       "sosBend": -2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 25,
       "tags": [
         "lyingback"
@@ -54,6 +57,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -80,
       "tags": [
         "kneeling"

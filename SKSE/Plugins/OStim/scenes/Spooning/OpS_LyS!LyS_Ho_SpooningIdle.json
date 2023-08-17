@@ -3,76 +3,77 @@
   "modPack": "OpS",
   "length": 2,
   "navigations": [
-    {
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": 0,
+	{
+      "destination": "OpS_Sit!Sit_Ap_Sitting",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     },
     {
-      "destination": "OpS_Sit!Sit_Ap_Sitting",
+      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
       "priority": 0,
+	  "description": "",
+	  "icon": "OARE//SittingMaleApproach",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": 1,
+	  "description": "{1} sits up with {0}.",
+	  "icon": "OARE//SittingFemaleApproach",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!LyS_Ho_SleepingIdle",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Ho_SpooningKissing",
-      "priority": 0,
+      "priority": 2,
+	  "description": "Rest with {1}.",
+	  "icon": "OARE/Spooning/SleepingIdle",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!LyS_Em_LyingCuddling",
-      "priority": 0,
+      "priority": 3,
+	  "description": "Cuddle with {1}.",
+	  "icon": "OARE/Spooning/LyingCuddling",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },	
+    {
+      "destination": "OpS_LyS!LyS_Ho_SpooningKissing",
+      "priority": 1000,
+	  "description": "Kiss {1}.",
+	  "icon": "OARE/Spooning/SpooningKissing",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!LyS_Em_LyingCuddleKiss",
-      "priority": 0,
+      "priority": 1001,
+	  "description": "Kiss while cuddling {1}.",
+	  "icon": "OARE/Spooning/LyingCuddleKiss",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!LyB_Pf2_AceLyingFingering",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Pleasure {1} with your hand.",
+	  "icon": "OARE/Spooning/AceLyingFingering",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyS!LyS_Sx_AceSpooningSex",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Have sex with {1} (spooning).",
+	  "icon": "OARE/Spooning/AceSpooningSex",
+	  "border": "e05a4e",
       "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Sit_Ap_Sitting",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Ho_SleepingIdle",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Ho_SpooningKissing",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyB!LyS_Em_LyingCuddling",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Em_LyingCuddleKiss",
-      "priority": 0,
-      "noWarnings": false
-    }
+    }    
   ],
   "speeds": [
     {
@@ -94,6 +95,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "lookLeft": -25,
       "tags": [
@@ -106,6 +108,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -40,
       "lookLeft": 40,
       "tags": [

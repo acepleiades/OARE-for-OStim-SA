@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_Sit!Sit_Sx_SittingSex",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -41,6 +43,7 @@
       "intendedSex": "any",
       "sosBend": 3,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -75,
       "lookLeft": 50,
       "tags": [
@@ -53,6 +56,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "sitting"

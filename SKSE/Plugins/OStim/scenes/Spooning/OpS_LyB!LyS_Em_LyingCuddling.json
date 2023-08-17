@@ -5,17 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!AFo_Em_LyingCuddlingApproach",
       "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
-      "priority": 0,
+	  "description": "{1} approaches {0}.",
+	  "icon": "OARE/Spooning/LyingCuddlingApproach",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],
@@ -39,6 +39,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "lyingside"
       ],
@@ -49,6 +50,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -50,
       "tags": [
         "lyingside"

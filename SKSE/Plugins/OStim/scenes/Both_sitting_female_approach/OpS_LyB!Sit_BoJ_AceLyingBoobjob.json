@@ -5,17 +5,23 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Sit_BoJ_AceLyingTitfuck",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Fuck {1}'s breasts.",
+	  "icon": "OARE/Both_sitting_female_approach/AceLyingTitfuck",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Sit_BoJ_AceLyingBoobjob_MaleClimax",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Climax...",
+	  "icon": "OARE/oare_heart",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": 0,
+      "priority": -1000,
       "noWarnings": false
     }
   ],
@@ -51,6 +57,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "lyingback"
       ],
@@ -63,6 +70,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -25,
       "tags": [
         "sitting"

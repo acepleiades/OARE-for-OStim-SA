@@ -5,17 +5,25 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Tab!Le_Ap_TableIdleFacingEachOther",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_furniture_Tab!Le_Em_TableKiss",
-      "priority": 0,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
+      "priority": -1000,
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Tab!Le_Ho_TableIdleSittingFemaleHolding",
       "priority": 0,
+	  "description": "{1} sits on the table.",
+	  "icon": "OARE/Furniture/TableIdleSittingFemaleHolding",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },	
+    {
+      "destination": "OpS_furniture_Tab!Le_Em_TableKiss",
+      "priority": 3000,
+	  "description": "Kiss {1}.",
+	  "icon": "OARE/Furniture/TableKiss",
+	  "border": "dd7e5e",
       "noWarnings": false
     }
   ],
@@ -39,6 +47,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -49,6 +58,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": 25,
       "tags": [
         "standing"

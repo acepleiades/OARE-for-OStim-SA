@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Tab!Le_Ho_TableIdleSittingFemaleHolding",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -44,6 +46,7 @@
       "intendedSex": "any",
       "sosBend": -1,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -54,6 +57,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "sitting"
       ],

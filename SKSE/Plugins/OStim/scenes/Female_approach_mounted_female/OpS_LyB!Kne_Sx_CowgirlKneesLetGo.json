@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlHandsOnHips",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Hold {1}'s hips.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlHandsOnHips",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlKneesOnGround",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -48,6 +53,7 @@
       "intendedSex": "any",
       "sosBend": -2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 25,
       "tags": [
         "lyingback"
@@ -59,6 +65,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -80,
       "tags": [
         "kneeling"

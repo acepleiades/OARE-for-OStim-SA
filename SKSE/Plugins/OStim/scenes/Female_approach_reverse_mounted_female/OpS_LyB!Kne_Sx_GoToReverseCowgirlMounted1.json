@@ -4,7 +4,11 @@
   "length": 0.75,
   "destination": "OpS_LyB!Kne_Sx_GoToReverseCowgirlMounted2",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+	{
+      "animation": "_Sx-GoToReverseCowgirlMounted1"
+    }
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "lyingback"
@@ -28,6 +33,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -50,
       "tags": [
         "kneeling"
