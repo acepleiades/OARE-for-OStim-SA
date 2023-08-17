@@ -4,10 +4,17 @@
   "length": 2,
   "navigations": [
     {
+      "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
       "destination": "OpS_Kne!LyS_Sx_LyingOnSideSexGrabArm",
       "priority": 3000,
 	  "description": "Grab {1}'s arm.",
-	  "icon": "OARE/Male_approach_female_lying_to_the_side/",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/LyingOnSideSexGrabArm",
 	  "border": "e05a4e",
       "noWarnings": false
     },
@@ -15,7 +22,7 @@
       "destination": "OpS_Kne!LyS_Sx_LyingOnSideSexRaisedLeg",
       "priority": 3001,
 	  "description": "Raise {1}'s leg.",
-	  "icon": "OARE/Male_approach_female_lying_to_the_side/",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/LyingOnSideSexRaisedLeg",
 	  "border": "e05a4e",
       "noWarnings": false
     },
@@ -23,15 +30,8 @@
       "destination": "OpS_Kne!LyS_Sx_LyingOnSideSexFromBehind",
       "priority": 3002,
 	  "description": "Lying on side sex from behind.",
-	  "icon": "OARE/Male_approach_female_lying_to_the_side/",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/LyingOnSideSexFromBehind",
 	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Kne!LyS_Ap_FemaleLyingOnSide",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -57,14 +57,14 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 2,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -77,7 +77,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -50,

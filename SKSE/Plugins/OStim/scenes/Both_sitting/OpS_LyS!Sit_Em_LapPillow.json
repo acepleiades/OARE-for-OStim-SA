@@ -6,7 +6,7 @@
     {
       "destination": "OpS_LyS!Sit_Em_LapPillowHeadStroke",
       "priority": 1000,
-	  "description": "{1} strokes {0}'s head.",
+	  "description": "({1}) Caress {0}.",
 	  "icon": "OARE/Both_sitting/LapPillowHeadStroke",
 	  "border": "dd7e5e",
       "noWarnings": false
