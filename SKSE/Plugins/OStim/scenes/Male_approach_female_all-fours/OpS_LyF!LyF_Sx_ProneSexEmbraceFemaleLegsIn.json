@@ -4,26 +4,18 @@
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_LyF!LyF_Sx_ProneSexEmbraceFemaleLegsOut",
-      "priority": 3000,
-	  "description": "{1} spreads their legs apart.",
-	  "icon": "OARE/Male_approach_female_all-fours/ProneSexEmbraceFemaleLegsOut",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
       "destination": "OpS_LyF!LyF_Sx_ProneSexFemaleLegsIn",
-      "priority": 3001,
-	  "description": "{0} extends their arms.",
-	  "icon": "OARE/Male_approach_female_all-fours/ProneSexFemaleLegsIn",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Kne!AFo_Ap_FemaleAllFours",
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_LyF!LyF_Sx_ProneSexEmbraceFemaleLegsOut",
+      "priority": 3000,
+	  "description": "({1}) Spread your legs apart.",
+	  "icon": "OARE/Male_approach_female_all-fours/ProneSexEmbraceFemaleLegsOut",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -49,7 +41,7 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [
     "prone"
@@ -58,7 +50,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 5,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -70,7 +62,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [

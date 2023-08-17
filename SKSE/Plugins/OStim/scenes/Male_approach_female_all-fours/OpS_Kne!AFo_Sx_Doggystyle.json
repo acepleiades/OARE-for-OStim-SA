@@ -3,29 +3,29 @@
   "modPack": "OpS",
   "length": 2,
   "navigations": [
-    {
-      "destination": "OpS_Kne!AFo_Sx_DoggystyleMaleSquatting",
-      "priority": 3000,
-	  "description": "Squat and press against {1}'s back.",
-	  "icon": "OARE/Male_approach_female_all-fours/",
-	  "border": "e05a4e",
-
-      "noWarnings": false
-    },    
-    {
-      "destination": "OpS_Kne!AFo_Sx_DoggystyleLoweredTorso",
-      "priority": 3001,
-	  "description": "{1} lowers their upper body.",
-	  "icon": "OARE/Male_approach_female_all-fours/",
-	  "border": "e05a4e",
-
-      "noWarnings": false
-    },
 	{
       "destination": "OpS_Kne!AFo_Ap_FemaleAllFours",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!AFo_Sx_DoggystyleLoweredTorso",
+      "priority": 3000,
+	  "description": "({1}) lower your upper body.",
+	  "icon": "OARE/Male_approach_female_all-fours/DoggystyleLoweredTorso",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OpS_Kne!AFo_Sx_DoggystyleMaleSquatting",
+      "priority": 3001,
+	  "description": "Assume a squatting position.",
+	  "icon": "OARE/Male_approach_female_all-fours/DoggystyleMaleSquatting",
+	  "border": "e05a4e",
+
       "noWarnings": false
     }
   ],
@@ -51,7 +51,7 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [
     "doggystyle"
@@ -60,7 +60,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 2,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -73,7 +73,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -50,
