@@ -14,8 +14,8 @@
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
       "priority": 1,
-	  "description": "Lie down with {1} spooning.",
-	  "icon": "OARE/Spooning/SpooningIdle ",
+	  "description": "Lie beside {1}.",
+	  "icon": "OARE/oare_wip",
 	  "border": "fce5cd",
       "noWarnings": false
     },
@@ -24,7 +24,7 @@
       "priority": 1000,
 	  "description": "Lay your head on {1}'s lap.",
 	  "icon": "OARE/Both_sitting/LapPillow",
-	  "border": "e05a4e",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
@@ -38,7 +38,7 @@
     {
       "destination": "OpS_Sit!Sit_FJ_SittingFootjob",
       "priority": 3001,
-	  "description": "{1} Masturbates {0} with feet.",
+	  "description": "({1}) Pleasure {0} with your feet.",
 	  "icon": "OARE/Both_sitting/SittingFootjob",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -46,7 +46,7 @@
     {
       "destination": "OpS_Sit!Sit_FJ_AceSittingFootjobFromBehind",
       "priority": 3002,
-	  "description": "{1} Masturbates {0} with feet from behind.",
+	  "description": "({1}) Pleasure {0} with your feet from behind.",
 	  "icon": "OARE/Both_sitting/AceSittingFootjobFromBehind",
 	  "border": "e05a4e",
       "noWarnings": false

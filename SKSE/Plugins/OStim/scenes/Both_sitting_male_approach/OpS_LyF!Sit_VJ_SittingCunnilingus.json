@@ -2,11 +2,18 @@
   "name": "Sitting Cunnilingus",
   "modPack": "OpS",
   "length": 2,
+	{
+      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
+      "noWarnings": false
+    },
   "navigations": [    
     {
       "destination": "OpS_LyF!Sit_VJ_SittingCunnilingusHairGrab",
       "priority": 3000,
-	  "description": "{1} grabs {0}'s hair.",
+	  "description": "({1}) grab {0}'s hair.",
 	  "icon": "OARE/Both_sitting_male_approach/SittingCunnilingusHairGrab",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -14,16 +21,9 @@
     {
       "destination": "OpS_LyF!Sit_VJ_SittingCunnilingusLegsLocked",
       "priority": 3001,
-	  "description": "{1} wraps legs around {0}'s head.",
+	  "description": "({1}) wrap your legs around {0}.",
 	  "icon": "OARE/Both_sitting_male_approach/SittingCunnilingusLegsLocked",
 	  "border": "e05a4e",
-      "noWarnings": false
-    },
-	{
-      "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -69,7 +69,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -100,
