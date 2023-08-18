@@ -14,7 +14,7 @@
       "destination": "OpS_LyB!Sit_Ho_MountedFemaleTickle",
       "priority": 1000,
 	  "description": "Tickle {1}.",
-	  "icon": "OARE/Female_approach_mounted_feet_on_chest/",
+	  "icon": "OARE/Female_approach_mounted_feet_on_chest/MountedFemaleTickle",
 	  "border": "dd7e5e",
       "noWarnings": false
     },    
@@ -22,7 +22,7 @@
       "destination": "OpS_LyB!Sit_HJ_MountedHJFeet",
       "priority": 3000,
 	  "description": "({1}) pleasures {0} with your hand.",
-	  "icon": "OARE/Female_approach_mounted_feet_on_chest/",
+	  "icon": "OARE/Female_approach_mounted_feet_on_chest/MountedHJFeet",
 	  "border": "e05a4e",
       "noWarnings": false
     }

@@ -21,7 +21,7 @@
     {
       "destination": "OpS_LyB!Sit_Ho_MountedFemaleFeetOnChest",
       "priority": 1,
-	  "description": "({1}) place your feet on {0}'s chest.",
+	  "description": "({1}) Place your feet on {0}'s chest.",
 	  "icon": "OARE/Female_approach_mounted_female_feet_on_chest/MountedFemaleFeetOnChest",
 	  "border": "fce5cd",
       "noWarnings": false
@@ -37,7 +37,7 @@
     {
       "destination": "OpS_Mounted!Female_HJ_MaleLyingHJ",
       "priority": 3000,
-	  "description": "({1}) Pleasures {0} with your hand.",
+	  "description": "({1}) Pleasure {0} with your hand.",
 	  "icon": "OARE/Female_approach_mounted_female/MaleLyingHJ",
 	  "border": "e05a4e",
       "noWarnings": false
