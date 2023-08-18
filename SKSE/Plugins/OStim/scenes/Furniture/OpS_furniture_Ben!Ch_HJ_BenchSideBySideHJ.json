@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Ben!Ch_HJ_BenchEarLickingHJ",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Lick {0}'s ear {1}).",
+	  "icon": "OARE/Furniture/BenchEarLickingHJ",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchBothSittingFaceEachother",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -38,6 +43,7 @@
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
+  "furniture": "bench",
   "tags": [],
   "autoTransitions": {},
   "actors": [
@@ -46,6 +52,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -100,
       "tags": [
         "sitting"
@@ -57,6 +64,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "expressionAction": 1,
       "lookUp": -75,
       "lookLeft": 60,

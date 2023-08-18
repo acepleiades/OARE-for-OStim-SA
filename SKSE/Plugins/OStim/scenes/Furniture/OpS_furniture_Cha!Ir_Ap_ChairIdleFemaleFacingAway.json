@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Cha!Ir_Ap_ChairIdle",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Cha!Ir_Sx_ChairRearSex",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} has sex with {0} (rear).",
+	  "icon": "OARE/Furniture/ChairRearSex",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -23,7 +28,7 @@
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "furniture": "bench",
+  "furniture": "chair",
   "tags": [
     "idle"
   ],
@@ -34,6 +39,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 50,
       "tags": [
         "sitting"
@@ -45,6 +51,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "lookLeft": 100,
       "tags": [

@@ -5,27 +5,25 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleBothSitting",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Ben!Ch_Em_BenchBothSittingKiss",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleBothSitting",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_furniture_Ben!Ch_Em_BenchBothSittingKiss",
-      "priority": 0,
+      "priority": 1000,
+	  "description": "Kiss {1}.",
+	  "icon": "OARE/Furniture/BenchBothSittingKiss",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Ben!Ch_HJ_BenchSideBySideHJ",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Pleasure {0} with your hand ({1}).",
+	  "icon": "OARE/Furniture/BenchSideBySideHJ",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -49,6 +47,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookLeft": -25,
       "tags": [
         "sitting"
@@ -60,6 +59,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookLeft": 35,
       "tags": [
         "sitting"

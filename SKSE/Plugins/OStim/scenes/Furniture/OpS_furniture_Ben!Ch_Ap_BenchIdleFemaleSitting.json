@@ -6,16 +6,16 @@
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleBothSitting",
       "priority": 0,
+	  "description": "Sit beside {1}.",
+	  "icon": "OARE/Furniture/",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdle",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdle",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -39,6 +39,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": 50,
       "tags": [
         "sitting"
@@ -50,6 +51,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -25,
       "tags": [
         "sitting"

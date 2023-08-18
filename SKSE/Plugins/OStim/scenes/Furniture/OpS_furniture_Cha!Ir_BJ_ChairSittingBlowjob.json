@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Cha!Ir_Ho_ChairKneelingFemale",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -42,6 +44,7 @@
       "intendedSex": "any",
       "sosBend": 4,
       "scaleHeight": 67,
+	  "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "sitting"
@@ -53,6 +56,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "kneeling"
