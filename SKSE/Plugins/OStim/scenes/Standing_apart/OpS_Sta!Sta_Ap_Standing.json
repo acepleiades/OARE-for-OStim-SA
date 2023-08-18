@@ -4,15 +4,25 @@
   "length": 2,
   "navigations": [
 	{
+		"origin": "OStim2PStandingApartMF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStim2PStandingApartMM",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStim2PStandingCloseFF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
 		"destination": "OStim2PStandingApartMF",
 		"description": "Return...",
 		"icon": "OARE/oare_return",
 		"priority": -1000
-	},
-	{
-		"origin": "OStim2PStandingApartMF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
 	},
     {
       "destination": "OpS_Sta!Sta_Ho_GoToStandingHolding",
