@@ -8,7 +8,6 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
-	  "border": "fce5cd",
       "noWarnings": false
     },
     {
@@ -23,7 +22,7 @@
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
       "priority": 1,
 	  "description": "Lie beside {1}.",
-	  "icon": "OARE/oare_wip",
+	  "icon": "OARE/Spooning/SpooningIdle",
 	  "border": "fce5cd",
       "noWarnings": false
     },

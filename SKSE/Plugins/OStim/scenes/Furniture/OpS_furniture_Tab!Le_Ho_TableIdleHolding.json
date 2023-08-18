@@ -13,7 +13,7 @@
     {
       "destination": "OpS_furniture_Tab!Le_Ho_TableIdleSittingFemaleHolding",
       "priority": 0,
-	  "description": "{1} sits on the table.",
+	  "description": "({1}) Sit on the table.",
 	  "icon": "OARE/Furniture/TableIdleSittingFemaleHolding",
 	  "border": "fce5cd",
       "noWarnings": false

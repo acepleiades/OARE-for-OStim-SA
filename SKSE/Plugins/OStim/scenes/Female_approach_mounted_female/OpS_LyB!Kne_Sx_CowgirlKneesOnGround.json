@@ -8,7 +8,6 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
-	  "border": "fce5cd",
       "noWarnings": false
     },
     {
@@ -22,7 +21,7 @@
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlKneesLetGo",
       "priority": 3001,
-	  "description": "{1} lets go of {0}.",
+	  "description": "({1}) Let go of {0}.",
 	  "icon": "OARE/Female_approach_mounted_female/CowgirlKneesLetGo",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -30,7 +29,7 @@
     {
       "destination": "OpS_LyB!Kne_Sx_AceCowgirlPressingDown",
       "priority": 3002,
-	  "description": "{1} presses against {0}.",
+	  "description": "({1}) Press against {0}.",
 	  "icon": "OARE/Female_approach_mounted_female/AceCowgirlPressingDown",
 	  "border": "e05a4e",
       "noWarnings": false

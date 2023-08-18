@@ -8,13 +8,12 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
-	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlLeanBack",
       "priority": 3000,
-	  "description": "{1} leans back.",
+	  "description": "({1}) Lean back.",
 	  "icon": "OARE/Female_approach_mounted_female/CowgirlLeanBack",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -22,7 +21,7 @@
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlSquattingHandsOnBreasts",
       "priority": 3001,
-	  "description": "{1} holds their breasts",
+	  "description": "({1}) Hold your breasts",
 	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingHandsOnBreasts",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -30,16 +29,8 @@
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlSquattingHandsOnHead",
       "priority": 3002,
-	  "description": "{1} holds their head.",
+	  "description": "({1}) Hold your head.",
 	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingHandsOnHead",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyB!Sit_Sx_CowgirlCircularGrind",
-      "priority": 3003,
-	  "description": "{1} varies into cowgirl, circular grind.",
-	  "icon": "OARE/Female_approach_mounted_female/CowgirlCircularGrind",
 	  "border": "e05a4e",
       "noWarnings": false
     }

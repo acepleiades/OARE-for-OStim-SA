@@ -8,7 +8,6 @@
       "priority": -1000,
 	  "description": "Return back to standing holding",
 	  "icon": "OARE/oare_return",
-	  "border": "fce5cd",
       "noWarnings": false
     },
     {

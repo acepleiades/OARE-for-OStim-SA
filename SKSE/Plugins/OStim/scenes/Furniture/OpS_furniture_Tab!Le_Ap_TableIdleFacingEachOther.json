@@ -19,7 +19,7 @@
     {
       "destination": "OpS_furniture_Tab!Le_Ap_TableIdleSittingFemale",
       "priority": 1,
-	  "description": "{1} sits on the table.",
+	  "description": "({1}) Sit on the table.",
 	  "icon": "OARE/Furniture/TableIdleSittingFemale",
 	  "border": "fce5cd",
       "noWarnings": false
@@ -27,7 +27,7 @@
     {
       "destination": "OpS_furniture_Tab!Le_Ap_TableIdle",
       "priority": 2,
-	  "description": "{1} turns around.",
+	  "description": "({1}) Turn around.",
 	  "icon": "OARE/Furniture/TableIdle",
 	  "border": "fce5cd",
       "noWarnings": false

@@ -8,7 +8,6 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
-	  "border": "fce5cd",
       "noWarnings": false
     },
     {
@@ -22,7 +21,7 @@
 	{
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
       "priority": 1,
-	  "description": "{1} Sit up with {0}.",
+	  "description": "({1}) Sit up with {0}.",
 	  "icon": "OARE/Both_sitting_female_approach/SittingFemaleApproach",
 	  "border": "fce5cd",
       "noWarnings": false
@@ -32,7 +31,7 @@
       "priority": 2,
 	  "description": "Rest with {1}.",
 	  "icon": "OARE/Spooning/SleepingIdle",
-	  "border": "fce5cd",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
@@ -40,7 +39,7 @@
       "priority": 3,
 	  "description": "Cuddle with {1}.",
 	  "icon": "OARE/Spooning/LyingCuddling",
-	  "border": "fce5cd",
+	  "border": "dd7e5e",
       "noWarnings": false
     },	
     {

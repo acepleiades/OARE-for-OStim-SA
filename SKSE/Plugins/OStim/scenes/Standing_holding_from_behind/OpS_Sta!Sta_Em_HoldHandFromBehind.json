@@ -7,7 +7,6 @@
       "destination": "OpS_Sta!Sta_Ho_StandingHoldingFromBehind",
       "description": "Return...",
       "priority": -1000,
-      "border": "fce5cd",
       "icon": "OARE/oare_return",
       "noWarnings": false
     }

@@ -29,7 +29,7 @@
 	{
       "destination": "OpS_furniture_Tab!Le_BJ_TableLieBackOral",
       "priority": 3001,
-	  "description": "{1} lies on their back and performs fellatio on {0}.",
+	  "description": "({1}) Lie on your back and perform fellatio on {0}.",
 	  "icon": "OARE/Furniture/TableLieBackOral",
 	  "border": "e05a4e",
       "noWarnings": false

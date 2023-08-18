@@ -8,13 +8,12 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
-	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Sx_GoToReverseCowgirlMounted1",
       "priority": 3000,
-	  "description": "{1} has sex with {0} (reverse cowgirl).",
+	  "description": "Have sex with {1}.",
 	  "icon": "OARE/Female_approach_reverse_mounted_female/ReverseCowgirlMounted",
 	  "border": "e05a4e",
       "noWarnings": false

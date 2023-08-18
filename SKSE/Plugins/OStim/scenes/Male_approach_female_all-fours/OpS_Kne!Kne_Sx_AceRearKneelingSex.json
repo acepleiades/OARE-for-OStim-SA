@@ -6,8 +6,7 @@
     {
       "destination": "OpS_Kne!AFo_Ap_FemaleAllFours",
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
-	  "border": "fce5cd",
+	  "icon": "OARE/oare_return",
       "priority": -1000,
       "noWarnings": false
     },
