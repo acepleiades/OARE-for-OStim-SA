@@ -7,13 +7,13 @@
       "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {
       "destination": "OpS_Sta!Kne_BoJ_AceStandingBoobjob",
       "priority": 3000,
-	  "description": "{1} peforms a boobjob.",
+	  "description": "({1}) Perform a boobjob.",
 	  "icon": "OARE/Male_standing_female_kneeling/AceStandingBoobjob",
 	  "border": "e05a4e",
       "noWarnings": false

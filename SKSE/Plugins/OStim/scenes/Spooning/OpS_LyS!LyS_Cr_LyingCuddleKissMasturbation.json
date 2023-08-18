@@ -7,7 +7,7 @@
       "destination": "OpS_LyS!LyS_Em_LyingCuddleKiss",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return",  
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -33,7 +33,7 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [
     "spooning"
@@ -54,7 +54,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [

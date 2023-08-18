@@ -4,6 +4,13 @@
   "length": 2,
   "navigations": [
     {
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
       "destination": "OpS_LyB!Sit_BoJ_AceLyingTitfuck",
       "priority": 3000,
 	  "description": "Fuck {1}'s breasts.",
@@ -17,11 +24,6 @@
 	  "description": "Climax...",
 	  "icon": "OARE/oare_heart",
 	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": -1000,
       "noWarnings": false
     }
   ],
@@ -47,14 +49,14 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 2,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -68,7 +70,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -25,

@@ -13,9 +13,9 @@
     {
       "destination": "OpS_LyB!AFo_Em_LyingCuddlingApproach",
       "priority": 0,
-	  "description": "{1} approaches {0}.",
+	  "description": "({1}) Approach {0}.",
 	  "icon": "OARE/Spooning/LyingCuddlingApproach",
-	  "border": "fce5cd",
+	  "border": "dd7e5e",
       "noWarnings": false
     }
   ],

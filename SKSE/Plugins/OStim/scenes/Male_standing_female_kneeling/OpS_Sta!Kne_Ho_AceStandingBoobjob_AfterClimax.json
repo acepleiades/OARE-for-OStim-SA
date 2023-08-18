@@ -7,7 +7,7 @@
       "destination": "OpS_Sta!Kne_Ap_MaleStandingFemaleKneeling",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {

@@ -7,7 +7,7 @@
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -33,7 +33,7 @@
       "displaySpeed": 2.5
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [
     "spooning"
@@ -42,7 +42,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 2,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -56,7 +56,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -60,

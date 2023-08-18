@@ -4,18 +4,18 @@
   "length": 2,
   "navigations": [
     {
+      "destination": "OpS_LyB!Kne_Sx_CowgirlKneesLetGo",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
       "destination": "OpS_LyB!Kne_Sx_CowgirlHandOnBreast",
       "priority": 3000,
 	  "description": "Grab {1}'s breasts.",
 	  "icon": "OARE/Female_approach_mounted_female/CowgirlHandOnBreast",
 	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_LyB!Kne_Sx_CowgirlKneesLetGo",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -41,7 +41,7 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [
     "cowgirl"
@@ -50,7 +50,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 0,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -63,7 +63,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -80,

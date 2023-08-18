@@ -7,7 +7,7 @@
       "destination": "OpS_LyB!Kne_Ho_MountedFemale",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -18,7 +18,7 @@
       "displaySpeed": 1
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [
     "idle"
