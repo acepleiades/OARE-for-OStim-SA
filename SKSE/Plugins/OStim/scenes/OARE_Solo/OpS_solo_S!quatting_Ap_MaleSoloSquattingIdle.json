@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_solo_S!tanding_Ap_MaleSoloStandingIdle",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     },
     {
       "destination": "OpS_solo_S!quatting_Ap_PatchesSquat",
       "priority": 0,
+	  "description": "Widen your stance.",
+	  "icon": "OARE/OARE_Solo/PatchesSquat",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],
@@ -33,6 +38,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "squatting"
       ],

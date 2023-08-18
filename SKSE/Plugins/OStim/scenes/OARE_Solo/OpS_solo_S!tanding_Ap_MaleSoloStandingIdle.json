@@ -4,33 +4,40 @@
   "length": 2,
   "navigations": [
     {
+	  "origin": "OStim1PStandingM",	  
+	  "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "destination": "OStim1PStandingM",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+	{
       "destination": "OpS_solo_S!quatting_Ap_MaleSoloSquattingIdle",
       "priority": 0,
+	  "description": "Squat",
+	  "icon": "OARE/OARE_Solo/MaleSoloSquattingIdle",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_solo_L!ying_Ap_MaleSoloLyingIdle",
-      "priority": 0,
+      "priority": 1,
+	  "description": "",
+	  "icon": "OARE/OARE_Solo/MaleSoloLyingIdle",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_solo_S!tanding_Ap_MaleSoloStandingThinking",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_solo_S!tanding_Ap_MaleHubBathing",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_solo_S!tanding_Ap_MaleHubSelfPleasure",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_solo_S!tanding_Ap_FemaleSoloStandingIdle",
-      "priority": 0,
+      "priority": 2,
+	  "description": "Think",
+	  "icon": "OARE/OARE_Solo/MaleSoloStandingThinking",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],
@@ -54,6 +61,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
