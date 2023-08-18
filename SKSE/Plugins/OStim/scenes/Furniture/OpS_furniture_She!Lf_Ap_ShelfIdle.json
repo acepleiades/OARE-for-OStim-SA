@@ -3,10 +3,20 @@
   "modPack": "OpS_furniture",
   "length": 2,
   "navigations": [
-   {
+    {
       "origin": "OStimShelf2PBehindMF",
-      "priority": 0,
-      "noWarnings": false
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimShelf2PBehindMM",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimShelf2PBehindFF",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
     },
     {
       "destination": "OpS_furniture_She!Lf_Ap_ShelfIdleBentOver",

@@ -35,6 +35,7 @@
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
+  "furniture": "table",
   "tags": [],
   "autoTransitions": {},
   "actors": [

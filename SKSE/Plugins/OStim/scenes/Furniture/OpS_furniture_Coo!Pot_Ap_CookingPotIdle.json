@@ -5,8 +5,18 @@
   "navigations": [
 	{
       "origin": "OStimCookingPot2PBehindMF",
-      "priority": 0,
-      "noWarnings": false
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimCookingPot2PBehindMM",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimCookingPot2PBehindFF",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
     },
 	{
       "destination": "OStimCookingPot2PBehindMF",
