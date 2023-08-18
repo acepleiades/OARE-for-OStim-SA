@@ -8,6 +8,11 @@
       "description": "Access Open Animations RE...",
 		"icon": "OARE/oare"
     },
+	{
+      "origin": "OStimTable2PBehindFF",
+      "description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+    },
     {
       "destination": "OpS_furniture_Tab!Le_Ho_TableIdleHolding",
       "priority": 0,

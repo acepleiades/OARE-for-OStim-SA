@@ -6,26 +6,24 @@
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchBothSittingFaceEachother",
       "priority": 0,
+	  "description": "Turn toward {1}.",
+	  "icon": "OARE/Furniture/BenchBothSittingFaceEachother",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleFemaleSitting",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_furniture_Ben!Ch_Ap_BenchBothSittingFaceEachother",
-      "priority": 0,
+      "priority": 1,
+	  "description": "Switch places with {0} ({1}).",
+	  "icon": "OARE/Furniture/BenchIdleFemaleSitting",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdle",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_addon_Ben!Ch_Ap_BenchAddonHub",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -50,6 +48,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "sitting"
       ],
@@ -60,6 +59,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "sitting"
       ],

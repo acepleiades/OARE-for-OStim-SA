@@ -3,19 +3,58 @@
   "modPack": "OpS_furniture",
   "length": 2,
   "navigations": [
+	{
+      "origin": "OStimCookingPot2PBehindMF",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimCookingPot2PBehindMM",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimCookingPot2PBehindFF",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "destination": "OStimCookingPot2PBehindMF",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
+      "noWarnings": false
+    },
+	{
+      "destination": "OpS_furniture_Coo!Pot_Ap_CookingPotMaleApproach",
+      "priority": 0,
+	  "description": "Approach {1}.",
+	  "icon": "OARE/Furniture/CookingPotMaleApproach",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
     {
       "destination": "OpS_furniture_Coo!Pot_Cr_CookingPotButtGrab",
-      "priority": 0,
+      "priority": 1000,
+	  "description": "Touch {1}'s butt.",
+	  "icon": "OARE/Furniture/CookingPotButtGrab",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Coo!Pot_Cr_CookingPotKissGropeBreasts",
-      "priority": 0,
+      "priority": 1001,
+	  "description": "Touch {1}'s breasts.",
+	  "icon": "OARE/Furniture/CookingPotKissGropeBreasts",
+	  "border": "dd7e5e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Coo!Pot_Sx_CookingPotSex",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Have sex with {1} (standing).",
+	  "icon": "OARE/Furniture/CookingPotSex",
+	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
@@ -40,6 +79,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "Scale": 1.03,
       "tags": [
         "sitting"
       ],
@@ -50,6 +90,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "standing"

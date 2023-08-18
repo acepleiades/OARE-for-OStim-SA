@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_furniture_She!Lf_Sx_ShelfRearSexBentOver",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Have sex with {1} (standing).",
+	  "icon": "OARE/Furniture/ShelfRearSexBentOver",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_She!Lf_Ap_ShelfIdle",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -34,6 +39,7 @@
       "intendedSex": "any",
       "sosBend": 8,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -44,6 +50,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],

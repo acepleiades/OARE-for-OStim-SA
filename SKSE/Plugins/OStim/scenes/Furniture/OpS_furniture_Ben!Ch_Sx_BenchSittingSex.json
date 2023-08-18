@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Ben!Ch_Ho_BenchSitting",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -42,6 +44,7 @@
       "intendedSex": "any",
       "sosBend": 3,
       "scaleHeight": 67,
+	  "scale": 1.03,
       "lookUp": 50,
       "tags": [
         "sitting"
@@ -53,6 +56,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -35,
       "tags": [
         "sitting"

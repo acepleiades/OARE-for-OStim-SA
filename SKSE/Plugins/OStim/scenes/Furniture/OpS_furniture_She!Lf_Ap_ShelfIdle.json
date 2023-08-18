@@ -4,8 +4,27 @@
   "length": 2,
   "navigations": [
     {
+      "origin": "OStimShelf2PBehindMF",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimShelf2PBehindMM",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+	{
+      "origin": "OStimShelf2PBehindFF",
+      "description": "Access Open Animations RE...",
+	  "icon": "OARE/oare"
+    },
+    {
       "destination": "OpS_furniture_She!Lf_Ap_ShelfIdleBentOver",
       "priority": 0,
+	  "description": "Bend over. {{1})",
+	  "icon": "OARE/Furniture/ShelfIdleBentOver",
+	  "border": "fce5cd",
+
       "noWarnings": false
     }
   ],
@@ -30,6 +49,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -40,6 +60,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],

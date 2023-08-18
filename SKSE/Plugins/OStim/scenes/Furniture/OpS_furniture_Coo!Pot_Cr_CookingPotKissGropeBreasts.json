@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Coo!Pot_Ap_CookingPotMaleApproach",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
       "noWarnings": false
     }
   ],
@@ -42,6 +44,7 @@
       "intendedSex": "any",
       "sosBend": -7,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -52,6 +55,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "facingaway",
         "standing"

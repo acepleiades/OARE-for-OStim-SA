@@ -5,17 +5,25 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Coo!Pot_Sx_CookingPotSexNoHands",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Let go of {1}.",
+	  "icon": "OARE/Furniture/CookingPotSexNoHands",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Coo!Pot_Sx_CookingPotSexRaisedLeg",
-      "priority": 0,
+      "priority": 3001,
+	  "description": "Raise {1}'s leg.",
+	  "icon": "OARE/Furniture/CookingPotSexRaisedLeg",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Coo!Pot_Ap_CookingPotMaleApproach",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -52,6 +60,7 @@
       "intendedSex": "any",
       "sosBend": 3,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -50,
       "tags": [
         "standing"
@@ -63,6 +72,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -25,
       "tags": [
         "bendover",

@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Ben!Ch_Sx_BenchRearSexHandsOnMaleKnees",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "{1} puts their hands on {0}'s knees.",
+	  "icon": "OARE/Furniture/BenchRearSexHandsOnMaleKnees",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_Ben!Ch_Ap_BenchIdleFemaleFacingAway",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -47,6 +52,7 @@
       "intendedSex": "any",
       "sosBend": 3,
       "scaleHeight": 67,
+	  "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "sitting"
@@ -58,6 +64,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -100,
       "tags": [
         "standing",

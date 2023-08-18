@@ -5,7 +5,9 @@
   "navigations": [
     {
       "destination": "OpS_furniture_Ben!Ch_HJ_BenchSideBySideHJ",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -33,14 +35,16 @@
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
+  "furniture": "bench",
   "tags": [],
-  "autoTransitions": {},
+  "autoTransitions": {},  
   "actors": [
     {
       "type": "npc",
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "expressionAction": 1,
       "lookUp": -100,
       "lookLeft": 10,
@@ -54,6 +58,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "expressionAction": 1,
       "lookUp": -100,
       "tags": [
