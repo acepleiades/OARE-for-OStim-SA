@@ -3,6 +3,14 @@
   "modPack": "OpS",
   "length": 2,
   "navigations": [
+	{
+      "destination": "OpS_Sta!Sta_Ap_Standing",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
     {
       "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
       "priority": 0,
@@ -49,13 +57,6 @@
 	  "description": "({1}) Pleasure {0} with your feet from behind.",
 	  "icon": "OARE/Both_sitting/AceSittingFootjobFromBehind",
 	  "border": "e05a4e",
-      "noWarnings": false
-    },
-	{
-      "destination": "OpS_Sta!Sta_Ap_Standing",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],

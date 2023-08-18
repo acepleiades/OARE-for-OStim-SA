@@ -4,9 +4,17 @@
   "length": 2,
   "navigations": [
     {
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
       "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioHandOnHead",
       "priority": 3000,
-	  "description": "Hold {1}'s head and push down.",
+	  "description": "Hold {1}'s head.",
 	  "icon": "OARE/Both_sitting_female_approach/SittingFellatioHandOnHead",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -14,7 +22,7 @@
     {
       "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioLyingFemale",
       "priority": 3001,
-	  "description": "{1} lays down.",
+	  "description": "({1}) Lie on your stomach.",
 	  "icon": "OARE/Both_sitting_female_approach/SittingFellatioLyingFemale",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -22,16 +30,9 @@
     {
       "destination": "OpS_Sitting!FemaleApproach_BJ_SittingFellatioForwardBend",
       "priority": 3002,
-	  "description": "{1} bends forward.",
+	  "description": "({1}) Bend forward.",
 	  "icon": "OARE/Both_sitting_female_approach/SittingFellatioForwardBend",
 	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],
@@ -57,14 +58,14 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": -3,
       "scaleHeight": 120.748,
 	  "scale": 1.03,

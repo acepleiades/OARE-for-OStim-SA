@@ -7,6 +7,7 @@
       "destination": "OpS_Sta!Squ_Ap_MaleStandingFemaleSquatting",
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
       "priority": -1000,
       "noWarnings": false
     }
@@ -33,7 +34,7 @@
       "displaySpeed": 2.5
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},

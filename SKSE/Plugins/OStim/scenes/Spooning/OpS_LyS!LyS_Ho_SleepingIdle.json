@@ -6,8 +6,9 @@
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
       "priority": -1000,
-	  "description": "Return...",
+	  "description": "Wake up...",
 	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],

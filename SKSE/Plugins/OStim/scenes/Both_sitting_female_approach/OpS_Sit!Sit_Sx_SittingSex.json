@@ -4,6 +4,14 @@
   "length": 2,
   "navigations": [
     {
+      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
       "destination": "OpS_Sit!Sit_Sx_SittingSexEmbrace",
       "priority": 3000,
 	  "description": "Hug {1}.",
@@ -22,16 +30,9 @@
     {
       "destination": "OpS_Sit!Sit_Sx_SittingSexLeanBack",
       "priority": 3002,
-	  "description": "Lean back.",
+	  "description": "({1})Lean back.",
 	  "icon": "OARE/Both_sitting_female_approach/SittingSexLeanBack",
 	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -57,14 +58,14 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 2,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
@@ -76,7 +77,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [

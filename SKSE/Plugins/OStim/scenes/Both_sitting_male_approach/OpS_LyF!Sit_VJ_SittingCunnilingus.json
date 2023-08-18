@@ -6,7 +6,8 @@
       "destination": "OpS_Sit!Sit_Ap_SittingMaleApproach",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return",  
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
       "noWarnings": false
     },
   "navigations": [    

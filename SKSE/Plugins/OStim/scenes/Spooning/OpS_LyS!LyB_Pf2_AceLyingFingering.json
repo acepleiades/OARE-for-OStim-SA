@@ -6,7 +6,8 @@
     {
       "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
       "priority": -1000,
       "noWarnings": false
     }
@@ -38,7 +39,7 @@
       "displaySpeed": 4
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},
@@ -59,7 +60,7 @@
     },
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookUp": -40,

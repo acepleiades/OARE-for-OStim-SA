@@ -7,13 +7,14 @@
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
+	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!Kne_Ho_GoToReverseMountedFemale",
       "priority": 0,
-	  "description": "Turn {1} around.",
+	  "description": "({1}) Turn around.",
 	  "icon": "OARE/Female_approach_reverse_mounted_female/ReverseMountedFemale",
 	  "border": "fce5cd",
       "noWarnings": false
@@ -21,7 +22,7 @@
     {
       "destination": "OpS_LyB!Sit_Ho_MountedFemaleFeetOnChest",
       "priority": 1,
-	  "description": "{1} places their feet on {0}'s chest.",
+	  "description": "({1}) place your feet on {0}'s chest.",
 	  "icon": "OARE/Female_approach_mounted_female_feet_on_chest/MountedFemaleFeetOnChest",
 	  "border": "fce5cd",
       "noWarnings": false
@@ -29,7 +30,7 @@
     {
       "destination": "OpS_Mounted!Female_Em_MaleLyingKiss",
       "priority": 1000,
-	  "description": "{1} kisses {0}",
+	  "description": "({1}) Kiss {0}",
 	  "icon": "OARE/Female_approach_mounted_female/MaleLyingKiss",
 	  "border": "dd7e5e",
       "noWarnings": false
@@ -37,7 +38,7 @@
     {
       "destination": "OpS_Mounted!Female_HJ_MaleLyingHJ",
       "priority": 3000,
-	  "description": "{1} pleasures {0} with their hand.",
+	  "description": "({1}) Pleasures {0} with your hand.",
 	  "icon": "OARE/Female_approach_mounted_female/MaleLyingHJ",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -45,7 +46,7 @@
     {
       "destination": "OpS_LyB!Kne_Cr_MountedGrind",
       "priority": 3001,
-	  "description": "{1} rubs against {0}",
+	  "description": "({1}) Rub against {0}",
 	  "icon": "OARE/Female_approach_mounted_female/MountedGrind",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -53,7 +54,7 @@
     {
       "destination": "OpS_LyB!Kne_Sx_CowgirlKneesOnGround",
       "priority": 3002,
-	"description": "{1} has sex with {0} (cowgirl}.",
+	"description": "Have sex with {1}.",
 	  "icon": "OARE/Female_approach_mounted_female/CowgirlKneesOnGround",
 	  "border": "e05a4e",
       "noWarnings": false

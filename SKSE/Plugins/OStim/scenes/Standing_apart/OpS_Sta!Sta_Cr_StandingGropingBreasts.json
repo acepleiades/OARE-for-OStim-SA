@@ -7,6 +7,7 @@
       "destination": "OpS_Sta!Sta_Ap_Standing",
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
       "priority": -1000,
       "noWarnings": false
     },

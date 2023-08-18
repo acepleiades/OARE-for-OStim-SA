@@ -8,12 +8,13 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OpS_LyB!AFo_Em_LyingCuddlingApproach",
       "priority": 0,
-	  "description": "{1} approaches {0}.",
+	  "description": "({1}) Approach {0}.",
 	  "icon": "OARE/Spooning/LyingCuddlingApproach",
 	  "border": "fce5cd",
       "noWarnings": false

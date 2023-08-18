@@ -8,6 +8,7 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return", 
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {

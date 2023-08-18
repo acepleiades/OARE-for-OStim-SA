@@ -14,8 +14,8 @@
     {
       "destination": "OpS_Sit!Kne_Ho_SittingFemaleApproach",
       "priority": 0,
-	  "description": "({1}) Approach {0}.",
-	  "icon": "OARE/oare_wip",
+	  "description": "Switch places with {1}.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFemaleApproach",
 	  "border": "fce5cd",
       "noWarnings": false
     },

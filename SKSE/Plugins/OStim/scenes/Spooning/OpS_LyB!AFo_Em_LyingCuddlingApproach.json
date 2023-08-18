@@ -4,18 +4,19 @@
   "length": 2,
   "navigations": [
     {
-      "destination": "OpS_LyB!Kne_Em_LyingCuddlingApproachMount",
-      "priority": 0,
-	  "description": "{1} climbs on top of {0}",
-	  "icon": "OARE/Spooning/LyingCuddlingApproachMount",
+      "destination": "OpS_LyB!LyS_Em_LyingCuddling",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
 	  "border": "fce5cd",
       "noWarnings": false
     },
     {
-      "destination": "OpS_LyB!LyS_Em_LyingCuddling",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",  
+      "destination": "OpS_LyB!Kne_Em_LyingCuddlingApproachMount",
+      "priority": 0,
+	  "description": "({1}) climbs atop {0}",
+	  "icon": "OARE/Spooning/LyingCuddlingApproachMount",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],
