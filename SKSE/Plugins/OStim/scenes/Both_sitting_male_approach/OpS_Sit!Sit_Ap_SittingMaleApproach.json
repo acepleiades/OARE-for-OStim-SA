@@ -19,6 +19,14 @@
       "noWarnings": false
     },
     {
+      "destination": "OpS_LyS!LyS_Ho_SpooningIdle",
+      "priority": 1,
+	  "description": "Lie beside {1}.",
+	  "icon": "OARE/Spooning/SpooningIdle",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
       "destination": "OpS_Kne!LyB_Ho_SpreadLegsFemale",
       "priority": 1,
 	  "description": "({1}) Spread your legs.",
