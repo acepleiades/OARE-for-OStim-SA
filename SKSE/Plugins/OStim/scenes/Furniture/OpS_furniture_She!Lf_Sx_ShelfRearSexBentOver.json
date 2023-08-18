@@ -5,12 +5,17 @@
   "navigations": [
     {
       "destination": "OpS_furniture_She!Lf_Sx_ShelfRearSexBentOverBreastGrab",
-      "priority": 0,
+      "priority": 3000,
+	  "description": "Grab {1}'s breasts.",
+	  "icon": "OARE/Furniture/ShelfRearSexBentOverBreastGrab",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OpS_furniture_She!Lf_Ap_ShelfIdleBentOver",
-      "priority": 0,
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],
@@ -47,6 +52,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "standing"
@@ -58,6 +64,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -60,
       "tags": [
         "bendover",
