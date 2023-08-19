@@ -1,0 +1,77 @@
+{
+  "name": "Cooking Pot Butt Grab",
+  "modPack": "OpS_furniture",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_CookingPotMaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Cr-CookingPotButtGrab_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_Cr-CookingPotButtGrab_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Cr-CookingPotButtGrab_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "cookingpot",
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -75,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -50,
+      "lookLeft": 100,
+      "tags": [
+        "facingaway",
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "gropingbutt",
+      "actor": 0,
+      "target": 1
+    },
+    {
+      "type": "heavybreathing",
+      "actor": 1,
+      "target": 1
+    }
+  ]
+}

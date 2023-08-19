@@ -1,0 +1,46 @@
+{
+  "name": "Transition back from Standing Holding",
+  "modPack": "OpS",
+  "length": 1.5,
+  "destination": "OARE_Standing",
+  "navigations": [],
+  "speeds": [
+	{
+      "animation": "_Ho-GoBackStandingHolding"
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -10,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 10,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

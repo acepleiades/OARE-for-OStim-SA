@@ -1,0 +1,159 @@
+{
+  "name": "Standing",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_GoToStandingHolding",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingGoToSitting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_GoToStandingHandHolding",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_HeadCaress",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ActionMaleCaressCheekStroke",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ActionMaleCaressHug",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ActionMaleKiss",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingGropingBreasts",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_GoToMaleStandingFemaleSquatting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_MaleStandingFemaleKneeling",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_GoToStandingHolding",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingGoToSitting",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ActionFemaleFlirt",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ActionFemaleCaressCheekStroke",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ActionFemaleCaressHug",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ActionFemaleKiss",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingUndressingFemaleShoes",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingUndressingFemaleBottom",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingUndressingFemaleGloves",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingUndressingFemaleTop",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingUndressingFemaleHeadItem",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SimpleStandingHandjob",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_GoToDevourVampireBiteFemaleStanding",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-Standing",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": true,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

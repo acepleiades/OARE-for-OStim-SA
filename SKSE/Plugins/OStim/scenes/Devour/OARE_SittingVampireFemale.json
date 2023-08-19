@@ -1,0 +1,94 @@
+{
+  "name": "Sitting",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_SittingMaleApproach",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SpooningIdle",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_Standing",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_LapPillow",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SittingGropingBreast",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SpooningIdle",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_Standing",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SittingFootjob",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_AceSittingFootjobFromBehind",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_GoToDevourVampireBiteFemaleSitting",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-SittingVampireFemale",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": true,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

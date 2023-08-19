@@ -1,0 +1,80 @@
+{
+  "name": "Mounted Titfuck Cupping Breasts",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_MountedTitfuck",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_BoJ-MountedTitfuckCupping_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_BoJ-MountedTitfuckCupping_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_BoJ-MountedTitfuckCupping_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_BoJ-MountedTitfuckCupping_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 1,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -50,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -30,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "boobjob",
+      "actor": 1,
+      "target": 0,
+      "performer": 0
+    },
+    {
+      "type": "heavybreathing",
+      "actor": 1,
+      "target": 1
+    }
+  ]
+}

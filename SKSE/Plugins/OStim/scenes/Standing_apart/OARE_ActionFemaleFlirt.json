@@ -1,0 +1,44 @@
+{
+  "name": "Action Female Flirt",
+  "modPack": "OpS",
+  "length": 6,
+  "destination": "OARE_Standing",
+  "navigations": [],
+  "speeds": [
+		{
+			"animation": "_Ap-ActionFemaleFlirt"
+		}
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "action"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

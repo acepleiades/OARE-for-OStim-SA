@@ -1,0 +1,119 @@
+{
+  "name": "Sitting Female Approach",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+	{
+		"origin": "OStim2PLyingKneelingMF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStim2PLyingKneelingMM",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+    {
+      "destination": "OARE_SittingMaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SpooningIdle",
+      "priority": 1,
+	  "description": "({1}) Lie beside {0}.",
+	  "icon": "OARE/Spooning/SpooningIdle",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_MountedFemale",
+      "priority": 1,
+	  "description": "({1}) Mount {0}.",
+	  "icon": "OARE/Female_approach_mounted_female/MountedFemale",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SittingFemaleApproachKiss",
+      "priority": 1000,
+	  "description": "({1}) Kiss {0}.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFemaleApproachKiss",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SittingFellatio",
+      "priority": 3000,
+	  "description": "({1}) Perform fellatio on {0}.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingFellatio",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_HJAndLicking",
+      "priority": 3001,
+	  "description": "({1}) pleasure {0} with your hand while licking.",
+	  "icon": "OARE/Both_sitting_female_approach/HJAndLicking",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_AceLyingBoobjob",
+      "priority": 3002,
+	  "description": "({1}) Perform a boobjob.",
+	  "icon": "OARE/Both_sitting_female_approach/AceLyingBoobjob",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SittingSex",
+      "priority": 3003,
+	  "description": "Have sex with {1}.",
+	  "icon": "OARE/Both_sitting_female_approach/SittingSex",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-SittingFemaleApproach",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "sitting"
+      ],
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 40,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

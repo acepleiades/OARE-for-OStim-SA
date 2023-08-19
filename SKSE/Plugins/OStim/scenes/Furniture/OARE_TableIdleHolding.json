@@ -1,0 +1,71 @@
+{
+  "name": "Table Idle Holding",
+  "modPack": "OpS_furniture",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_TableIdleFacingEachOther",
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
+      "priority": -1000,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_TableIdleSittingFemaleHolding",
+      "priority": 0,
+	  "description": "({1}) Sit on the table.",
+	  "icon": "OARE/Furniture/TableIdleSittingFemaleHolding",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },	
+    {
+      "destination": "OARE_TableKiss",
+      "priority": 3000,
+	  "description": "Kiss {1}.",
+	  "icon": "OARE/Furniture/TableKiss",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-TableIdleHolding",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "table",
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 25,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

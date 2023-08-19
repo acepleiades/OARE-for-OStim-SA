@@ -1,0 +1,46 @@
+{
+  "name": "Transition into Standing Holding",
+  "modPack": "OpS",
+  "length": 2,
+  "destination": "OARE_MaleStandingFemaleSquatting",
+  "navigations": [],
+  "speeds": [
+		{
+			"animation": "_Ap-GoToMaleStandingFemaleSquatting"
+		}
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 7,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -25,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 25,
+      "tags": [
+        "squatting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

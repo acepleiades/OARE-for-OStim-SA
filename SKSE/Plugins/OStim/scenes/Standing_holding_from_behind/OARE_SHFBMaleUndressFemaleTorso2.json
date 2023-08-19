@@ -1,0 +1,46 @@
+{
+  "name": "SHFBMaleUndressFemaleTorso2",
+  "modPack": "OpS",
+  "length": 2,
+  "destination": "OARE_StandingHoldingFromBehind",
+  "navigations": [],
+  "speeds": [
+		{
+			"animation": "_Ho-SHFBMaleUndressFemaleTorso2"
+		}
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -7,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "undress_full_target",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

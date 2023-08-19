@@ -1,0 +1,54 @@
+{
+  "name": "Male Sleeping Front",
+  "modPack": "OpS_solo",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_MaleSleepingSide",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_MaleSleepingBack",
+      "priority": 0,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_MaleSoloLyingIdle",
+      "priority": 0,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-MaleSleepingFront",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "tags": [
+        "lyingfront"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "sleeping",
+      "actor": 0
+    }
+  ]
+}

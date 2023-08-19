@@ -1,0 +1,63 @@
+{
+  "name": "Lying Cuddling Approach Mount",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_LyingCuddlingApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_LyingCuddlingApproachKiss",
+      "priority": 3000,
+	  "description": "({1}) Kiss {0}.",
+	  "icon": "OARE/Spooning/LyingCuddlingApproachKiss",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Em-LyingCuddlingApproachMount",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle",
+    "spooning"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -9,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "lyingside"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 20,
+      "tags": [
+        "lyingside"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

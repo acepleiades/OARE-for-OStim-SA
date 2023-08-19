@@ -1,0 +1,45 @@
+{
+  "name": "Transition into Standing Holding From Behind",
+  "modPack": "OpS",
+  "length": 2.5,
+  "destination": "OARE_StandingHoldingFromBehind",
+  "navigations": [],
+  "speeds": [
+	{
+      "animation": "_Ho-GoToStandingHoldingFromBehind"
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [
+        "facingaway",
+        "standing"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

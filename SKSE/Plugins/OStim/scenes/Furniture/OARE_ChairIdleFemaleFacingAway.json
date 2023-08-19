@@ -1,0 +1,66 @@
+{
+  "name": "Chair Idle Female FacingAway",
+  "modPack": "OpS_furniture",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_ChairIdle",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_ChairRearSex",
+      "priority": 3000,
+	  "description": "{1} has sex with {0} (rear).",
+	  "icon": "OARE/Furniture/ChairRearSex",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-BenchIdleFemaleFacingAway",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "chair",
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": 50,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -100,
+      "lookLeft": 100,
+      "tags": [
+        "standing",
+        "facingaway"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

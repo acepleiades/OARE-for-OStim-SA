@@ -1,0 +1,67 @@
+{
+  "name": "Kneeling Boobjob Climax",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_MaleStandingFemaleKneeling",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_AceStandingBoobjob",
+      "priority": 3000,
+	  "description": "Do it again.",
+	  "icon": "OARE/Male_standing_female_kneeling/AceStandingBoobjob",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-AceStandingBoobjob_AfterClimax",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "heavybreathing",
+      "actor": 1,
+      "target": 1
+    }
+  ]
+}

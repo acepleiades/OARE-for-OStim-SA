@@ -1,0 +1,89 @@
+{
+  "name": "Standing Carrying Sex",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_StandingHolding",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_AceStandingLotus",
+      "priority": 3000,
+	  "description": "Switch into Lotus position.",
+	  "icon": "OARE/Standing_holding/AceStandingLotus",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Sx-StandingCarryingSex_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Sx-StandingCarryingSex_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_Sx-StandingCarryingSex_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    },
+    {
+      "animation": "_Sx-StandingCarryingSex_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2.5
+    },
+    {
+      "animation": "_Sx-StandingCarryingSex_S5",
+      "playbackSpeed": 1,
+      "displaySpeed": 3
+    }
+  ],
+  "defaultSpeed": 1,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 5,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -50,
+      "lookLeft": -25,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -75,
+      "lookLeft": -25,
+      "tags": [
+        "suspended"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "vaginalsex",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

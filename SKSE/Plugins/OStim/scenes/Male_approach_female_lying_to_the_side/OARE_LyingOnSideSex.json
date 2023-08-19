@@ -1,0 +1,99 @@
+{
+  "name": "Lying on Side Sex",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_FemaleLyingOnSide",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_LyingOnSideSexGrabArm",
+      "priority": 3000,
+	  "description": "Grab {1}'s arm.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/LyingOnSideSexGrabArm",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_LyingOnSideSexRaisedLeg",
+      "priority": 3001,
+	  "description": "Raise {1}'s leg.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/LyingOnSideSexRaisedLeg",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_LyingOnSideSexFromBehind",
+      "priority": 3002,
+	  "description": "Lying on side sex from behind.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/LyingOnSideSexFromBehind",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Sx-LyingOnSideSex_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_Sx-LyingOnSideSex_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Sx-LyingOnSideSex_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_Sx-LyingOnSideSex_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 1,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -25,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -50,
+      "lookLeft": -75,
+      "tags": [
+        "lyingside"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "vaginalsex",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}
