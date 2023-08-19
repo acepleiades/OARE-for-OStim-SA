@@ -1,0 +1,232 @@
+{
+  "name": "Standing",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+	{
+		"origin": "OStim2PStandingApartMF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStim2PStandingApartMM",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStim2PStandingCloseFF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"destination": "OStim2PStandingApartMF",
+		"description": "Return...",
+		"icon": "OARE/oare_return",
+		"priority": -1000
+	},
+    {
+      "destination": "OARE_GoToStandingHolding",
+	  "description": "Hold {1}.",
+      "priority": 1,
+	  "border": "fce5cd",
+      "noWarnings": false,
+	  "icon": "OARE/Standing_holding/StandingHolding"
+    },	
+    {
+      "destination": "OARE_StandingGoToSitting",
+	  "description": "Sit down with {1}.",
+      "priority": 2,
+      "noWarnings": false,
+	  "border": "fce5cd",
+	  "icon": "OARE/Both_sitting/Sitting"
+    },
+	{
+      "destination": "OARE_GoToMaleStandingFemaleSquatting",
+	  "description": "({1}) Squat.",
+      "priority": 3,
+      "noWarnings": false,
+	  "border": "fce5cd",
+	  "icon": "OARE/Male_standing_female_squatting/MaleStandingFemaleSquatting"
+    },
+    {
+      "destination": "OARE_MaleStandingFemaleKneeling",
+	  "description": "({1}) Kneel.",
+      "priority": 4,
+      "noWarnings": false,
+	  "border": "fce5cd",
+	  "icon": "OARE/Male_standing_female_kneeling/MaleStandingFemaleKneeling"
+    },
+	{
+      "destination": "OARE_GoToStandingHandHolding",
+	  "description": "Hold {1}'s hand.",
+      "priority": 1000,
+      "noWarnings": false,
+	  "border": "fce5cd",
+	  "icon": "OARE/Standing_apart/StandingHandHolding"
+    },
+    {
+      "destination": "OARE_HeadCaress",
+	  "description": "Caress {1}'s head.",
+      "priority": 1001,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/HeadCaress",
+	  "border": "dd7e5e"
+    },
+    {
+      "destination": "OARE_ActionMaleCaressCheekStroke",
+	  "description": "Caress {1}'s cheek.",
+      "priority": 1002,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/ActionMaleCaressCheekStroke",
+	  "border": "dd7e5e"
+    },
+    {
+      "destination": "OARE_ActionMaleCaressHug",
+	  "description": "Hug {1}.",
+      "priority": 1003,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/ActionMaleCaressHug",
+	  "border": "dd7e5e"
+    },
+    {
+      "destination": "OARE_ActionMaleKiss",
+	  "description": "Kiss {1}.",
+      "priority": 1004,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/ActionMaleKiss",
+	  "border": "dd7e5e"
+    },
+    {
+      "destination": "OARE_ActionFemaleFlirt",
+	  "description": "({1}) Flirt with {0}.",
+      "priority": 1005,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/ActionFemaleFlirt",
+	  "border": "dd7e5e"
+    },
+    {
+      "destination": "OARE_ActionFemaleCaressCheekStroke",
+	  "description": "({1}) Caress {0}'s cheek.",
+      "priority": 1006,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/ActionFemaleCaressCheekStroke",
+	  "border": "dd7e5e"
+    },
+    {
+      "destination": "OARE_ActionFemaleCaressHug",
+	  "description": "({1}) Hug {0}.",
+      "priority": 1007,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/ActionFemaleCaressHug",
+	  "border": "dd7e5e"
+    },
+    {
+      "destination": "OARE_ActionFemaleKiss",
+	  "description": "({1}) Kiss {0}.",
+      "priority": 1008,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/ActionFemaleKiss",
+	  "border": "dd7e5e"
+    },  
+	{
+      "destination": "OARE_StandingGropingBreasts",
+	  "description": "Touch {1}'s breasts.",
+      "priority": 3000,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/StandingGropingBreasts",
+	  "border": "e05a4e"
+    },
+    {
+      "destination": "OARE_SimpleStandingHandjob",
+	  "description": "({1}) Pleasure {0} with your hand.",
+      "priority": 3001,
+      "noWarnings": false,
+	  "icon": "OARE/Standing_apart/SimpleStandingHandjob",
+	  "border": "e05a4e"
+    },
+	{
+      "destination": "OARE_StandingUndressingFemaleGloves",
+	  "description": "({1}) undress gloves.",
+      "priority": 4000,
+	  "icon": "OARE/oare_handitem",
+      "noWarnings": false,
+	  "border": "e05a4e"
+    },   
+    {
+      "destination": "OARE_StandingUndressingFemaleShoes",
+	  "description": "({1}) undress boots.",
+      "priority": 4001,
+	  "icon": "OARE/oare_boots",
+      "noWarnings": false,
+	  "border": "e05a4e"
+    },
+	{
+      "destination": "OARE_StandingUndressingFemaleHeadItem",
+	  "description": "({1}) undress head item.",
+      "priority": 4002,
+	  "icon": "OARE/oare_headitem",
+      "noWarnings": false,
+	  "border": "e05a4e"
+    },
+	{
+      "destination": "OARE_StandingUndressingFemaleTop",
+	  "description": "({1}) undress top.",
+      "priority": 4003,
+	  "icon": "OARE/oare_top",
+      "noWarnings": false,
+	  "border": "e05a4e"
+    },
+    {
+      "destination": "OARE_StandingUndressingFemaleBottom",
+	  "description": "({1}) undress bottom.",
+      "priority": 4004,
+	  "icon": "OARE/oare_bottom",
+      "noWarnings": false,
+	  "border": "e05a4e"
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-Standing",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle",
+    "intro"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {
+        "devour1": "OpS|Sta!Sta|Ap|StandingDevourVampireMale"
+      }
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {
+        "devour0": "OpS|Sta!Sta|Ap|StandingDevourVampireFemale"
+      }
+    }
+  ],
+  "actions": []
+}

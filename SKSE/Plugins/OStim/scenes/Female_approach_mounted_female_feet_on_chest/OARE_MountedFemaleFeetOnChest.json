@@ -1,0 +1,69 @@
+{
+  "name": "Mounted Female Feet On Chest",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+	{
+      "destination": "OARE_MountedFemale",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_MountedFemaleTickle",
+      "priority": 1000,
+	  "description": "Tickle {1}.",
+	  "icon": "OARE/Female_approach_mounted_feet_on_chest/MountedFemaleTickle",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },    
+    {
+      "destination": "OARE_MountedHJFeet",
+      "priority": 3000,
+	  "description": "({1}) pleasures {0} with your hand.",
+	  "icon": "OARE/Female_approach_mounted_feet_on_chest/MountedHJFeet",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-MountedFemaleFeetOnChest",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 1,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+      "lookUp": -100,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+      "lookUp": -75,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

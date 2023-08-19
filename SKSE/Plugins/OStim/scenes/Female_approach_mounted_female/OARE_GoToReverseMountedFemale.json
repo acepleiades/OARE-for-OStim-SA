@@ -1,0 +1,46 @@
+{
+  "name": "Go To Reverse Mounted Female",
+  "modPack": "OpS",
+  "length": 3.5,
+  "destination": "OARE_ReverseMountedFemale",
+  "navigations": [],
+  "speeds": [
+	{
+      "animation": "_Ho-GoToReverseMountedFemale"
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 9,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -60,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -35,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

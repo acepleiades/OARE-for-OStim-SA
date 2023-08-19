@@ -1,0 +1,101 @@
+{
+  "name": "Cowgirl Squatting",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_CowgirlKneesOnGround",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_CowgirlSquattingHandholding",
+      "priority": 3000,
+	  "description": "Hold {1}'s hands.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingHandholding",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_CowgirlSquattingLetGo",
+      "priority": 3001,
+	  "description": "({1}) Let go of {0}.",
+	  "icon": "OARE/Female_approach_mounted_female/CowgirlSquattingLetGo",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_AceCowgirlLegsCrossed",
+      "priority": 3002,
+	  "description": "({1}) Crosses your legs.",
+	  "icon": "OARE/Female_approach_mounted_female/AceCowgirlLegsCrossed",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Sx-CowgirlSquatting_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_Sx-CowgirlSquatting_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Sx-CowgirlSquatting_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_Sx-CowgirlSquatting_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 1,
+  "noRandomSelection": false,
+  "tags": [
+    "cowgirl"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": -2,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": 25,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -100,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "vaginalsex",
+      "actor": 0,
+      "target": 1,
+      "performer": 1
+    }
+  ]
+}

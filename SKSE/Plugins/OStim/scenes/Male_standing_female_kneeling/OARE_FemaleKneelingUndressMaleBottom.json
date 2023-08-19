@@ -1,0 +1,52 @@
+{
+  "name": "Female Kneeling Undress Male Bottom",
+  "modPack": "OpS",
+  "length": 7,
+  "destination": "OARE_MaleStandingFemaleKneeling",
+  "navigations": [],
+  "speeds": [
+	{
+      "animation": "_Ap-FemaleKneelingUndressMaleBottom"
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition",
+    "undressing"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 8,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -50,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "heavybreathing",
+      "actor": 1,
+      "target": 1
+    }
+  ]
+}

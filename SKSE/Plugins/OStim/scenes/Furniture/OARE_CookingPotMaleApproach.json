@@ -1,0 +1,80 @@
+{
+  "name": "Cooking Pot Male Approach",
+  "modPack": "OpS_furniture",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_CookingPotIdle",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
+      "noWarnings": false
+    },
+   {
+      "destination": "OARE_CookingPotButtGrab",
+      "priority": 1000,
+	  "description": "Touch {1}'s butt.",
+	  "icon": "OARE/Furniture/CookingPotButtGrab",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_CookingPotKissGropeBreasts",
+      "priority": 1001,
+	  "description": "Touch {1}'s breasts.",
+	  "icon": "OARE/Furniture/CookingPotKissGropeBreasts",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_CookingPotSex",
+      "priority": 3000,
+	  "description": "Have sex with {1} (standing).",
+	  "icon": "OARE/Furniture/CookingPotSex",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-CookingPotMaleApproach",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "cookingpot",
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 75,
+      "lookLeft": 100,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

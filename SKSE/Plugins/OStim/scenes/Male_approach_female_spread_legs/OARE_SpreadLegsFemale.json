@@ -1,0 +1,80 @@
+{
+  "name": "Spread Legs Female",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_SittingMaleApproach",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_FemaleLyingOnSide",
+      "priority": 3000,
+	  "description": "({1}) Lie on your side.",
+	  "icon": "OARE/Male_approach_female_lying_to_the_side/FemaleLyingToTheSide",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_FemaleAllFours",
+      "priority": 3001,
+	  "description": "({1}) Stand on all-fours.",
+	  "icon": "OARE/Male_approach_female_all-fours/FemaleAllFours",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_Missionary",
+      "priority": 3002,
+	  "description": "Have sex with {1}.",
+	  "icon": "OARE/Male_approach_female_spread_legs/Missionary",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Ho-SpreadLegsFemale",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -25,
+      "tags": [
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -75,
+      "tags": [
+        "lyingback",
+        "spreadlegs"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

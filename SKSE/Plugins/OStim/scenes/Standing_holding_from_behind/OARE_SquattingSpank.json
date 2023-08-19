@@ -1,0 +1,43 @@
+{
+  "name": "Squatting Spank",
+  "modPack": "OpS",
+  "length": 3,
+  "destination": "OARE_SquattingGropingButt",
+  "navigations": [],
+  "speeds": [
+		{
+			"animation": "_Ho-SquattingSpank"
+		}
+   ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "scale": 1.03,
+      "tags": [
+        "squatting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "scale": 1.0,
+      "lookUp": -100,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

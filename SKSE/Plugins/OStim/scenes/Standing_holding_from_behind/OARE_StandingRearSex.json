@@ -1,0 +1,116 @@
+{
+  "name": "Standing Sex from Behind",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_StandingHoldingFromBehind",
+       "description": "Return...",
+       "priority": -1000,
+       "border": "fce5cd",
+       "icon": "OARE/oare_return",
+       "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingRearSexNoHands",
+      "description": "Let go of {1}.",
+      "border": "e05a4e",
+      "icon": "OARE/Standing_holding_from_behind/StandingRearSexNoHands",
+      "priority": 1000,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingRearSexHoldingArms",
+      "description": "Hold {1}'s arms.",
+      "border": "e05a4e",
+      "icon": "OARE/Standing_holding_from_behind/StandingRearSexHoldingArms",
+      "priority": 1000,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_HoldingArmsStandingBack",
+      "description": "Pull {1}'s arms.",
+      "border": "e05a4e",
+      "icon": "OARE/Standing_holding_from_behind/HoldingArmsStandingBack",
+      "priority": 1000,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_StandingSexForwardBend",
+      "description": "Have {1} bend forward.",
+      "border": "e05a4e",
+      "icon": "OARE/Standing_holding_from_behind/StandingSexForwardBend",
+      "priority": 1000,
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_RearCarryingSex",
+      "description": "Lift up {1}.",
+      "border": "e05a4e",
+      "icon": "OARE/Standing_holding_from_behind/RearCarryingSex",
+      "priority": 1000,
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "_Sx-StandingRearSex_S1",
+      "playbackSpeed": 1,
+      "displaySpeed": 0.5
+    },
+    {
+      "animation": "_Sx-StandingRearSex_S2",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    },
+    {
+      "animation": "_Sx-StandingRearSex_S3",
+      "playbackSpeed": 1,
+      "displaySpeed": 1.5
+    },
+    {
+      "animation": "_Sx-StandingRearSex_S4",
+      "playbackSpeed": 1,
+      "displaySpeed": 2
+    }
+  ],
+  "defaultSpeed": 1,
+  "noRandomSelection": false,
+  "tags": [],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 2,
+      "scaleHeight": 120.748,
+      "scale": 1.03,
+      "lookUp": -50,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "scale": 1.0,
+      "tags": [
+        "bendover",
+        "facingaway",
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "vaginalsex",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

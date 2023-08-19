@@ -1,0 +1,53 @@
+{
+  "name": "Missionary Male Climax Internal",
+  "modPack": "OpS",
+  "length": 5,
+  "destination": "OARE_Missionary",
+  "navigations": [],
+  "speeds": [
+	{
+      "animation": "_Sx-MissionaryMaleClimaxInternal"
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "male",
+      "sosBend": 0,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -25,
+      "tags": [
+        "climaxing",
+        "kneeling"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "female",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -50,
+      "tags": [
+        "lyingback"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "vaginalsex",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

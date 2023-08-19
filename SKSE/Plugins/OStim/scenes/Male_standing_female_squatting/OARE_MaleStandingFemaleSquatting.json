@@ -1,0 +1,95 @@
+{
+  "name": "Male Standing, Female Squatting",
+  "modPack": "OpS",
+  "length": 2,
+  "navigations": [
+    {
+      "destination": "OARE_GoBackMaleStandingFemaleSquatting",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+	{
+      "destination": "OARE_MaleStandingFemaleKneeling",
+      "priority": 0,
+	  "description": "({1}) Kneel.",
+	  "icon": "OARE/Male_standing_female_kneeling/MaleStandingFemaleKneeling",
+	  "border": "fce5cd",
+      "noWarnings": false
+    }, 
+    {
+      "destination": "OARE_SquattingHandjob",
+      "priority": 3000,
+	  "description": "({1}) Masturbate {0}.",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingHandjob",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+	{
+      "destination": "OARE_SquattingFellatio",
+      "priority": 3001,
+	  "description": "({1}) Perform fellatio on {0}.",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingFellatio",
+	  "border": "e05a4e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_SquattingMouthFuck",
+      "priority": 3002,
+	  "description": "Mouth fuck {1}.",
+	  "icon": "OARE/Male_standing_female_squatting/SquattingMouthFuck",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }, 
+	{
+      "destination": "OARE_FemaleSquattingUndressMaleBottom",
+      "priority": 4000,
+	  "description": "Have {1} undress {0}'s bottom.",
+	  "icon": "OARE/oare_bottom",
+	  "border": "e05a4e",
+      "noWarnings": false
+    }	
+  ],
+  "speeds": [
+    {
+      "animation": "_Ap-MaleStandingFemaleSquatting",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 8,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -50,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": 50,
+      "tags": [
+        "squatting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}
