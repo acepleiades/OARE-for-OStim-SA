@@ -1,6 +1,6 @@
 {
   "name": "Table Idle Sitting Female Holding",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     
@@ -8,13 +8,6 @@
       "destination": "OARE_TableIdleSittingFemale",
       "priority": -1000,
 	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
-      "noWarnings": false
-    },
-	{
-      "destination": "OARE_TableIdleHolding",
-      "priority": 0,
-	  "description": "FEMALE Return...",
 	  "icon": "OARE/oare_return", 
       "noWarnings": false
     },
@@ -37,7 +30,7 @@
     {
       "destination": "OARE_TableSittingSex",
       "priority": 3002,
-	  "description": "Have sex with {1} (sitting).",
+	  "description": "Have sex with {1}.",
 	  "icon": "OARE/Furniture/TableSittingSex",
 	  "border": "e05a4e",
       "noWarnings": false

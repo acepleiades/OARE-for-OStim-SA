@@ -1,17 +1,20 @@
 {
-  "name": "Vampire Bite Female Standing",
-  "modPack": "OpS",
+  "name": "Vampire Bite Male Standing",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
-      "destination": "OARE_GoBackDevourVampireBiteFemaleStanding",
-      "priority": 0,
-      "noWarnings": false
+      "destination": "OARE_GoBackDevourVampireBiteMaleStanding",
+	  "description": "Let go of {1}.",
+      "priority": 5000,
+	  "icon": "OARE/oare_vampire",
+      "noWarnings": false,
+	  "border": "e05a4e"
     }
   ],
   "speeds": [
     {
-      "animation": "_Em-DevourVampireBiteFemaleStanding",
+      "animation": "_Em-DevourVampireBiteMaleStanding",
       "playbackSpeed": 1,
       "displaySpeed": 1
     }
@@ -26,8 +29,8 @@
       "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
-      "lookUp": -75,
-      "lookLeft": -75,
+	  "scale": 1.03,
+      "lookUp": -25,
       "tags": [
         "standing"
       ],
@@ -38,7 +41,9 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
-      "lookUp": -25,
+	  "scale": 1.0,
+      "lookUp": -75,
+      "lookLeft": -75,
       "tags": [
         "standing"
       ],
@@ -49,8 +54,8 @@
   "actions": [
     {
       "type": "vampirebite",
-      "actor": 1,
-      "target": 0
+      "actor": 0,
+      "target": 1
     }
   ]
 }

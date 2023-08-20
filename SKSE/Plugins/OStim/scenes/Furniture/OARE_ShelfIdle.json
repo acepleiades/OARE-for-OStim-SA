@@ -1,6 +1,6 @@
 {
   "name": "Shelf Idle",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
@@ -21,10 +21,16 @@
     {
       "destination": "OARE_ShelfIdleBentOver",
       "priority": 0,
-	  "description": "Bend over. {{1})",
+	  "description": "({1}) Bend over.",
 	  "icon": "OARE/Furniture/ShelfIdleBentOver",
 	  "border": "fce5cd",
-
+      "noWarnings": false
+    },
+    {
+      "destination": "OStimShelf2PBehindMF",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",  
       "noWarnings": false
     }
   ],

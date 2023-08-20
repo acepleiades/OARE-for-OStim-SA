@@ -1,6 +1,6 @@
 {
   "name": "Standing",
-  "modPack": "OpS",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
 	{
@@ -181,6 +181,22 @@
 	  "description": "({1}) undress bottom.",
       "priority": 4004,
 	  "icon": "OARE/oare_bottom",
+      "noWarnings": false,
+	  "border": "e05a4e"
+    },
+    {
+      "destination": "OARE_GoToDevourVampireBiteMaleStanding",
+	  "description": "(Vampire) Feed on {1}.",
+      "priority": 5000,
+	  "icon": "OARE/oare_vampire",
+      "noWarnings": false,
+	  "border": "e05a4e"
+    },
+    {
+      "destination": "OARE_GoToDevourVampireBiteFemaleStanding",
+	  "description": "({1}) (Vampire) Feed on {0}.",
+      "priority": 5001,
+	  "icon": "OARE/oare_vampire",
       "noWarnings": false,
 	  "border": "e05a4e"
     }

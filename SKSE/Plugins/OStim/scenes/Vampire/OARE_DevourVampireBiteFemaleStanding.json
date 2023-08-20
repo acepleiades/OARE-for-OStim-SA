@@ -1,17 +1,20 @@
 {
   "name": "Vampire Bite Female Standing",
-  "modPack": "OpS",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
-      "destination": "OARE_MaleStandingFemaleKneeling",
-      "priority": 0,
-      "noWarnings": false
+      "destination": "OARE_GoBackDevourVampireBiteFemaleStanding",
+	  "description": "({1}) Let go of {0}.",
+      "priority": 5000,
+	  "icon": "OARE/oare_vampire",
+      "noWarnings": false,
+	  "border": "e05a4e"
     }
   ],
   "speeds": [
     {
-      "animation": "_Em-DevourVampireBiteFemaleKneelingHJ",
+      "animation": "_Em-DevourVampireBiteFemaleStanding",
       "playbackSpeed": 1,
       "displaySpeed": 1
     }
@@ -24,33 +27,31 @@
     {
       "type": "npc",
       "intendedSex": "any",
-      "sosBend": 2,
-      "scaleHeight": 67,
-      "lookUp": -100,
+      "sosBend": -5,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -75,
+      "lookLeft": -75,
       "tags": [
         "standing"
       ],
-      "feetOnGround": false,
+      "feetOnGround": true,
       "autoTransitions": {}
     },
     {
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
-      "lookUp": -80,
+	  "scale": 1.0,
+      "lookUp": -25,
       "tags": [
-        "kneeling"
+        "standing"
       ],
-      "feetOnGround": false,
+      "feetOnGround": true,
       "autoTransitions": {}
     }
   ],
   "actions": [
-    {
-      "type": "handjob",
-      "actor": 1,
-      "target": 0
-    },
     {
       "type": "vampirebite",
       "actor": 1,

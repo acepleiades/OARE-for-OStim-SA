@@ -1,8 +1,18 @@
 {
   "name": "Chair Kneeling Female",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
+	{
+		"origin": "OStimChair2PSittingKneelingMF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStimChair2PSittingKneelingFF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
     {
       "destination": "OARE_ChairIdle",
       "priority": -1000,
@@ -13,8 +23,8 @@
     {
       "destination": "OARE_ChairSittingBlowjob",
       "priority": 3000,
-	  "description": "{1} performs fellatio (kneeling).",
-	  "icon": "OARE/Furniture/ChairSittingBlowjob",
+	  "description": "({1}) Perform fellatio on {0}.",
+	  "icon": "OARE/Furniture/BenchSittingBlowjob",
 	  "border": "e05a4e",
       "noWarnings": false
     }

@@ -1,6 +1,6 @@
 {
   "name": "Male Solo Standing Idle",
-  "modPack": "OpS_solo",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
@@ -13,30 +13,37 @@
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
-	  "border": "fce5cd",
       "noWarnings": false
     },
 	{
       "destination": "OARE_MaleSoloSquattingIdle",
       "priority": 0,
-	  "description": "Squat",
-	  "icon": "OARE/OARE_Solo/MaleSoloSquattingIdle",
+	  "description": "Squat.",
+	  "icon": "OARE/Solo/MaleSoloSquattingIdle",
 	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OARE_MaleSoloLyingIdle",
       "priority": 1,
-	  "description": "",
-	  "icon": "OARE/OARE_Solo/MaleSoloLyingIdle",
+	  "description": "Lie down.",
+	  "icon": "OARE/Solo/MaleSoloLyingIdle",
 	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OARE_MaleSoloStandingThinking",
       "priority": 2,
-	  "description": "Think",
-	  "icon": "OARE/OARE_Solo/MaleSoloStandingThinking",
+	  "description": "Think...",
+	  "icon": "OARE/Solo/MaleSoloStandingThinking",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_MaleSoloBathingAnimationHub",
+      "priority": 2,
+	  "description": "Access bathing animations...",
+	  "icon": "OARE/Solo/MaleBatheInKneeDeepWater",
 	  "border": "fce5cd",
       "noWarnings": false
     }

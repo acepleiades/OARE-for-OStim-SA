@@ -1,23 +1,23 @@
 {
   "name": "Chair Idle",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
-    {
-	  "origin": "OStimChair2PSittingStandingFF",	  
-	  "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
-    },
 	{
-	  "origin": "OStimChair2PSittingStandingMF",	  
-	  "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
-    },
+		"origin": "OStimChair2PSittingStandingMF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
 	{
-	  "origin": "OStimChair2PSittingStandingMM",	  
-	  "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
-    },
+		"origin": "OStimChair2PSittingStandingMM",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStimChair2PSittingStandingFF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
 	{
       "destination": "OStimChair2PSittingStandingMF",
       "priority": -1000,
@@ -29,32 +29,47 @@
       "destination": "OARE_ChairIdleFemaleSitting",
       "priority": 0,
 	  "description": "Switch places with {1}.",
-	  "icon": "OARE/Furniture/ChairIdleFemaleSitting",
+	  "icon": "OARE/Furniture/BenchIdleFemaleSitting",
 	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OARE_ChairIdleFemaleFacingAway",
       "priority": 1,
-	  "description": "Turn around {1}.",
-	  "icon": "OARE/Furniture/ChairIdleFemaleFacingAway",
+	  "description": "({1}) Turn around.",
+	  "icon": "OARE/Furniture/BenchIdleFemaleFacingAway",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+	{
+      "destination": "OARE_BenchIdleBothSitting",
+      "priority": 2,
+	  "description": "Sit beside each other.",
+	  "icon": "OARE/Furniture/BenchIdleBothSitting",
 	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OARE_ChairKneelingFemale",
       "priority": 2,
-	  "description": "Get on your knees ({1}).",
-	  "icon": "OARE/Furniture/ChairKneelingFemale",
+	  "description": "({1}) Get on your knees.",
+	  "icon": "OARE/Furniture/BenchKneelingFemale",
 	  "border": "fce5cd",
       "noWarnings": false
     },
-	
+	{
+      "destination": "OARE_BenchSitting",
+      "priority": 4,
+	  "description": "({1}) Sit atop {0} .",
+	  "icon": "OARE/Furniture/BenchSitting",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
     {
       "destination": "OARE_ChairGropingBreast",
       "priority": 1000,
 	  "description": "Touch {1}'s breasts.",
-	  "icon": "OARE/Furniture/ChairGropingBreast",
+	  "icon": "OARE/Furniture/BenchGropingBreast",
 	  "border": "dd7e5e",
       "noWarnings": false
     }

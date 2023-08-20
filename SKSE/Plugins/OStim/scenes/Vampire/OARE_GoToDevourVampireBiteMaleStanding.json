@@ -1,24 +1,19 @@
 {
-  "name": "Vampire Bite Male Standing",
-  "modPack": "OpS",
-  "length": 2,
-  "navigations": [
-    {
-      "destination": "OARE_GoBackDevourVampireBiteMaleStanding",
-      "priority": 0,
-      "noWarnings": false
-    }
-  ],
+  "name": "Transition into Vampire Bite Male Standing",
+  "modPack": "Open Animations Romance and Erotica",
+  "length": 3,
+  "destination": "OARE_DevourVampireBiteMaleStanding",
+  "navigations": [],
   "speeds": [
-    {
-      "animation": "_Em-DevourVampireBiteMaleStanding",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
+		{
+			"animation": "_Em-GoToDevourVampireBiteMaleStanding"
+		}
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "tags": [],
+  "tags": [
+    "transition"
+  ],
   "autoTransitions": {},
   "actors": [
     {
@@ -26,7 +21,7 @@
       "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
-      "lookUp": -25,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -37,8 +32,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
-      "lookUp": -75,
-      "lookLeft": -75,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],
@@ -46,11 +40,5 @@
       "autoTransitions": {}
     }
   ],
-  "actions": [
-    {
-      "type": "vampirebite",
-      "actor": 0,
-      "target": 1
-    }
-  ]
+  "actions": []
 }

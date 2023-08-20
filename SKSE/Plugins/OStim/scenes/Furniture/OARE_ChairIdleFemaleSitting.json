@@ -1,8 +1,23 @@
 {
   "name": "Chair Idle Female Sitting",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
+	{
+		"origin": "OStimChair2PStandingSittingMF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStimChair2PStandingSittingFF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStimChair2PStandingSittingMM",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
     {
       "destination": "OARE_ChairIdle",
       "priority": -1000,

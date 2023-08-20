@@ -1,14 +1,26 @@
 {
-  "name": "Transition back from Vampire Bite Male Standing",
-  "modPack": "OpS",
+  "name": "Vampire Bite Male Standing",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
-  "destination": "OARE_DevourDrainedFemaleStanding",
-  "navigations": [],
-  "speeds": [],
+  "navigations": [
+    {
+      "destination": "OARE_Standing",
+      "description": "Return...",
+      "icon": "OARE/oare_return",
+      "priority": -1000
+	}
+  ],
+  "speeds": [
+    {
+      "animation": "_Em-DevourDrainedMaleStanding",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
   "defaultSpeed": 0,
-  "noRandomSelection": false,
+  "noRandomSelection": true,
   "tags": [
-    "transition"
+    "idle"
   ],
   "autoTransitions": {},
   "actors": [
@@ -17,7 +29,10 @@
       "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -75,
       "tags": [
+        "drowsy",
         "standing"
       ],
       "feetOnGround": true,
@@ -27,8 +42,8 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
-        "drowsy",
         "standing"
       ],
       "feetOnGround": true,

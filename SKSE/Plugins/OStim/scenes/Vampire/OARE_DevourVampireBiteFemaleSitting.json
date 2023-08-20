@@ -1,12 +1,15 @@
 {
   "name": "Vampire Bite Female Sitting",
-  "modPack": "OpS",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
       "destination": "OARE_DevourDrainedMaleSitting",
-      "priority": 0,
-      "noWarnings": false
+	  "description": "({1}) Let go of {0}.",
+      "priority": 5000,
+	  "icon": "OARE/oare_vampire",
+      "noWarnings": false,
+	  "border": "e05a4e"
     }
   ],
   "speeds": [
@@ -26,6 +29,7 @@
       "intendedSex": "any",
       "sosBend": 2,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "lookUp": -75,
       "tags": [
         "sitting"
@@ -37,6 +41,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "lookUp": -50,
       "tags": [
         "sitting"

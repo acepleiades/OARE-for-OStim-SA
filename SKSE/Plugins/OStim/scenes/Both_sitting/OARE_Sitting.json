@@ -1,6 +1,6 @@
 {
   "name": "Sitting",
-  "modPack": "OpS",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
 	{
@@ -72,6 +72,14 @@
 	  "icon": "OARE/Both_sitting/AceSittingFootjobFromBehind",
 	  "border": "e05a4e",
       "noWarnings": false
+    },
+    {
+      "destination": "OARE_GoToDevourVampireBiteFemaleSitting",
+	  "description": "({1}) (Vampire) Feed on {0}.",
+      "priority": 5001,
+	  "icon": "OARE/oare_vampire",
+      "noWarnings": false,
+	  "border": "e05a4e"
     }
   ],
   "speeds": [

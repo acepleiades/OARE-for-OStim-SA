@@ -1,29 +1,44 @@
 {
   "name": "Bench Idle Both Sitting",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
+	{
+		"origin": "OStimBench2PBothSittingMF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStimBench2PBothSittingMM",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+	{
+		"origin": "OStimBench2PBothSittingFF",
+		"description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+	},
+    {
+      "destination": "OARE_ChairIdle",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
+      "noWarnings": false
+    },
     {
       "destination": "OARE_BenchBothSittingFaceEachother",
       "priority": 0,
-	  "description": "Turn toward {1}.",
+	  "description": "Face each other.",
 	  "icon": "OARE/Furniture/BenchBothSittingFaceEachother",
 	  "border": "fce5cd",
       "noWarnings": false
     },
     {
-      "destination": "OARE_BenchIdleFemaleSitting",
+      "destination": "OARE_ChairIdleFemaleSitting",
       "priority": 1,
-	  "description": "Switch places with {0} ({1}).",
+	  "description": "Switch places with {1}.",
 	  "icon": "OARE/Furniture/BenchIdleFemaleSitting",
 	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_BenchIdle",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
       "noWarnings": false
     }
   ],

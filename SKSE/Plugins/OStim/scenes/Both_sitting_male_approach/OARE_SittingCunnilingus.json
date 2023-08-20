@@ -1,6 +1,6 @@
 {
   "name": "Sitting Cunnilingus",
-  "modPack": "OpS",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
 	{
@@ -49,7 +49,7 @@
       "displaySpeed": 2
     }
   ],
-  "defaultSpeed": 0,
+  "defaultSpeed": 1,
   "noRandomSelection": false,
   "tags": [],
   "autoTransitions": {},

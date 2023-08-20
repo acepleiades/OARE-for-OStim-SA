@@ -1,17 +1,18 @@
 {
   "name": "Vampire Bite Male Standing",
-  "modPack": "OpS",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
       "destination": "OARE_Standing",
-      "priority": 0,
-      "noWarnings": false
-    }
+      "description": "Return...",
+      "icon": "OARE/oare_return",
+      "priority": -1000
+	}
   ],
   "speeds": [
     {
-      "animation": "_Em-DevourDrainedMaleStanding",
+      "animation": "_Em-DevourDrainedFemaleStanding",
       "playbackSpeed": 1,
       "displaySpeed": 1
     }
@@ -28,9 +29,8 @@
       "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
-      "lookUp": -75,
+	  "scale": 1.03,
       "tags": [
-        "drowsy",
         "standing"
       ],
       "feetOnGround": true,
@@ -40,7 +40,10 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -75,
       "tags": [
+        "drowsy",
         "standing"
       ],
       "feetOnGround": true,

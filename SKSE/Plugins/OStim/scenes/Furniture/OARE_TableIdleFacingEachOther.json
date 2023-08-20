@@ -1,17 +1,29 @@
 {
   "name": "Table Idle Facing Each Other",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
-      "origin": "OStimTable2PBehindMF",
+      "origin": "OStimTable2PStandingLeaningMF",
       "description": "Access Open Animations RE...",
 		"icon": "OARE/oare"
     },
-	{
-      "origin": "OStimTable2PBehindFF",
+    {
+      "origin": "OStimTable2PStandingLeaningMM",
       "description": "Access Open Animations RE...",
 		"icon": "OARE/oare"
+    },
+    {
+      "origin": "OStimTable2PStandingLeaningFF",
+      "description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+    },
+    {
+      "destination": "OStimTable2PStandingLeaningMF",
+	  "description": "Return...",
+	  "icon": "OARE/oare_return", 
+      "priority": -1000,
+      "noWarnings": false
     },
     {
       "destination": "OARE_TableIdleHolding",
@@ -30,7 +42,7 @@
       "noWarnings": false
     },
     {
-      "destination": "OARE_TableIdle",
+      "destination": "OARE_TableIdleFemaleFacingAway",
       "priority": 2,
 	  "description": "({1}) Turn around.",
 	  "icon": "OARE/Furniture/TableIdle",

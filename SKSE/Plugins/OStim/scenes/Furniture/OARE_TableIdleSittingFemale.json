@@ -1,21 +1,31 @@
 {
   "name": "Table Idle Sitting Female",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
-      "destination": "OARE_TableIdleSittingFemaleHolding",
-      "priority": 0,
-	  "description": "Hold {1}.",
-	  "icon": "OARE/Furniture/TableIdleSittingFemaleHolding",
-	  "border": "fce5cd",
-      "noWarnings": false
+      "origin": "OStimTable2PStandingSittingMF",
+      "description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
+    },
+    {
+      "origin": "OStimTable2PStandingSittingFF",
+      "description": "Access Open Animations RE...",
+		"icon": "OARE/oare"
     },
     {
       "destination": "OARE_TableIdleFacingEachOther",
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",  
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_TableIdleSittingFemaleHolding",
+      "priority": 0,
+	  "description": "Hold {1}.",
+	  "icon": "OARE/Furniture/TableIdleSittingFemaleHolding",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],

@@ -1,10 +1,14 @@
 {
   "name": "Transition into Vampire Bite Female Standing",
-  "modPack": "OpS",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 3,
   "destination": "OARE_DevourVampireBiteFemaleStanding",
   "navigations": [],
-  "speeds": [],
+  "speeds": [
+		{
+			"animation": "_Em-GoToDevourVampireBiteFemaleStanding"
+		}
+  ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
@@ -17,6 +21,7 @@
       "intendedSex": "any",
       "sosBend": -5,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "standing"
       ],
@@ -27,6 +32,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+	  "scale": 1.0,
       "tags": [
         "standing"
       ],

@@ -1,6 +1,6 @@
 {
   "name": "Cooking Pot Idle",
-  "modPack": "OpS_furniture",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
 	{
@@ -52,7 +52,7 @@
     {
       "destination": "OARE_CookingPotSex",
       "priority": 3000,
-	  "description": "Have sex with {1} (standing).",
+	  "description": "Have sex with {1}.",
 	  "icon": "OARE/Furniture/CookingPotSex",
 	  "border": "e05a4e",
       "noWarnings": false
@@ -79,7 +79,7 @@
       "intendedSex": "any",
       "sosBend": 6,
       "scaleHeight": 120.748,
-	  "Scale": 1.03,
+	  "scale": 1.03,
       "tags": [
         "sitting"
       ],

@@ -1,21 +1,29 @@
 {
   "name": "Male Sleeping Front",
-  "modPack": "OpS_solo",
+  "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
     {
+      "destination": "OARE_MaleSoloLyingIdle",
+      "priority": -1000,
+	  "description": "Return...",
+	  "icon": "OARE/oare_return",
+      "noWarnings": false
+    },
+    {
       "destination": "OARE_MaleSleepingSide",
       "priority": 0,
+	  "description": "Lie on your side.",
+	  "icon": "OARE/Solo/MaleSleepingSide",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OARE_MaleSleepingBack",
-      "priority": 0,
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_MaleSoloLyingIdle",
-      "priority": 0,
+      "priority": 1,
+	  "description": "Lie on your back.",
+	  "icon": "OARE/Solo/MaleSleepingBack",
+	  "border": "fce5cd",
       "noWarnings": false
     }
   ],
@@ -38,6 +46,7 @@
       "intendedSex": "any",
       "sosBend": 9,
       "scaleHeight": 120.748,
+	  "scale": 1.03,
       "tags": [
         "lyingfront"
       ],
