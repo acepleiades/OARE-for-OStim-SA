@@ -22,15 +22,34 @@
 		"priority": 500
 	},
 	{
+		"destination": "OStim2PSittingMF",
+		"description": "Return (male and female idle).",
+		"icon": "OARE/oare_returnMF",
+		"priority": -1000
+	},
+	{
+		"destination": "OStim2PKneelingLyingFrontMM",
+		"description": "Return (two males idle).",
+		"icon": "OARE/oare_returnMM",
+		"priority": -1001
+	},
+	{
+		"destination": "OStim2PKneelingLyingFF",
+		"description": "Return (two females idle).",
+		"icon": "OARE/oare_returnFF",
+		"priority": -1002
+	},
+	{
       "destination": "OARE_Standing",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",
+      "priority": 0,
+	  "description": "Stand up.",
+	  "icon": "OARE/Standing_apart/Standing",
+	  "border": "fce5cd",
       "noWarnings": false
     },
     {
       "destination": "OARE_SittingMaleApproach",
-      "priority": 0,
+      "priority": 1,
 	  "description": "Approach {1}.",
 	  "icon": "OARE/Both_sitting_male_approach/SittingMaleApproach",
 	  "border": "fce5cd",
@@ -38,7 +57,7 @@
     },
     {
       "destination": "OARE_SpooningIdle",
-      "priority": 1,
+      "priority": 2,
 	  "description": "Lie beside {1}.",
 	  "icon": "OARE/Spooning/SpooningIdle",
 	  "border": "fce5cd",

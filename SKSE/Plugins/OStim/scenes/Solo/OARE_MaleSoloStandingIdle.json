@@ -6,7 +6,8 @@
     {
 	  "origin": "OStim1PStandingM",	  
 	  "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
+	  "icon": "OARE/oare",
+		"priority": 500
     },
 	{
       "destination": "OStim1PStandingM",
@@ -65,7 +66,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 6,
       "scaleHeight": 120.748,
 	  "scale": 1.03,

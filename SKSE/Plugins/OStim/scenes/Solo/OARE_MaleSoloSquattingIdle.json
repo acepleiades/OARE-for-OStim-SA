@@ -43,7 +43,7 @@
   "actors": [
     {
       "type": "npc",
-      "intendedSex": "any",
+      "intendedSex": "male",
       "sosBend": 6,
       "scaleHeight": 120.748,
 	  "scale": 1.03,

@@ -6,12 +6,14 @@
 	{
 		"origin": "OStimChair2PSittingKneelingMF",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
 	{
 		"origin": "OStimChair2PSittingKneelingFF",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
     {
       "destination": "OARE_ChairIdle",

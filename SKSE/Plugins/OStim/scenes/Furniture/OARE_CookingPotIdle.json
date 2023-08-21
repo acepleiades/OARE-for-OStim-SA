@@ -6,25 +6,39 @@
 	{
       "origin": "OStimCookingPot2PBehindMF",
       "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
+	  "icon": "OARE/oare",
+		"priority": 500
     },
 	{
       "origin": "OStimCookingPot2PBehindMM",
       "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
+	  "icon": "OARE/oare",
+		"priority": 500
     },
 	{
       "origin": "OStimCookingPot2PBehindFF",
       "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
+	  "icon": "OARE/oare",
+		"priority": 500
     },
 	{
-      "destination": "OStimCookingPot2PBehindMF",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",  
-      "noWarnings": false
-    },
+		"destination": "OStimCookingPot2PBehindMF",
+		"description": "Return (male and female idle).",
+		"icon": "OARE/oare_returnMF",
+		"priority": -1000
+	},
+	{
+		"destination": "OStimCookingPot2PBehindMM",
+		"description": "Return (two males idle).",
+		"icon": "OARE/oare_returnMM",
+		"priority": -1001
+	},
+	{
+		"destination": "OStimCookingPot2PBehindFF",
+		"description": "Return (two females idle).",
+		"icon": "OARE/oare_returnFF",
+		"priority": -1002
+	},
 	{
       "destination": "OARE_CookingPotMaleApproach",
       "priority": 0,

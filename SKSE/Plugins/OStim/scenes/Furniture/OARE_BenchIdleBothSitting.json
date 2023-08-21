@@ -6,17 +6,20 @@
 	{
 		"origin": "OStimBench2PBothSittingMF",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
 	{
 		"origin": "OStimBench2PBothSittingMM",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
 	{
 		"origin": "OStimBench2PBothSittingFF",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
     {
       "destination": "OARE_ChairIdle",

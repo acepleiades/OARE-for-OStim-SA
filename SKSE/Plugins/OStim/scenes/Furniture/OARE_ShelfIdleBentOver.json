@@ -6,12 +6,14 @@
     {
       "origin": "OStimShelf2PBendOverMF",
       "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
+	  "icon": "OARE/oare",
+		"priority": 500
     },
 	{
       "origin": "OStimShelf2PBendOverFF",
       "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare"
+	  "icon": "OARE/oare",
+		"priority": 500
     },
     {
       "destination": "OARE_ShelfIdle",

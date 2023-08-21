@@ -13,7 +13,7 @@
     {
       "destination": "OARE_MissionaryHugKissCrossedLegs",
       "priority": 3000,
-	  "description": "",
+	  "description": "({1}) Wrap your legs around {0}.",
 	  "icon": "OARE/Male_approach_female_spread_legs/MissionaryHugKissCrossedLegs",
 	  "border": "e05a4e",
       "noWarnings": false

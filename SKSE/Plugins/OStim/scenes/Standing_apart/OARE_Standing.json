@@ -6,23 +6,38 @@
 	{
 		"origin": "OStim2PStandingApartMF",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
 	{
 		"origin": "OStim2PStandingApartMM",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
 	{
 		"origin": "OStim2PStandingCloseFF",
 		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
 	},
 	{
 		"destination": "OStim2PStandingApartMF",
-		"description": "Return...",
-		"icon": "OARE/oare_return",
+		"description": "Return (male and female idle).",
+		"icon": "OARE/oare_returnMF",
 		"priority": -1000
+	},
+	{
+		"destination": "OStim2PStandingApartMM",
+		"description": "Return (two males idle).",
+		"icon": "OARE/oare_returnMM",
+		"priority": -1001
+	},
+	{
+		"destination": "OStim2PStandingCloseFF",
+		"description": "Return (two females idle).",
+		"icon": "OARE/oare_returnFF",
+		"priority": -1002
 	},
     {
       "destination": "OARE_GoToStandingHolding",
@@ -61,7 +76,7 @@
 	  "description": "Hold {1}'s hand.",
       "priority": 1000,
       "noWarnings": false,
-	  "border": "fce5cd",
+	  "border": "dd7e5e",
 	  "icon": "OARE/Standing_apart/StandingHandHolding"
     },
     {

@@ -6,12 +6,14 @@
     {
       "origin": "OStimTable2PBehindMF",
       "description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
     },
     {
       "origin": "OStimTable2PBehindFF",
       "description": "Access Open Animations RE...",
-		"icon": "OARE/oare"
+		"icon": "OARE/oare",
+		"priority": 500
     },
     {
       "destination": "OARE_TableIdleFacingEachOther",
