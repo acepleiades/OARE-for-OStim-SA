@@ -40,6 +40,14 @@
 		"priority": -1002
 	},
     {
+      "destination": "OARE_ShelfFemaleBookIdle",
+      "priority": 0,
+	  "description": "({1}) Grab a book.",
+	  "icon": "OARE/Furniture/ShelfFemaleBookIdle",
+	  "border": "fce5cd",
+      "noWarnings": false
+    },
+    {
       "destination": "OARE_ShelfIdleBentOver",
       "priority": 0,
 	  "description": "({1}) Bend over.",
@@ -59,8 +67,7 @@
   "noRandomSelection": false,
   "furniture": "shelf",
   "tags": [
-    "idle",
-    "intro"
+    "idle"
   ],
   "autoTransitions": {},
   "actors": [

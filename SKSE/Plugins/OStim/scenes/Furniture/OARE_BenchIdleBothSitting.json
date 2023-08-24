@@ -56,8 +56,7 @@
   "noRandomSelection": false,
   "furniture": "bench",
   "tags": [
-    "idle",
-    "intro"
+    "idle"
   ],
   "autoTransitions": {},
   "actors": [

@@ -1,0 +1,66 @@
+{
+  "name": "Cooking Together Eye Contact",
+  "modPack": "Open Animations Romance and Erotica",
+  "length": 2,
+  "navigations": [
+	{
+		"destination": "OARE_CookingTogether",
+		"description": "Return...",
+		"icon": "OARE/oare_return",
+		"priority": -1000
+	},
+    {
+      "destination": "OARE_CookingTogetherNeckKiss",
+      "priority": 0,
+	  "description": "Kiss {1}'s neck.",
+	  "icon": "OARE/Furniture/CookingTogetherNeckKiss",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "CookingTogetherEyeContact",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "cookingpot",
+  "tags": [
+    "cuddling",
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookLeft": 50,
+      "lookUp": -50,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookLeft": -50,
+      "lookUp": 75,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

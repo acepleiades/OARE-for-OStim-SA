@@ -48,24 +48,32 @@
       "noWarnings": false
     },
     {
-      "destination": "OARE_CookingPotButtGrab",
+      "destination": "OARE_CookingTogether",
       "priority": 1000,
+	  "description": "Cook together.",
+	  "icon": "OARE/Furniture/CookingTogether",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    },
+    {
+      "destination": "OARE_CookingPotButtGrab",
+      "priority": 3000,
 	  "description": "Touch {1}'s butt.",
 	  "icon": "OARE/Furniture/CookingPotButtGrab",
-	  "border": "dd7e5e",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OARE_CookingPotKissGropeBreasts",
-      "priority": 1001,
+      "priority": 3001,
 	  "description": "Touch {1}'s breasts.",
 	  "icon": "OARE/Furniture/CookingPotKissGropeBreasts",
-	  "border": "dd7e5e",
+	  "border": "e05a4e",
       "noWarnings": false
     },
     {
       "destination": "OARE_CookingPotSex",
-      "priority": 3000,
+      "priority": 3002,
 	  "description": "Have sex with {1}.",
 	  "icon": "OARE/Furniture/CookingPotSex",
 	  "border": "e05a4e",
@@ -83,8 +91,7 @@
   "noRandomSelection": false,
   "furniture": "cookingpot",
   "tags": [
-    "idle",
-    "intro"
+    "idle"
   ],
   "autoTransitions": {},
   "actors": [

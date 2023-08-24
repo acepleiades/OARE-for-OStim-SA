@@ -29,8 +29,7 @@
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "tags": [
-    "idle",
-    "intro"
+    "idle"
   ],
   "autoTransitions": {},
   "actors": [

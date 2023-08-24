@@ -1,0 +1,64 @@
+{
+  "name": "Cooking Together",
+  "modPack": "Open Animations Romance and Erotica",
+  "length": 2,
+  "navigations": [
+	{
+		"destination": "OARE_CookingPotIdle",
+		"description": "Return...",
+		"icon": "OARE/oare_return",
+		"priority": -1000
+	},
+    {
+      "destination": "OARE_CookingTogetherEyeContact",
+      "priority": 0,
+	  "description": "Look into each other's eyes.",
+	  "icon": "OARE/Furniture/CookingTogetherEyeContact",
+	  "border": "dd7e5e",
+      "noWarnings": false
+    }
+  ],
+  "speeds": [
+    {
+      "animation": "CookingTogether",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "cookingpot",
+  "tags": [
+    "cuddling",
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookUp": -80,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookUp": -100,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": []
+}

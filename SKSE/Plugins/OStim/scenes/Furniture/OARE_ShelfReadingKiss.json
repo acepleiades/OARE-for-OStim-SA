@@ -1,0 +1,61 @@
+{
+  "name": "Shelf Reading Eye Contact",
+  "modPack": "Open Animations Romance and Erotica",
+  "length": 2,
+  "navigations": [
+	{
+		"destination": "OARE_ShelfReadingEyeContact",
+		"description": "Return...",
+		"icon": "OARE/oare_return",
+		"priority": -1000
+	}
+  ],
+  "speeds": [
+    {
+      "animation": "ShelfReadingKiss",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "furniture": "shelf",
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "lookRight": 33,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "lookLeft": 50,
+      "tags": [
+        "standing"
+      ],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "kissing",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

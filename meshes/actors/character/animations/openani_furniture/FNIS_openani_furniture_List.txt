@@ -73,6 +73,12 @@ b -Tn _Sx-BenchSittingSex_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh
 
 b -Tn _Ap-CookingPotIdle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotIdle\_Ap-CookingPotIdle_0.hkx
 b -o _Ap-CookingPotIdle_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotIdle\_Ap-CookingPotIdle_1.hkx AnimObjectSpoon
+b -Tn CookingTogether_0 ..\..\..\..\OARE_animations\Furniture\Pot\CookingTogether\CookingTogether_0.hkx
+b -o CookingTogether_1 ..\..\..\..\OARE_animations\Furniture\Pot\CookingTogether\CookingTogether_1.hkx AnimObjectSpoon
+b -Tn CookingTogetherEyeContact_0 ..\..\..\..\OARE_animations\Furniture\Pot\CookingTogetherEyeContact\CookingTogetherEyeContact_0.hkx
+b -o CookingTogetherEyeContact_1 ..\..\..\..\OARE_animations\Furniture\Pot\CookingTogetherEyeContact\CookingTogetherEyeContact_1.hkx AnimObjectSpoon
+b -Tn CookingTogetherNeckKiss_0 ..\..\..\..\OARE_animations\Furniture\Pot\CookingTogetherNeckKiss\CookingTogetherNeckKiss_0.hkx
+b -o CookingTogetherNeckKiss_1 ..\..\..\..\OARE_animations\Furniture\Pot\CookingTogetherNeckKiss\CookingTogetherNeckKiss_1.hkx AnimObjectSpoon
 b -Tn _Ap-CookingPotMaleApproach_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotMaleApproach\_Ap-CookingPotMaleApproach_0.hkx
 b -o _Ap-CookingPotMaleApproach_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Ap\CookingPotMaleApproach\_Ap-CookingPotMaleApproach_1.hkx AnimObjectSpoon
 b -Tn _Cr-CookingPotButtGrab_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\CooPot\Cr\CookingPotButtGrab\_Cr-CookingPotButtGrab_S1_0.hkx
@@ -116,6 +122,20 @@ b -o _Sx-CookingPotSexRaisedLeg_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture
 
 b -Tn _Ap-ShelfIdle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdle\_Ap-ShelfIdle_0.hkx
 b -Tn _Ap-ShelfIdle_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdle\_Ap-ShelfIdle_1.hkx
+b -Tn ShelfFemaleBookIdle_0 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfFemaleBookIdle\ShelfFemaleBookIdle_0.hkx
+b -o ShelfFemaleBookIdle_1 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfFemaleBookIdle\ShelfFemaleBookIdle_1.hkx animobjectbook
+b -Tn ShelfReadingTogether_0 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingTogether\ShelfReadingTogether_0.hkx
+b -o ShelfReadingTogether_1 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingTogether\ShelfReadingTogether_1.hkx animobjectbook
+b -Tn ShelfReadingEyeContact_0 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingEyeContact\ShelfReadingEyeContact_0.hkx
+b -o ShelfReadingEyeContact_1 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingEyeContact\ShelfReadingEyeContact_1.hkx animobjectbook
+b -Tn ShelfReadingKiss_0 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingKiss\ShelfReadingKiss_0.hkx
+b -o ShelfReadingKiss_1 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingKiss\ShelfReadingKiss_1.hkx animobjectbook
+b -Tn ShelfReadingTogetherTA_0 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingTogether\ShelfReadingTogetherTA_0.hkx
+b -o ShelfReadingTogetherTA_1 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingTogether\ShelfReadingTogetherTA_1.hkx animobjectbook
+b -Tn ShelfReadingEyeContactTA_0 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingEyeContact\ShelfReadingEyeContactTA_0.hkx
+b -o ShelfReadingEyeContactTA_1 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingEyeContact\ShelfReadingEyeContactTA_1.hkx animobjectbook
+b -Tn ShelfReadingKissTA_0 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingKiss\ShelfReadingKissTA_0.hkx
+b -o ShelfReadingKissTA_1 ..\..\..\..\OARE_animations\Furniture\Shelf\ShelfReadingKiss\ShelfReadingKissTA_1.hkx animobjectbook
 b -Tn _Ap-ShelfIdleBentOver_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdleBentOver\_Ap-ShelfIdleBentOver_0.hkx
 b -Tn _Ap-ShelfIdleBentOver_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Ap\ShelfIdleBentOver\_Ap-ShelfIdleBentOver_1.hkx
 b -Tn _Sx-ShelfRearSexBentOver_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\SheLf\Sx\ShelfRearSexBentOver\_Sx-ShelfRearSexBentOver_S1_0.hkx

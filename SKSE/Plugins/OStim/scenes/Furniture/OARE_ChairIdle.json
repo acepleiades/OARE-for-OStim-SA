@@ -99,8 +99,7 @@
   "noRandomSelection": false,
   "furniture": "chair",
   "tags": [
-    "idle",
-    "intro"
+    "idle"
   ],
   "autoTransitions": {},
   "actors": [
