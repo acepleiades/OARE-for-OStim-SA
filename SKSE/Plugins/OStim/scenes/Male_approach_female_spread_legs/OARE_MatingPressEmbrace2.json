@@ -1,55 +1,39 @@
 {
-  "name": "Mating Press",
+  "name": "Mating Press Embrace 2",
   "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
 	{
-      "destination": "OARE_SpreadLegsFemale",
+      "destination": "OARE_MatingPress",
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
-      "noWarnings": false
-    },
-	{
-      "destination": "OARE_MatingPressHoldingHands",
-      "priority": 3001,
-	  "description": "Hold {1}'s hands.",
-	  "icon": "OARE/oare_placeholder_erotic",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-	{
-      "destination": "OARE_MatingPressEmbrace",
-      "priority": 3002,
-	  "description": "({1}) Embrace {0}.",
-	  "icon": "OARE/oare_placeholder_erotic",
-	  "border": "e05a4e",
       "noWarnings": false
     }
   ],
   "speeds": [
     {
-      "animation": "MatingPress_S1",
+      "animation": "MatingPressEmbrace2_S1",
       "playbackSpeed": 1,
       "displaySpeed": 0.5
     },
     {
-      "animation": "MatingPress_S2",
+      "animation": "MatingPressEmbrace2_S2",
       "playbackSpeed": 1,
       "displaySpeed": 1
     },
     {
-      "animation": "MatingPress_S3",
+      "animation": "MatingPressEmbrace2_S3",
       "playbackSpeed": 1,
       "displaySpeed": 1.5
     },
     {
-      "animation": "MatingPress_S4",
+      "animation": "MatingPressEmbrace2_S4",
       "playbackSpeed": 1,
       "displaySpeed": 2
     },
     {
-      "animation": "MatingPress_S5",
+      "animation": "MatingPressEmbrace2_S5",
       "playbackSpeed": 1,
       "displaySpeed": 2.5
     }
@@ -88,6 +72,11 @@
   "actions": [
     {
       "type": "vaginalsex",
+      "actor": 0,
+      "target": 1
+    },
+    {
+      "type": "kissing",
       "actor": 0,
       "target": 1
     }
