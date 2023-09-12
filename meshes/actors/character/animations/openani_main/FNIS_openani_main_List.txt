@@ -991,14 +991,16 @@ b -Tn _Sx-HoldKneesFrontalSex_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\H
 b -Tn _Sx-HoldKneesFrontalSex_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\HoldKneesFrontalSex\_Sx-HoldKneesFrontalSex_S3_1.hkx
 b -Tn _Sx-HoldKneesFrontalSex_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\HoldKneesFrontalSex\_Sx-HoldKneesFrontalSex_S4_0.hkx
 b -Tn _Sx-HoldKneesFrontalSex_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\HoldKneesFrontalSex\_Sx-HoldKneesFrontalSex_S4_1.hkx
-b -Tn _Sx-MissionaryKissingFeet_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S1_0.hkx
-b -Tn _Sx-MissionaryKissingFeet_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S1_1.hkx
-b -Tn _Sx-MissionaryKissingFeet_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S2_0.hkx
-b -Tn _Sx-MissionaryKissingFeet_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S2_1.hkx
-b -Tn _Sx-MissionaryKissingFeet_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S3_0.hkx
-b -Tn _Sx-MissionaryKissingFeet_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S3_1.hkx
-b -Tn _Sx-MissionaryKissingFeet_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S4_0.hkx
-b -Tn _Sx-MissionaryKissingFeet_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\Sx\MissionaryKissingFeet\_Sx-MissionaryKissingFeet_S4_1.hkx
+b -Tn MatingPress_S1_0 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S1_0.hkx
+b -Tn MatingPress_S1_1 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S1_1.hkx
+b -Tn MatingPress_S2_0 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S2_0.hkx
+b -Tn MatingPress_S2_1 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S2_1.hkx
+b -Tn MatingPress_S3_0 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S3_0.hkx
+b -Tn MatingPress_S3_1 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S3_1.hkx
+b -Tn MatingPress_S4_0 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S4_0.hkx
+b -Tn MatingPress_S4_1 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S4_1.hkx
+b -Tn MatingPress_S5_0 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S5_0.hkx
+b -Tn MatingPress_S5_1 ..\..\..\..\OARE_animations\Male_approach_female_spread_legs\MatingPress\MatingPress_S5_1.hkx
 
 b -Tn _Ap-FemaleLyingOnSide_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyS\Ap\FemaleLyingOnSide\_Ap-FemaleLyingOnSide_0.hkx
 b -Tn _Ap-FemaleLyingOnSide_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyS\Ap\FemaleLyingOnSide\_Ap-FemaleLyingOnSide_1.hkx

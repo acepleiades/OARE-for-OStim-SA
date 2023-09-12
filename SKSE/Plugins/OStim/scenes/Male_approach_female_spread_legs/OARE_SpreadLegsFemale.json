@@ -33,6 +33,14 @@
 	  "icon": "OARE/Male_approach_female_spread_legs/Missionary",
 	  "border": "e05a4e",
       "noWarnings": false
+    },
+    {
+      "destination": "OARE_MatingPress",
+      "priority": 3003,
+	  "description": "Have sex with {1} (mating press).",
+	  "icon": "OARE/oare_placeholder_erotic",
+	  "border": "e05a4e",
+      "noWarnings": false
     }
   ],
   "speeds": [

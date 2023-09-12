@@ -1,10 +1,10 @@
 {
-  "name": "Missionary, Legs Up",
+  "name": "Mating Press",
   "modPack": "Open Animations Romance and Erotica",
   "length": 2,
   "navigations": [
-    {
-      "destination": "OARE_Missionary",
+	{
+      "destination": "OARE_SpreadLegsFemale",
       "priority": -1000,
 	  "description": "Return...",
 	  "icon": "OARE/oare_return",
@@ -13,23 +13,28 @@
   ],
   "speeds": [
     {
-      "animation": "_Sx-MissionaryKissingFeet_S1",
+      "animation": "MatingPress_S1",
       "playbackSpeed": 1,
       "displaySpeed": 0.5
     },
     {
-      "animation": "_Sx-MissionaryKissingFeet_S2",
-      "playbackSpeed": 1,
+      "animation": "MatingPress_S2",
+      "playbackSpeed": 2,
       "displaySpeed": 1
     },
     {
-      "animation": "_Sx-MissionaryKissingFeet_S3",
-      "playbackSpeed": 1,
+      "animation": "MatingPress_S3",
+      "playbackSpeed": 3,
       "displaySpeed": 1.5
     },
     {
-      "animation": "_Sx-MissionaryKissingFeet_S4",
-      "playbackSpeed": 1,
+      "animation": "MatingPress_S4",
+      "playbackSpeed": 4,
+      "displaySpeed": 2
+    },
+    {
+      "animation": "MatingPress_S5",
+      "playbackSpeed": 5,
       "displaySpeed": 2
     }
   ],
@@ -43,14 +48,13 @@
     {
       "type": "npc",
       "intendedSex": "male",
-      "sosBend": 2,
+      "sosBend": -3,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
-      "lookUp": -100,
       "tags": [
-        "kneeling"
+        "squatting"
       ],
-      "feetOnGround": false,
+      "feetOnGround": true,
       "autoTransitions": {}
     },
     {
@@ -58,8 +62,6 @@
       "intendedSex": "female",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
-      "lookUp": -100,
-      "lookLeft": -65,
       "tags": [
         "lyingback"
       ],
@@ -68,11 +70,6 @@
     }
   ],
   "actions": [
-    {
-      "type": "kissingfeet",
-      "actor": 0,
-      "target": 1
-    },
     {
       "type": "vaginalsex",
       "actor": 0,
