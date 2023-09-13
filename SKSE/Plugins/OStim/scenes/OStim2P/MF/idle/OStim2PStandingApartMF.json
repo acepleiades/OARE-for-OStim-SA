@@ -1,0 +1,70 @@
+{
+	"name": "Standing Apart Straight",
+	"modpack": "OStim",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "OStim2PStandingApartMF"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "OStim2PStandingCloseFF",
+			"description": "Go to two females idle.",
+			"icon": "OStim/symbols/gender_ff",
+			"priority": -1000
+		},
+		{
+			"destination": "OStim2PStandingApartMM",
+			"description": "Go to two males idle.",
+			"icon": "OStim/symbols/gender_mm",
+			"priority": -1000
+		},
+		{
+			"destination": "OStim2PStandingApartToHoldingMF",
+			"description": "Hold {1}.",
+			"icon": "OStim/sensual/embrace_mf",
+			"priority": 0
+		},
+		{
+			"destination": "OStim2PStandingApartToStandingSquattingMF",
+			"description": "({1}) Squat.",
+			"icon": "OStim/positional/squatting_f",
+			"priority": 0
+		},
+		{
+			"destination": "OStim2PStandingApartToSittingMF",
+			"description": "Sit down.",
+			"icon": "OStim/positional/squatting_f",
+			"priority": 0
+		},
+		{
+			"destination": "OStim2PUndressingHub1MF",
+			"description": "Access the undressing menu...",
+			"icon": "OStim/clothes/top",
+			"priority": 2000
+		}
+	],
+	"tags":[
+		"idle",
+		"intro"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 7,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}
