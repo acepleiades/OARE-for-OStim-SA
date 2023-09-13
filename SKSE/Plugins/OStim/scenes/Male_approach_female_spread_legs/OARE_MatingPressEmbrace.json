@@ -14,7 +14,7 @@
       "destination": "OARE_MatingPressEmbrace2",
       "priority": 3001,
 	  "description": "({1}) Embrace {0}'s head.",
-	  "icon": "OARE/oare_placeholder_erotic",
+	  "icon": "OARE/Male_approach_female_spread_legs/MatingPressEmbrace2",
 	  "border": "e05a4e",
       "noWarnings": false
     }
