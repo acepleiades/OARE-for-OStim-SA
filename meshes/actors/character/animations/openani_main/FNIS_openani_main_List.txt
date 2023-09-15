@@ -175,6 +175,14 @@ b -Tn _HJ-HandjobKiss_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\HJ\HandjobKi
 b -Tn _HJ-HandjobKiss_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\HJ\HandjobKiss\_HJ-HandjobKiss_S3_1.hkx
 b -Tn _HJ-HandjobKiss_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\HJ\HandjobKiss\_HJ-HandjobKiss_S4_0.hkx
 b -Tn _HJ-HandjobKiss_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\HJ\HandjobKiss\_HJ-HandjobKiss_S4_1.hkx
+b -Tn _VJ-KneelingCL_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S1_0.hkx
+b -Tn _VJ-KneelingCL_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S1_1.hkx
+b -Tn _VJ-KneelingCL_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S2_0.hkx
+b -Tn _VJ-KneelingCL_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S2_1.hkx
+b -Tn _VJ-KneelingCL_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S3_0.hkx
+b -Tn _VJ-KneelingCL_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S3_1.hkx
+b -Tn _VJ-KneelingCL_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S4_0.hkx
+b -Tn _VJ-KneelingCL_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\KneLyB\VJ\KneelingCL\_VJ-KneelingCL_S4_1.hkx
 b -Tn _Sx-StandingHoldingSex_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StandingHolding\Sx\StandingHoldingSex\_Sx-StandingHoldingSex_S1_0.hkx
 b -Tn _Sx-StandingHoldingSex_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StandingHolding\Sx\StandingHoldingSex\_Sx-StandingHoldingSex_S1_1.hkx
 b -Tn _Sx-StandingHoldingSex_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StandingHolding\Sx\StandingHoldingSex\_Sx-StandingHoldingSex_S2_0.hkx
