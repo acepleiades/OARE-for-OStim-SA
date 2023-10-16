@@ -67,8 +67,8 @@
   "actions": [
     {
       "type": "mouthfuck",
-      "actor": 1,
-      "target": 0,
+      "actor": 0,
+      "target": 1,
       "performer": 0
     }
   ]
