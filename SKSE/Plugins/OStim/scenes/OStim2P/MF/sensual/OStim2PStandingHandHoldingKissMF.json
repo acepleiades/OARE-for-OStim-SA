@@ -1,1 +1,35 @@
-{}
+{
+  "name": "Removed",
+  "modPack": "OStim"
+  "length": 2,
+  "speeds": [
+    {
+      "animation": "_Ho-Standing",
+      "playbackSpeed": 1,
+      "displaySpeed": 1
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": true,
+  "tags": [
+    "idle"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "tags": [
+        "standing"
+      ]
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "tags": [
+        "standing"
+      ]
+    }
+  ],
+  "actions": []
+}
