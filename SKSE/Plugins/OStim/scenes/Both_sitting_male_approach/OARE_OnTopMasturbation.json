@@ -77,7 +77,7 @@
       "actor": 0
     },
     {
-      "type": "heavybreathing",
+      "type": "audiblebreathing",
       "actor": 1,
       "target": 1
     },

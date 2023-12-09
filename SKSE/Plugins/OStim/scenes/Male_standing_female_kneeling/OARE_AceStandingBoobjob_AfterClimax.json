@@ -59,7 +59,7 @@
   ],
   "actions": [
     {
-      "type": "heavybreathing",
+      "type": "audiblebreathing",
       "actor": 1,
       "target": 1
     }

@@ -73,11 +73,6 @@
       "actor": 1,
       "target": 0,
       "performer": 0
-    },
-    {
-      "type": "heavybreathing",
-      "actor": 1,
-      "target": 1
     }
   ]
 }
