@@ -1,0 +1,46 @@
+{
+  "name": "FemaleUndressMaleTorso 2",
+  "modPack": "Open Animations Romance and Erotica",
+  "length": 2,
+  "destination": "OARE_StandingHolding",
+  "navigations": [],
+  "speeds": [
+	{
+      "animation": "FemaleUndressMaleTorso_Pt2"
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": -5,
+      "scaleHeight": 120.748,
+	  "scale": 1.03,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+	  "scale": 1.0,
+      "tags": [],
+      "feetOnGround": true,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "undress_full_target",
+      "actor": 1,
+      "target": 0
+    }
+  ]
+}

@@ -129,6 +129,14 @@
 	  "icon": "OARE/oare_top",
 	  "border": "e05a4e",
       "noWarnings": false
+    },
+	{
+      "destination": "OARE_FemaleUndressMaleTorso_Pt1",
+      "priority": 4001,
+	  "description": "({1}) Undress {0}'s top.",
+	  "icon": "OARE/oare_top",
+	  "border": "e05a4e",
+      "noWarnings": false
     }
   ],
   "speeds": [

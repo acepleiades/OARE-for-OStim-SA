@@ -89,6 +89,10 @@ b -a,Tn _Ho-SHMaleUndressFemaleTorso1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta
 b -a,Tn _Ho-SHMaleUndressFemaleTorso1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Ho\SHMaleUndressFemaleTorso\_Ho-SHMaleUndressFemaleTorso1_1.hkx
 b -a,Tn _Ho-SHMaleUndressFemaleTorso2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Ho\SHMaleUndressFemaleTorso\_Ho-SHMaleUndressFemaleTorso2_0.hkx
 b -a,Tn _Ho-SHMaleUndressFemaleTorso2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Ho\SHMaleUndressFemaleTorso\_Ho-SHMaleUndressFemaleTorso2_1.hkx
+b -a,Tn FemaleUndressMaleTorso_Pt1_0 ..\..\..\..\OARE_animations\Standing_holding\FemaleUndressMaleTorso\FemaleUndressMaleTorso_Pt1_0.hkx
+b -a,Tn FemaleUndressMaleTorso_Pt1_1 ..\..\..\..\OARE_animations\Standing_holding\FemaleUndressMaleTorso\FemaleUndressMaleTorso_Pt1_1.hkx
+b -a,Tn FemaleUndressMaleTorso_Pt2_0 ..\..\..\..\OARE_animations\Standing_holding\FemaleUndressMaleTorso\FemaleUndressMaleTorso_Pt2_0.hkx
+b -a,Tn FemaleUndressMaleTorso_Pt2_1 ..\..\..\..\OARE_animations\Standing_holding\FemaleUndressMaleTorso\FemaleUndressMaleTorso_Pt2_1.hkx
 b -Tn _Em-StandingHug_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Em\StandingHug\_Em-StandingHug_0.hkx
 b -Tn _Em-StandingHug_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Em\StandingHug\_Em-StandingHug_1.hkx
 b -Tn _Em-StandingHandOnHeadCuddle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StandingHolding\Em\StandingHandOnHeadCuddle\_Em-StandingHandOnHeadCuddle_0.hkx
