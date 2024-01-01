@@ -840,6 +840,10 @@ b -Tn _Sx-ReverseCowgirlLeaningBack_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBKn
 
 b -Tn _Ap-SittingMaleApproach_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\SitSit\Ap\SittingMaleApproach\_Ap-SittingMaleApproach_0.hkx
 b -Tn _Ap-SittingMaleApproach_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\SitSit\Ap\SittingMaleApproach\_Ap-SittingMaleApproach_1.hkx
+b -a,Tn SittingMaleApproachUndressFemale_Pt1_0 ..\..\..\..\OARE_animations\Both_sitting_male_approach\SittingMaleApproachUndressFemale\SittingMaleApproachUndressFemale_Pt1_0.hkx
+b -a,Tn SittingMaleApproachUndressFemale_Pt1_1 ..\..\..\..\OARE_animations\Both_sitting_male_approach\SittingMaleApproachUndressFemale\SittingMaleApproachUndressFemale_Pt1_1.hkx
+b -a,Tn SittingMaleApproachUndressFemale_Pt2_0 ..\..\..\..\OARE_animations\Both_sitting_male_approach\SittingMaleApproachUndressFemale\SittingMaleApproachUndressFemale_Pt2_0.hkx
+b -a,Tn SittingMaleApproachUndressFemale_Pt2_1 ..\..\..\..\OARE_animations\Both_sitting_male_approach\SittingMaleApproachUndressFemale\SittingMaleApproachUndressFemale_Pt2_1.hkx
 b -Tn _BoF-SittingBreastSucking_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\SittingMaleApproach\BoF\SittingBreastSucking\_BoF-SittingBreastSucking_S1_0.hkx
 b -Tn _BoF-SittingBreastSucking_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\SittingMaleApproach\BoF\SittingBreastSucking\_BoF-SittingBreastSucking_S1_1.hkx
 b -Tn _BoF-SittingBreastSucking_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\SittingMaleApproach\BoF\SittingBreastSucking\_BoF-SittingBreastSucking_S2_0.hkx

@@ -1,0 +1,50 @@
+{
+  "name": "SittingMaleApproachUndressFemale_Pt2",
+  "modPack": "Open Animations Romance and Erotica",
+  "length": 2,
+  "destination": "OARE_SittingMaleApproach",
+  "navigations": [],
+  "speeds": [
+	{
+      "animation": "SittingMaleApproachUndressFemale_Pt2"
+    }
+  ],
+  "defaultSpeed": 0,
+  "noRandomSelection": false,
+  "tags": [
+    "transition"
+  ],
+  "autoTransitions": {},
+  "actors": [
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "sosBend": 6,
+      "scaleHeight": 120.748,
+      "scale": 1.03,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    },
+    {
+      "type": "npc",
+      "intendedSex": "any",
+      "scaleHeight": 120.748,
+      "scale": 1.0,
+      "tags": [
+        "sitting"
+      ],
+      "feetOnGround": false,
+      "autoTransitions": {}
+    }
+  ],
+  "actions": [
+    {
+      "type": "undress_full_target",
+      "actor": 0,
+      "target": 1
+    }
+  ]
+}

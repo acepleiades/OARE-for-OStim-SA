@@ -85,6 +85,14 @@
 	  "icon": "OARE/Both_sitting_male_approach/MountedTitfuck",
 	  "border": "e05a4e",
       "noWarnings": false
+    },
+	{
+      "destination": "OARE_SittingMaleApproachUndressFemale_Pt1",
+      "priority": 4000,
+	  "description": "Undress {1}'s top.",
+	  "icon": "OARE/oare_top",
+	  "border": "e05a4e",
+      "noWarnings": false
     }
   ],
   "speeds": [
