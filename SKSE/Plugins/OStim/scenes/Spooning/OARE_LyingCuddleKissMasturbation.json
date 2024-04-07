@@ -35,9 +35,7 @@
   ],
   "defaultSpeed": 1,
   "noRandomSelection": false,
-  "tags": [
-    "spooning"
-  ],
+  "tags": [],
   "autoTransitions": {},
   "actors": [
     {

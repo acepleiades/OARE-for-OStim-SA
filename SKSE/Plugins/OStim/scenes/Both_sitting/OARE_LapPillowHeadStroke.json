@@ -30,7 +30,9 @@
   ],
   "defaultSpeed": 1,
   "noRandomSelection": false,
-  "tags": [],
+  "tags": [
+    "cuddling"
+  ],
   "autoTransitions": {},
   "actors": [
     {

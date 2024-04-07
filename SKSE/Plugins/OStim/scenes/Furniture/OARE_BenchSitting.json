@@ -30,7 +30,8 @@
   "noRandomSelection": false,
   "furniture": "bench",
   "tags": [
-    "idle"
+    "idle",
+    "cuddling"
   ],
   "autoTransitions": {},
   "actors": [
