@@ -1,99 +1,99 @@
 {
-  "name": "Shelf Idle",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-    {
-      "origin": "OStimShelf2PBehindMF",
-      "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare",
-		"priority": 500
-    },
-	{
-      "origin": "OStimShelf2PBehindMM",
-      "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare",
-		"priority": 500
-    },
-	{
-      "origin": "OStimShelf2PBehindFF",
-      "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare",
-		"priority": 500
-    },
-	{
-		"destination": "OStimShelf2PBehindMF",
-		"description": "Return (male and female idle).",
-		"icon": "OARE/oare_returnMF",
-		"priority": -1000
-	},
-	{
-		"destination": "OStimShelf2PBehindMM",
-		"description": "Return (two males idle).",
-		"icon": "OARE/oare_returnMM",
-		"priority": -1001
-	},
-	{
-		"destination": "OStimShelf2PBehindFF",
-		"description": "Return (two females idle).",
-		"icon": "OARE/oare_returnFF",
-		"priority": -1002
-	},
-    {
-      "destination": "OARE_ShelfFemaleBookIdle",
-      "priority": 0,
-	  "description": "({1}) Grab a book.",
-	  "icon": "OARE/Furniture/ShelfFemaleBookIdle",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_ShelfIdleBentOver",
-      "priority": 0,
-	  "description": "({1}) Bend over.",
-	  "icon": "OARE/Furniture/ShelfIdleBentOver",
-	  "border": "fce5cd",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ap-ShelfIdle",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "furniture": "shelf",
-  "tags": [
-    "idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 6,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": true,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": true,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Shelf Idle",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OStimShelf2PBehindMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "origin": "OStimShelf2PBehindMM",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "origin": "OStimShelf2PBehindFF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "destination": "OStimShelf2PBehindMF",
+            "description": "Return (male and female idle).",
+            "icon": "OARE/oare_returnMF",
+            "priority": -1000
+        },
+        {
+            "destination": "OStimShelf2PBehindMM",
+            "description": "Return (two males idle).",
+            "icon": "OARE/oare_returnMM",
+            "priority": -1001
+        },
+        {
+            "destination": "OStimShelf2PBehindFF",
+            "description": "Return (two females idle).",
+            "icon": "OARE/oare_returnFF",
+            "priority": -1002
+        },
+        {
+            "destination": "OARE_ShelfFemaleBookIdle",
+            "priority": 0,
+            "description": "({1}) Grab a book.",
+            "icon": "OARE/Furniture/ShelfFemaleBookIdle",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_ShelfIdleBentOver",
+            "priority": 0,
+            "description": "({1}) Bend over.",
+            "icon": "OARE/Furniture/ShelfIdleBentOver",
+            "border": "fce5cd",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ap-ShelfIdle",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "furniture": "shelf",
+    "tags": [
+        "idle"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 6,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }
