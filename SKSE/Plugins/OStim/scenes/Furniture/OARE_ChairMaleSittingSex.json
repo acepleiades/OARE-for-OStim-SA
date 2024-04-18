@@ -1,46 +1,54 @@
 {
-    "name": "Bench Sitting Sex",
+    "name": "Chair Male Sitting Sex",
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "navigations": [
         {
-            "destination": "OARE_BenchSitting",
+            "destination": "OARE_ChairIdleFemaleFacingAway",
             "priority": -1000,
             "description": "Return...",
             "icon": "OARE/oare_return",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_ChairMaleSittingSexVariation",
+            "priority": 3000,
+            "description": "{1} puts their hands on {0}'s knees.",
+            "icon": "OARE/Furniture/ChairMaleSittingSexVariation",
+            "border": "e05a4e",
             "noWarnings": false
         }
     ],
     "speeds": [
         {
-            "animation": "BenchSittingSex_S1",
+            "animation": "ChairMaleSittingSex_S1",
             "playbackSpeed": 1,
             "displaySpeed": 0.5
         },
         {
-            "animation": "BenchSittingSex_S2",
+            "animation": "ChairMaleSittingSex_S2",
             "playbackSpeed": 1,
             "displaySpeed": 1
         },
         {
-            "animation": "BenchSittingSex_S3",
+            "animation": "ChairMaleSittingSex_S3",
             "playbackSpeed": 1,
             "displaySpeed": 1.5
         },
         {
-            "animation": "BenchSittingSex_S4",
+            "animation": "ChairMaleSittingSex_S4",
             "playbackSpeed": 1,
             "displaySpeed": 2
         },
         {
-            "animation": "BenchSittingSex_S5",
+            "animation": "ChairMaleSittingSex_S5",
             "playbackSpeed": 1,
             "displaySpeed": 2.5
         }
     ],
     "defaultSpeed": 1,
     "noRandomSelection": false,
-    "furniture": "bench",
+    "furniture": "chair",
     "tags": [],
     "autoTransitions": {},
     "actors": [
@@ -62,11 +70,12 @@
             "intendedSex": "female",
             "scaleHeight": 120.748,
             "scale": 1,
-            "lookUp": -35,
+            "lookUp": -50,
             "tags": [
-                "sitting"
+                "standing",
+                "facingaway"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -74,7 +83,8 @@
         {
             "type": "vaginalsex",
             "actor": 0,
-            "target": 1
+            "target": 1,
+            "performer": 1
         }
     ]
 }

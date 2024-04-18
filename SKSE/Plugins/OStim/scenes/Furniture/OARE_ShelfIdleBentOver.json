@@ -23,10 +23,10 @@
       "noWarnings": false
     },
     {
-      "destination": "OARE_ShelfRearSexBentOver",
+      "destination": "OARE_ShelfRearSex",
       "priority": 3000,
 	  "description": "Have sex with {1}.",
-	  "icon": "OARE/Furniture/ShelfRearSexBentOver",
+	  "icon": "OARE/Furniture/ShelfRearSex",
 	  "border": "e05a4e",
       "noWarnings": false
     }
