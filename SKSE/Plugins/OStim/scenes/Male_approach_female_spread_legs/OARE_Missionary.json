@@ -45,7 +45,7 @@
         {
             "destination": "OARE_MissionaryHugKiss",
             "priority": 3004,
-            "description": "Spread {1}'s legs.",
+            "description": "Kiss {1}.",
             "icon": "OARE/Male_approach_female_spread_legs/MissionaryHugKiss",
             "border": "e05a4e",
             "noWarnings": false
