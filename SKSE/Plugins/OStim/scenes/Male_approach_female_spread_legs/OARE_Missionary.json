@@ -1,132 +1,137 @@
 {
-  "name": "Missionary",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-	{
-      "destination": "OARE_SpreadLegsFemale",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_MissionaryMaleClimaxInternal",
-      "priority": 3000,
-	  "description": "Finish inside {1}.",
-	  "icon": "OARE/oare_heart",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_MissionaryHoldingHands",
-      "priority": 3001,
-	  "description": "Hold {1}'s hands.",
-	  "icon": "OARE/Male_approach_female_spread_legs/MissionaryHoldingHands",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_MissionaryLegsHeld",
-      "priority": 3002,
-	  "description": "Hold {1}'s legs up.",
-	  "icon": "OARE/Male_approach_female_spread_legs/MissionaryLegsHeld",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_MissionaryHugKiss",
-      "priority": 3003,
-	  "description": "Hug and kiss {1}.",
-	  "icon": "OARE/Male_approach_female_spread_legs/MissionaryHugKiss",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_HoldKneesFrontalSex",
-      "priority": 3004,
-	  "description": "Hold {1}'s knees.",
-	  "icon": "OARE/Male_approach_female_spread_legs/HoldKneesFrontalSex",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-	{
-      "destination": "OARE_MissionarySpreadLegs",
-      "priority": 3005,
-	  "description": "({1}) Spread your legs.",
-	  "icon": "OARE/Male_approach_female_spread_legs/MissionarySpreadLegs",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_MissionaryHoldLegsTogether",
-      "priority": 3006,
-	  "description": "({1}) Hold your legs together.",
-	  "icon": "OARE/Male_approach_female_spread_legs/MissionaryHoldLegsTogether",
-	  "border": "e05a4e",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Sx-Missionary_S1",
-      "playbackSpeed": 1,
-      "displaySpeed": 0.5
-    },
-    {
-      "animation": "_Sx-Missionary_S2",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    },
-    {
-      "animation": "_Sx-Missionary_S3",
-      "playbackSpeed": 1,
-      "displaySpeed": 1.5
-    },
-    {
-      "animation": "_Sx-Missionary_S4",
-      "playbackSpeed": 1,
-      "displaySpeed": 2
-    }
-  ],
-  "defaultSpeed": 1,
-  "noRandomSelection": false,
-  "tags": [
-    "missionary"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "male",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -25,
-      "tags": [
-        "kneeling"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "female",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -50,
-      "tags": [
-        "lyingback"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": [
-    {
-      "type": "vaginalsex",
-      "actor": 0,
-      "target": 1
-    }
-  ]
+    "name": "Missionary",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "OARE_SpreadLegsFemale",
+            "priority": -1000,
+            "description": "Return...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_MissionaryMaleClimaxInternal",
+            "priority": 3000,
+            "description": "Finish inside {1}.",
+            "icon": "OARE/oare_heart",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_MissionaryHandholding",
+            "priority": 3001,
+            "description": "Hold {1}'s hands.",
+            "icon": "OARE/Male_approach_female_spread_legs/MissionaryHandholding",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_MissionaryHoldingLegs",
+            "priority": 3002,
+            "description": "Hold {1}'s legs.",
+            "icon": "OARE/Male_approach_female_spread_legs/MissionaryHoldingLegs",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_MissionarySpreadLegs",
+            "priority": 3003,
+            "description": "Spread {1}'s legs.",
+            "icon": "OARE/Male_approach_female_spread_legs/MissionarySpreadLegs",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_MissionaryHugKiss",
+            "priority": 3004,
+            "description": "Spread {1}'s legs.",
+            "icon": "OARE/Male_approach_female_spread_legs/MissionaryHugKiss",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_HoldKneesFrontalSex",
+            "priority": 3005,
+            "description": "Hold {1}'s knees.",
+            "icon": "OARE/Male_approach_female_spread_legs/HoldKneesFrontalSex",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_MissionaryHoldLegsTogether",
+            "priority": 3006,
+            "description": "({1}) Hold your legs together.",
+            "icon": "OARE/Male_approach_female_spread_legs/MissionaryHoldLegsTogether",
+            "border": "e05a4e",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "Missionary_S1",
+            "playbackSpeed": 1,
+            "displaySpeed": 0.5
+        },
+        {
+            "animation": "Missionary_S2",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        },
+        {
+            "animation": "Missionary_S3",
+            "playbackSpeed": 1,
+            "displaySpeed": 1.5
+        },
+        {
+            "animation": "Missionary_S4",
+            "playbackSpeed": 1,
+            "displaySpeed": 2
+        },
+        {
+            "animation": "Missionary_S5",
+            "playbackSpeed": 1,
+            "displaySpeed": 2.5
+        }
+    ],
+    "defaultSpeed": 1,
+    "noRandomSelection": false,
+    "tags": [
+        "missionary"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "male",
+            "sosBend": -2,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -25,
+            "tags": [
+                "kneeling"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "female",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": -60,
+            "tags": [
+                "lyingback"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ]
 }

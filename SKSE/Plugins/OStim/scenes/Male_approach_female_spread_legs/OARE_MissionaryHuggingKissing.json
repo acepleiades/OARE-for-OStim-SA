@@ -4,49 +4,38 @@
     "length": 2,
     "navigations": [
         {
-            "destination": "OARE_Missionary",
+            "destination": "OARE_MissionaryHugKiss",
             "priority": -1000,
             "description": "Return...",
             "icon": "OARE/oare_return",
-            "noWarnings": false
-        },
-        {
-            "destination": "OARE_MissionaryHuggingKissing",
-            "priority": 3000,
-            "description": "({1}) Embrace {0}.",
-            "icon": "OARE/Male_approach_female_spread_legs/MissionaryHuggingKissing",
-            "border": "e05a4e",
-            "noWarnings": false
-        },
-        {
-            "destination": "OARE_MissionaryHugKissCrossedLegs",
-            "priority": 3001,
-            "description": "({1}) Wrap your legs around {0}.",
-            "icon": "OARE/Male_approach_female_spread_legs/MissionaryHugKissCrossedLegs",
-            "border": "e05a4e",
             "noWarnings": false
         }
     ],
     "speeds": [
         {
-            "animation": "_Sx-MissionaryHugKiss_S1",
+            "animation": "MissionaryHuggingKissing_S1",
             "playbackSpeed": 1,
             "displaySpeed": 0.5
         },
         {
-            "animation": "_Sx-MissionaryHugKiss_S2",
+            "animation": "MissionaryHuggingKissing_S2",
             "playbackSpeed": 1,
             "displaySpeed": 1
         },
         {
-            "animation": "_Sx-MissionaryHugKiss_S3",
+            "animation": "MissionaryHuggingKissing_S3",
             "playbackSpeed": 1,
             "displaySpeed": 1.5
         },
         {
-            "animation": "_Sx-MissionaryHugKiss_S4",
+            "animation": "MissionaryHuggingKissing_S4",
             "playbackSpeed": 1,
             "displaySpeed": 2
+        },
+        {
+            "animation": "MissionaryHuggingKissing_S5",
+            "playbackSpeed": 1,
+            "displaySpeed": 2.5
         }
     ],
     "defaultSpeed": 1,
@@ -59,9 +48,11 @@
         {
             "type": "npc",
             "intendedSex": "male",
-            "sosBend": 7,
+            "sosBend": 5,
             "scaleHeight": 120.748,
             "scale": 1.03,
+            "lookUp": -10,
+            "lookLeft": 0,
             "tags": [
                 "kneeling"
             ],
@@ -73,6 +64,8 @@
             "intendedSex": "female",
             "scaleHeight": 120.748,
             "scale": 1,
+            "lookUp": 10,
+            "lookLeft": 50,
             "tags": [
                 "lyingback"
             ],
