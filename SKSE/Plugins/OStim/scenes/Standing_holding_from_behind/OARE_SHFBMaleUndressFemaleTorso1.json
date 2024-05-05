@@ -23,7 +23,7 @@
       "scaleHeight": 120.748,
 	  "scale": 1.03,
       "tags": [],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     },
     {
@@ -32,7 +32,7 @@
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "tags": [],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     }
   ],

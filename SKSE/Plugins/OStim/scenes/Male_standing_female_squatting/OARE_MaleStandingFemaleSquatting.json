@@ -75,7 +75,7 @@
       "tags": [
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     },
     {
@@ -87,7 +87,7 @@
       "tags": [
         "squatting"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     }
   ],

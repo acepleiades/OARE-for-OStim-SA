@@ -239,7 +239,7 @@
       "tags": [
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {
         "devour1": "OpS|Sta!Sta|Ap|StandingDevourVampireMale"
       }
@@ -252,7 +252,7 @@
       "tags": [
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {
         "devour0": "OpS|Sta!Sta|Ap|StandingDevourVampireFemale"
       }

@@ -33,7 +33,7 @@
       "tags": [
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     },
     {
@@ -46,7 +46,7 @@
         "drowsy",
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     }
   ],

@@ -64,7 +64,7 @@
       "tags": [
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {
         "climax": "OpS|Sta!Kne|BoJ|AceStandingBoobjob_MaleClimax"
       }

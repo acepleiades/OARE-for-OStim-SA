@@ -24,7 +24,7 @@
         "climaxing",
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     },
     {

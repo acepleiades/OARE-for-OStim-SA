@@ -44,7 +44,7 @@
         "nostrip",
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     },
     {
@@ -59,7 +59,7 @@
         "facingaway",
         "standing"
       ],
-      "feetOnGround": true,
+      "feetOnGround": false,
       "autoTransitions": {}
     }
   ],
