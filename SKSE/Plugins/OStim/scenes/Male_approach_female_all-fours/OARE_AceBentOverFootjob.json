@@ -1,76 +1,79 @@
 {
-  "name": "Bent Over Footjob",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-    {
-      "destination": "OARE_FemaleAllFours",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_FJ-AceBentOverFootjob_S1",
-      "playbackSpeed": 1,
-      "displaySpeed": 0.5
-    },
-    {
-      "animation": "_FJ-AceBentOverFootjob_S2",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    },
-    {
-      "animation": "_FJ-AceBentOverFootjob_S3",
-      "playbackSpeed": 1,
-      "displaySpeed": 2
-    },
-    {
-      "animation": "_FJ-AceBentOverFootjob_S4",
-      "playbackSpeed": 1,
-      "displaySpeed": 3
-    }
-  ],
-  "defaultSpeed": 1,
-  "noRandomSelection": false,
-  "tags": [],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "male",
-      "sosBend": 2,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -50,
-      "tags": [
-        "kneeling"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -50,
-      "lookLeft": 100,
-      "tags": [
-        "allfours",
-        "facingaway"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": [
-    {
-      "type": "footjob",
-      "actor": 1,
-      "target": 0
-    }
-  ]
+    "name": "Bent Over Footjob",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "OARE_FemaleAllFours",
+            "priority": -1000,
+            "description": "Return...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_FJ-AceBentOverFootjob_S1",
+            "playbackSpeed": 1,
+            "displaySpeed": 0.5
+        },
+        {
+            "animation": "_FJ-AceBentOverFootjob_S2",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        },
+        {
+            "animation": "_FJ-AceBentOverFootjob_S3",
+            "playbackSpeed": 1,
+            "displaySpeed": 2
+        },
+        {
+            "animation": "_FJ-AceBentOverFootjob_S4",
+            "playbackSpeed": 1,
+            "displaySpeed": 3
+        }
+    ],
+    "defaultSpeed": 1,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "footfetish"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "male",
+            "sosBend": 2,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -50,
+            "tags": [
+                "kneeling"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": -50,
+            "lookLeft": 100,
+            "tags": [
+                "allfours",
+                "facingaway"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "footjob",
+            "actor": 1,
+            "target": 0
+        }
+    ]
 }

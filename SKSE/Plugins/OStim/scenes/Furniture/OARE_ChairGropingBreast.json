@@ -36,8 +36,7 @@
   "defaultSpeed": 1,
   "noRandomSelection": false,
   "furniture": "chair",
-  "tags": [
-    "idle"
+  "tags": ["oare","idle"
   ],
   "autoTransitions": {},
   "actors": [

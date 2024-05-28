@@ -36,7 +36,7 @@
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "furniture": "table",
-  "tags": [],
+  "tags": ["oare"],
   "autoTransitions": {},
   "actors": [
     {

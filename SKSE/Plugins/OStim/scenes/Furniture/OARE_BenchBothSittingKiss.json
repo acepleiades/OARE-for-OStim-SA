@@ -21,8 +21,7 @@
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "furniture": "bench",
-  "tags": [
-    "idle"
+  "tags": ["oare","idle"
   ],
   "autoTransitions": {},
   "actors": [

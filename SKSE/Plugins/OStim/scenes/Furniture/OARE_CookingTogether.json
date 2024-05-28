@@ -28,8 +28,7 @@
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "furniture": "cookingpot",
-  "tags": [
-    "cuddling"
+  "tags": ["oare","cuddling"
   ],
   "autoTransitions": {},
   "actors": [

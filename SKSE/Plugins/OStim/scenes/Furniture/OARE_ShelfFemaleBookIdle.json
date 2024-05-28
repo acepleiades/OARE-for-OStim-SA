@@ -28,8 +28,7 @@
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "furniture": "shelf",
-  "tags": [
-    "idle"
+  "tags": ["oare","idle"
   ],
   "autoTransitions": {},
   "actors": [

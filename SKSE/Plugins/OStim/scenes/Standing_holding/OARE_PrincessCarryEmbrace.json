@@ -28,8 +28,7 @@
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "tags": [
-    "cuddling"
+  "tags": ["oare","cuddling"
   ],
   "autoTransitions": {},
   "actors": [
@@ -53,7 +52,7 @@
       "scaleHeight": 120.748,
 	  "scale": 1.0,
       "lookLeft": -20,
-      "tags": [],
+      "tags": ["oare"],
       "feetOnGround": false,
       "autoTransitions": {}
     }

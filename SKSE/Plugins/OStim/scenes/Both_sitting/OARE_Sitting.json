@@ -1,148 +1,149 @@
 {
-  "name": "Sitting",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
+    "name": "Sitting",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
         {
-		"origin": "OStim2PSittingMF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": 500
-	},
-	{
-		"origin": "OStim2PKneelingLyingFrontMM",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": 500
-	},
-	{
-		"origin": "OStim2PKneelingLyingFF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": 500
-	},
-	{
-		"destination": "OStim2PSittingMF",
-		"description": "Return (male and female idle).",
-		"icon": "OARE/oare_returnMF",
-		"priority": -1000
-	},
-	{
-		"destination": "OStim2PKneelingLyingFrontMM",
-		"description": "Return (two males idle).",
-		"icon": "OARE/oare_returnMM",
-		"priority": -1001
-	},
-	{
-		"destination": "OStim2PKneelingLyingFF",
-		"description": "Return (two females idle).",
-		"icon": "OARE/oare_returnFF",
-		"priority": -1002
-	},
-	{
-      "destination": "OARE_Standing",
-      "priority": 0,
-	  "description": "Stand up.",
-	  "icon": "OARE/Standing_apart/Standing",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_SittingMaleApproach",
-      "priority": 1,
-	  "description": "Approach {1}.",
-	  "icon": "OARE/Both_sitting_male_approach/SittingMaleApproach",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_SpooningIdle",
-      "priority": 2,
-	  "description": "Lie beside {1}.",
-	  "icon": "OARE/Spooning/SpooningIdle",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_LapPillow",
-      "priority": 1000,
-	  "description": "Lay your head on {1}'s lap.",
-	  "icon": "OARE/Both_sitting/LapPillow",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_SittingGropingBreast",
-      "priority": 3000,
-	  "description": "Touch {1}'s breasts.",
-	  "icon": "OARE/Both_sitting/SittingGropingBreast",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_SittingFootjob",
-      "priority": 3001,
-	  "description": "({1}) Pleasure {0} with your feet.",
-	  "icon": "OARE/Both_sitting/SittingFootjob",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_AceSittingFootjobFromBehind",
-      "priority": 3002,
-	  "description": "({1}) Pleasure {0} with your feet from behind.",
-	  "icon": "OARE/Both_sitting/AceSittingFootjobFromBehind",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_GoToDevourVampireBiteFemaleSitting",
-	  "description": "({1}) (Vampire) Feed on {0}.",
-      "priority": 5001,
-	  "icon": "OARE/oare_vampire",
-      "noWarnings": false,
-	  "border": "e05a4e"
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ap-Sitting",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": [
-    "idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 9,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {
-        "devour0": "OpS|Sit!Sit|Ap|SittingVampireFemale"
-      }
-    }
-  ],
-  "actions": []
+            "origin": "OStim2PSittingMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "origin": "OStim2PKneelingLyingFrontMM",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "origin": "OStim2PKneelingLyingFF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "destination": "OStim2PSittingMF",
+            "description": "Return (male and female idle).",
+            "icon": "OARE/oare_returnMF",
+            "priority": -1000
+        },
+        {
+            "destination": "OStim2PKneelingLyingFrontMM",
+            "description": "Return (two males idle).",
+            "icon": "OARE/oare_returnMM",
+            "priority": -1001
+        },
+        {
+            "destination": "OStim2PKneelingLyingFF",
+            "description": "Return (two females idle).",
+            "icon": "OARE/oare_returnFF",
+            "priority": -1002
+        },
+        {
+            "destination": "OARE_Standing",
+            "priority": 0,
+            "description": "Stand up.",
+            "icon": "OARE/Standing_apart/Standing",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SittingMaleApproach",
+            "priority": 1,
+            "description": "Approach {1}.",
+            "icon": "OARE/Both_sitting_male_approach/SittingMaleApproach",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpooningIdle",
+            "priority": 2,
+            "description": "Lie beside {1}.",
+            "icon": "OARE/Spooning/SpooningIdle",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_LapPillow",
+            "priority": 1000,
+            "description": "Lay your head on {1}'s lap.",
+            "icon": "OARE/Both_sitting/LapPillow",
+            "border": "dd7e5e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SittingGropingBreast",
+            "priority": 3000,
+            "description": "Touch {1}'s breasts.",
+            "icon": "OARE/Both_sitting/SittingGropingBreast",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SittingFootjob",
+            "priority": 3001,
+            "description": "({1}) Pleasure {0} with your feet.",
+            "icon": "OARE/Both_sitting/SittingFootjob",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_AceSittingFootjobFromBehind",
+            "priority": 3002,
+            "description": "({1}) Pleasure {0} with your feet from behind.",
+            "icon": "OARE/Both_sitting/AceSittingFootjobFromBehind",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_GoToDevourVampireBiteFemaleSitting",
+            "description": "({1}) (Vampire) Feed on {0}.",
+            "priority": 5001,
+            "icon": "OARE/oare_vampire",
+            "noWarnings": false,
+            "border": "e05a4e"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ap-Sitting",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "idle"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 9,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {
+                "devour0": "OpS|Sit!Sit|Ap|SittingVampireFemale"
+            }
+        }
+    ],
+    "actions": []
 }

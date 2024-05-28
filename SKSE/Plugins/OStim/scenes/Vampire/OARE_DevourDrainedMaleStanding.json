@@ -19,8 +19,7 @@
   ],
   "defaultSpeed": 0,
   "noRandomSelection": true,
-  "tags": [
-    "idle"
+  "tags": ["oare","idle"
   ],
   "autoTransitions": {},
   "actors": [

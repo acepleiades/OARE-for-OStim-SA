@@ -1,113 +1,106 @@
 {
-  "name": "Female All Fours",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-	{
-      "destination": "OARE_SittingMaleApproach",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_SpreadLegsFemale",
-      "priority": 0,
-	  "description": "({1}) Spread your legs.",
-	  "icon": "OARE/Male_approach_female_spread_legs/SpreadLegsFemale",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_FemaleLyingOnSide",
-      "priority": 1,
-	  "description": "({1}) Lie to the side.",
-	  "icon": "OARE/Male_approach_female_lying_to_the_side/FemaleLyingToTheSide",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_Doggystyle",
-      "priority": 3000,
-	  "description": "Have sex with {1}.",
-	  "icon": "OARE/Male_approach_female_all-fours/Doggystyle",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_ProneSexFemaleLegsIn",
-      "priority": 3001,
-	  "description": "Have sex with {1} (prone).",
-	  "icon": "OARE/Male_approach_female_all-fours/ProneSexFemaleLegsIn",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_AceRearKneelingSex",
-      "priority": 3002,
-	  "description": "Have sex with {1} (both kneeling).",
-	  "icon": "OARE/Male_approach_female_all-fours/AceRearKneelingSex",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_AceBentOverFootjob",
-      "priority": 3003,
-	  "description": "({1}) pleasure {0} with your feet.",
-	  "icon": "OARE/Male_approach_female_all-fours/AceBentOverFootjob",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_AceBackItUp",
-      "priority": 3004,
-	  "description": "({1}) Have sex with {0} (from behind).",
-	  "icon": "OARE/Male_approach_female_all-fours/AceBackItUp",
-	  "border": "e05a4e",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ap-FemaleAllFours",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": [
-    "idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 2,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -50,
-      "tags": [
-        "kneeling"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -100,
-      "lookLeft": 30,
-      "tags": [
-        "allfours",
-        "facingaway"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Female All Fours",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "OARE_SittingMaleApproach",
+            "priority": -1000,
+            "description": "Return...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpreadLegsFemale",
+            "priority": 0,
+            "description": "({1}) Spread your legs.",
+            "icon": "OARE/Male_approach_female_spread_legs/SpreadLegsFemale",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_FemaleLyingOnSide",
+            "priority": 1,
+            "description": "({1}) Lie to the side.",
+            "icon": "OARE/Male_approach_female_lying_to_the_side/FemaleLyingToTheSide",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_Doggystyle",
+            "priority": 3000,
+            "description": "Have sex with {1} (all-fours).",
+            "icon": "OARE/Male_approach_female_all-fours/Doggystyle",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_ProneSexMaleKneeling",
+            "priority": 3001,
+            "description": "Have sex with {1} (prone).",
+            "icon": "OARE/Male_approach_female_all-fours/ProneSexMaleKneeling",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_RearSexHoldingArms1",
+            "priority": 3002,
+            "description": "Have sex with {1} (holding arms).",
+            "icon": "OARE/Male_approach_female_all-fours/RearSexHoldingArms1",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_AceBentOverFootjob",
+            "priority": 3003,
+            "description": "({1}) pleasure {0} with your feet.",
+            "icon": "OARE/Male_approach_female_all-fours/AceBentOverFootjob",
+            "border": "e05a4e",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ap-FemaleAllFours",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "idle"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 2,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -50,
+            "tags": [
+                "kneeling"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": -100,
+            "lookLeft": 30,
+            "tags": [
+                "allfours",
+                "facingaway"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

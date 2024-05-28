@@ -90,8 +90,7 @@
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "furniture": "cookingpot",
-  "tags": [
-    "idle"
+  "tags": ["oare","idle"
   ],
   "autoTransitions": {},
   "actors": [

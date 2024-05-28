@@ -43,8 +43,7 @@
   ],
   "defaultSpeed": 1,
   "noRandomSelection": false,
-  "tags": [
-    "prone"
+  "tags": ["oare","prone"
   ],
   "autoTransitions": {},
   "actors": [

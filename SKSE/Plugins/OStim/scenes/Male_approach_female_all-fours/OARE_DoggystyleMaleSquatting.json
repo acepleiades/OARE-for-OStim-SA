@@ -11,7 +11,7 @@
       "noWarnings": false
     },
     {
-      "destination": "OARE_DoggyPressingDown",
+      "destination": "OARE_DoggystylePressingDown",
       "priority": 3000,
 	  "description": "Doggystyle pressing down on {1}.",
 	  "icon": "OARE/Male_approach_female_all-fours/DoggyPressingDown",
@@ -43,8 +43,7 @@
   ],
   "defaultSpeed": 1,
   "noRandomSelection": false,
-  "tags": [
-    "doggystyle"
+  "tags": ["oare","doggystyle"
   ],
   "autoTransitions": {},
   "actors": [

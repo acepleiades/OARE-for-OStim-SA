@@ -11,7 +11,7 @@
    ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "tags": [],
+  "tags": ["oare"],
   "autoTransitions": {},
   "actors": [
     {

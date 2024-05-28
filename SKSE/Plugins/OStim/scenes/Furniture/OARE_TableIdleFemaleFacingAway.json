@@ -33,8 +33,7 @@
   "defaultSpeed": 0,
   "noRandomSelection": false,
   "furniture": "table",
-  "tags": [
-    "idle"
+  "tags": ["oare","idle"
   ],
   "autoTransitions": {},
   "actors": [

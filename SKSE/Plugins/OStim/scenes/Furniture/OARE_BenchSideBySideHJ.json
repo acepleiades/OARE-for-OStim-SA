@@ -44,7 +44,7 @@
     "defaultSpeed": 0,
     "noRandomSelection": false,
     "furniture": "bench",
-    "tags": [],
+    "tags": ["oare"],
     "autoTransitions": {},
     "actors": [
         {

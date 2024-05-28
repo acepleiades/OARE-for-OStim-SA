@@ -11,8 +11,7 @@
   ],
   "defaultSpeed": 0,
   "noRandomSelection": false,
-  "tags": [
-    "transition"
+  "tags": ["oare","transition"
   ],
   "autoTransitions": {},
   "actors": [
@@ -22,7 +21,7 @@
       "sosBend": -5,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
-      "tags": [],
+      "tags": ["oare"],
       "feetOnGround": false,
       "autoTransitions": {}
     },
@@ -31,7 +30,7 @@
       "intendedSex": "any",
       "scaleHeight": 120.748,
 	  "scale": 1.0,
-      "tags": [],
+      "tags": ["oare"],
       "feetOnGround": false,
       "autoTransitions": {}
     }

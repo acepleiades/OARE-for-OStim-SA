@@ -48,8 +48,7 @@
   ],
   "defaultSpeed": 1,
   "noRandomSelection": false,
-  "tags": [
-    "missionary"
+  "tags": ["oare","missionary"
   ],
   "autoTransitions": {},
   "actors": [

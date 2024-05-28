@@ -36,8 +36,7 @@
   "defaultSpeed": 1,
   "noRandomSelection": false,
   "furniture": "table",
-  "tags": [
-    "missionary"
+  "tags": ["oare","missionary"
   ],
   "autoTransitions": {},
   "actors": [
