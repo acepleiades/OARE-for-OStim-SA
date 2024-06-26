@@ -1,52 +1,58 @@
 {
-    "name": "Standing Boob Job",
+    "name": "Squatting Fellatio",
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "navigations": [
         {
-            "destination": "OARE_MaleStandingFemaleKneeling",
-            "priority": -1000,
+            "destination": "OARE_MaleStandingFemaleSquatting",
             "description": "Return...",
             "icon": "OARE/oare_return",
+            "border": "fce5cd",
+            "priority": -1000,
             "noWarnings": false
         },
         {
-            "destination": "OARE_AceStandingTittyfuck",
-            "priority": 0,
-            "description": "Fuck {1}'s breasts.",
-            "icon": "OARE/Male_standing_female_kneeling/AceStandingTittyfuck",
+            "destination": "OARE_FSquatting_FellatioHoldHead",
+            "priority": 3000,
+            "description": "Hold {1}'s head.",
+            "icon": "OARE/Male_standing_female_squatting/FSquatting_FellatioHoldHead",
             "border": "e05a4e",
             "noWarnings": false
         },
         {
-            "destination": "OARE_AceStandingBoobjob_MaleClimax",
-            "priority": 0,
-            "description": "Climax.",
-            "icon": "OARE/oare_heart",
+            "destination": "OARE_FSquatting_FellatioMasturbation",
+            "priority": 3001,
+            "description": "({1}) Pleasure yourself.",
+            "icon": "OARE/Male_standing_female_squatting/FSquatting_FellatioMasturbation",
             "border": "e05a4e",
             "noWarnings": false
         }
     ],
     "speeds": [
         {
-            "animation": "_BoJ-AceStandingBoobjob_S1",
+            "animation": "FSquatting_Fellatio_S1",
             "playbackSpeed": 1,
             "displaySpeed": 0.5
         },
         {
-            "animation": "_BoJ-AceStandingBoobjob_S2",
+            "animation": "FSquatting_Fellatio_S2",
             "playbackSpeed": 1,
             "displaySpeed": 1
         },
         {
-            "animation": "_BoJ-AceStandingBoobjob_S3",
+            "animation": "FSquatting_Fellatio_S3",
             "playbackSpeed": 1,
             "displaySpeed": 1.5
         },
         {
-            "animation": "_BoJ-AceStandingBoobjob_S4",
+            "animation": "FSquatting_Fellatio_S4",
             "playbackSpeed": 1,
             "displaySpeed": 2
+        },
+        {
+            "animation": "FSquatting_Fellatio_S5",
+            "playbackSpeed": 1,
+            "displaySpeed": 2.5
         }
     ],
     "defaultSpeed": 1,
@@ -59,23 +65,22 @@
         {
             "type": "npc",
             "intendedSex": "male",
-            "sosBend": 2,
-            "scaleHeight": 60,
+            "sosBend": -1,
+            "scaleHeight": 67,
             "scale": 1.03,
             "lookUp": -50,
             "tags": [
                 "standing"
             ],
             "feetOnGround": false,
-            "autoTransitions": {
-                "climax": "OpS|Sta!Kne|BoJ|AceStandingBoobjob_MaleClimax"
-            }
+            "autoTransitions": {}
         },
         {
             "type": "npc",
-            "intendedSex": "female",
+            "intendedSex": "any",
             "scaleHeight": 120.748,
             "scale": 1,
+            "lookUp": -100,
             "tags": [
                 "kneeling"
             ],
@@ -85,7 +90,7 @@
     ],
     "actions": [
         {
-            "type": "boobjob",
+            "type": "blowjob",
             "actor": 1,
             "target": 0
         }

@@ -19,18 +19,18 @@
       "noWarnings": false
     }, 
     {
-      "destination": "OARE_SquattingHandjob",
+      "destination": "OARE_FSquatting_Handjob",
       "priority": 3000,
 	  "description": "({1}) Masturbate {0}.",
-	  "icon": "OARE/Male_standing_female_squatting/SquattingHandjob",
+	  "icon": "OARE/Male_standing_female_squatting/FSquatting_Handjob",
 	  "border": "e05a4e",
       "noWarnings": false
     },
 	{
-      "destination": "OARE_SquattingFellatio",
+      "destination": "OARE_FSquatting_Fellatio",
       "priority": 3001,
 	  "description": "({1}) Perform fellatio on {0}.",
-	  "icon": "OARE/Male_standing_female_squatting/SquattingFellatio",
+	  "icon": "OARE/Male_standing_female_squatting/FSquatting_Fellatio",
 	  "border": "e05a4e",
       "noWarnings": false
     },
