@@ -1,57 +1,61 @@
 {
-    "name": "Mounted Female Feet On Chest",
+    "name": "Spooning Sex",
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "navigations": [
         {
-            "destination": "OARE_MountedFemale",
+            "destination": "OARE_SpooningIdle",
             "priority": -1000,
             "description": "Return...",
             "icon": "OARE/oare_return",
-            "noWarnings": false
-        },
-        {
-            "destination": "OARE_MountedFemaleTickle",
-            "priority": 1000,
-            "description": "Tickle {1}.",
-            "icon": "OARE/Female_approach_mounted_female_feet_on_chest/MountedFemaleTickle",
-            "border": "dd7e5e",
-            "noWarnings": false
-        },
-        {
-            "destination": "OARE_MountedHJFeet",
-            "priority": 3000,
-            "description": "({1}) pleasures {0} with your hand.",
-            "icon": "OARE/Female_approach_mounted_female_feet_on_chest/MountedHJFeet",
-            "border": "e05a4e",
             "noWarnings": false
         }
     ],
     "speeds": [
         {
-            "animation": "_Ho-MountedFemaleFeetOnChest",
+            "animation": "SpooningSex_S1",
             "playbackSpeed": 1,
             "displaySpeed": 1
+        },
+        {
+            "animation": "SpooningSex_S2",
+            "playbackSpeed": 1,
+            "displaySpeed": 1.5
+        },
+        {
+            "animation": "SpooningSex_S3",
+            "playbackSpeed": 1,
+            "displaySpeed": 2
+        },
+        {
+            "animation": "SpooningSex_S4",
+            "playbackSpeed": 1,
+            "displaySpeed": 2.5
+        },
+        {
+            "animation": "SpooningSex_S5",
+            "playbackSpeed": 1,
+            "displaySpeed": 2.5
         }
     ],
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "idle",
-        "footfetish"
+        "spooning"
     ],
     "autoTransitions": {},
     "actors": [
         {
             "type": "npc",
             "intendedSex": "male",
-            "sosBend": 9,
+            "sosBend": 2,
             "scaleHeight": 120.748,
             "scale": 1.03,
-            "lookUp": -100,
+            "lookUp": -75,
+            "lookLeft": -50,
             "tags": [
-                "lyingback"
+                "lyingside"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -60,14 +64,21 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.00,
-            "lookUp": -75,
+            "scale": 1,
+            "lookUp": -60,
+            "lookLeft": 40,
             "tags": [
-                "kneeling"
+                "lyingside"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ]
 }

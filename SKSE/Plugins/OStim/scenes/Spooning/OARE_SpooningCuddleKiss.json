@@ -1,35 +1,27 @@
 {
-    "name": "Mounted Female Feet On Chest",
+    "name": "Lying Cuddle Kiss",
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "navigations": [
         {
-            "destination": "OARE_MountedFemale",
+            "destination": "OARE_SpooningIdle",
             "priority": -1000,
             "description": "Return...",
             "icon": "OARE/oare_return",
             "noWarnings": false
         },
         {
-            "destination": "OARE_MountedFemaleTickle",
-            "priority": 1000,
-            "description": "Tickle {1}.",
-            "icon": "OARE/Female_approach_mounted_female_feet_on_chest/MountedFemaleTickle",
-            "border": "dd7e5e",
-            "noWarnings": false
-        },
-        {
-            "destination": "OARE_MountedHJFeet",
+            "destination": "OARE_SpooningCuddleKissMasturbation",
             "priority": 3000,
-            "description": "({1}) pleasures {0} with your hand.",
-            "icon": "OARE/Female_approach_mounted_female_feet_on_chest/MountedHJFeet",
+            "description": "Pleasure {1} with your hand.",
+            "icon": "OARE/Spooning/LyingCuddleKissMasturbation",
             "border": "e05a4e",
             "noWarnings": false
         }
     ],
     "speeds": [
         {
-            "animation": "_Ho-MountedFemaleFeetOnChest",
+            "animation": "SpooningCuddleKiss",
             "playbackSpeed": 1,
             "displaySpeed": 1
         }
@@ -38,36 +30,39 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "idle",
-        "footfetish"
+        "cuddling"
     ],
     "autoTransitions": {},
     "actors": [
         {
             "type": "npc",
-            "intendedSex": "male",
+            "intendedSex": "any",
             "sosBend": 9,
             "scaleHeight": 120.748,
             "scale": 1.03,
-            "lookUp": -100,
             "tags": [
-                "lyingback"
+                "lyingside"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         },
         {
             "type": "npc",
-            "intendedSex": "female",
+            "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.00,
-            "lookUp": -75,
+            "scale": 1,
             "tags": [
-                "kneeling"
+                "lyingside"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        }
+    ]
 }

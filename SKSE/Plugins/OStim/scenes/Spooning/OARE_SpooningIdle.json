@@ -1,133 +1,135 @@
 {
-  "name": "Spooning Idle",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-	{
-		"origin": "OStim2PLyingOnTopMF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": 500
-	},
-	{
-		"origin": "OStim2PBothLyingMF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": 500
-	},
-	{
-      "destination": "OARE_Sitting",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_SittingMaleApproach",
-      "priority": 0,
-	  "description": "Sit up with {1}",
-	  "icon": "OARE/Both_sitting_male_approach/SittingMaleApproach",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-	{
-      "destination": "OARE_SittingFemaleApproach",
-      "priority": 1,
-	  "description": "({1}) Sit up with {0}.",
-	  "icon": "OARE/Both_sitting_female_approach/SittingFemaleApproach",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_SleepingIdle",
-      "priority": 2,
-	  "description": "Rest with {1}.",
-	  "icon": "OARE/Spooning/SleepingIdle",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_LyingCuddling",
-      "priority": 3,
-	  "description": "Cuddle with {1}.",
-	  "icon": "OARE/Spooning/LyingCuddling",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    },	
-    {
-      "destination": "OARE_SpooningKissing",
-      "priority": 1000,
-	  "description": "Kiss {1}.",
-	  "icon": "OARE/Spooning/SpooningKissing",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_LyingCuddleKiss",
-      "priority": 1001,
-	  "description": "Kiss while cuddling with {1}.",
-	  "icon": "OARE/Spooning/LyingCuddleKiss",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_AceLyingFingering",
-      "priority": 3000,
-	  "description": "Pleasure {1} with your hand.",
-	  "icon": "OARE/Spooning/AceLyingFingering",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_AceSpooningSex",
-      "priority": 3001,
-	  "description": "Have sex with {1}.",
-	  "icon": "OARE/Spooning/AceSpooningSex",
-	  "border": "e05a4e",
-      "noWarnings": false
-    }    
-  ],
-  "speeds": [
-    {
-      "animation": "_Ho-SpooningIdle",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","idle",
-    "cuddling"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 2,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -50,
-      "lookLeft": -25,
-      "tags": [
-        "lyingside"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -40,
-      "lookLeft": 40,
-      "tags": [
-        "lyingside"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Spooning Idle",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OStim2PLyingOnTopMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "origin": "OStim2PBothLyingMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": 500
+        },
+        {
+            "destination": "OARE_Sitting",
+            "priority": -1000,
+            "description": "Return...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SittingMaleApproach",
+            "priority": 0,
+            "description": "Sit up with {1}",
+            "icon": "OARE/Both_sitting_male_approach/SittingMaleApproach",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SittingFemaleApproach",
+            "priority": 1,
+            "description": "({1}) Sit up with {0}.",
+            "icon": "OARE/Both_sitting_female_approach/SittingFemaleApproach",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpooningSleeping",
+            "priority": 2,
+            "description": "Rest with {1}.",
+            "icon": "OARE/Spooning/SleepingIdle",
+            "border": "dd7e5e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpooningCuddling1",
+            "priority": 3,
+            "description": "Cuddle with {1}.",
+            "icon": "OARE/Spooning/LyingCuddling",
+            "border": "dd7e5e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpooningKiss",
+            "priority": 1000,
+            "description": "Kiss {1}.",
+            "icon": "OARE/Spooning/SpooningKissing",
+            "border": "dd7e5e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpooningCuddleKiss",
+            "priority": 1001,
+            "description": "Kiss while cuddling with {1}.",
+            "icon": "OARE/Spooning/LyingCuddleKiss",
+            "border": "dd7e5e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpooningFingering",
+            "priority": 3000,
+            "description": "Pleasure {1} with your hand.",
+            "icon": "OARE/Spooning/AceLyingFingering",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_SpooningSex",
+            "priority": 3001,
+            "description": "Have sex with {1}.",
+            "icon": "OARE/Spooning/AceSpooningSex",
+            "border": "e05a4e",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "SpooningIdle",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "idle",
+        "cuddling"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 2,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -50,
+            "lookLeft": -25,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": -40,
+            "lookLeft": 40,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

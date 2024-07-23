@@ -1,0 +1,67 @@
+{
+    "name": "Sleeping Idle",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "OARE_SpooningIdle",
+            "priority": -1000,
+            "description": "Wake up...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "SpooningSleeping",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 2,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "sleeping",
+            "actor": 0
+        },
+        {
+            "type": "sleeping",
+            "actor": 1
+        },
+        {
+            "type": "sleepingsound",
+            "actor": 1,
+            "target": 1
+        }
+    ]
+}
