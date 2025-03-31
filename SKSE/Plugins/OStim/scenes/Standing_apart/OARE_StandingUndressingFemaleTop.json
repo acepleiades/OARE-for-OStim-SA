@@ -41,5 +41,15 @@
       "autoTransitions": {}
     }
   ],
-  "actions": []
+    "actions": [
+        {
+            "type": "audiblebreathing",
+            "actor": 1,
+            "target": 1
+        },
+        {
+            "type": "undress_full_target",
+            "actor": 1
+        }
+    ]
 }

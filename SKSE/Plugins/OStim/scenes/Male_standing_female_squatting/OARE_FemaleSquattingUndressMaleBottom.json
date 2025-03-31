@@ -1,51 +1,58 @@
 {
-  "name": "Female Squatting Undress Male Bottom",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 7,
-  "destination": "OARE_MaleStandingFemaleSquatting",
-  "navigations": [],
-  "speeds": [
-	{
-      "animation": "_Ap-FemaleSquattingUndressMaleBottom"
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","transition",
-    "undressing"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "male",
-      "sosBend": 8,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -50,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": [
-    {
-      "type": "audiblebreathing",
-      "actor": 1,
-      "target": 1
-    }
-  ]
+    "name": "Female Squatting Undress Male Bottom",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 7,
+    "destination": "OARE_MaleStandingFemaleSquatting",
+    "navigations": [],
+    "speeds": [
+        {
+            "animation": "_Ap-FemaleSquattingUndressMaleBottom"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "transition",
+        "undressing"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "male",
+            "sosBend": 8,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -50,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "audiblebreathing",
+            "actor": 1,
+            "target": 1
+        },
+        {
+            "type": "undress_full_target",
+            "actor": 1,
+            "target": 0
+        }
+    ]
 }

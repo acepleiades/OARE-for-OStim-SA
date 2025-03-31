@@ -1,44 +1,56 @@
 {
-  "name": "Standing Undressing Female Gloves",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 4,
-  "destination": "OARE_Standing",
-  "navigations": [],
-  "speeds": [
-		{
-			"animation": "_Ap-StandingUndressingFemaleGloves"
-		}
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","transition",
-    "undressing"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 6,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Standing Undressing Female Gloves",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 4,
+    "destination": "OARE_Standing",
+    "navigations": [],
+    "speeds": [
+        {
+            "animation": "_Ap-StandingUndressingFemaleGloves"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "transition",
+        "undressing"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 6,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "audiblebreathing",
+            "actor": 1,
+            "target": 1
+        },
+        {
+            "type": "undress_full_target",
+            "actor": 1
+        }
+    ]
 }
