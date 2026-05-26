@@ -1,3 +1,14 @@
+b -Tn New2PTableSideSex_S1_0 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S1_0.hkx
+b -Tn New2PTableSideSex_S1_1 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S1_1.hkx
+b -Tn New2PTableSideSex_S2_0 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S2_0.hkx
+b -Tn New2PTableSideSex_S2_1 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S2_1.hkx
+b -Tn New2PTableSideSex_S3_0 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S3_0.hkx
+b -Tn New2PTableSideSex_S3_1 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S3_1.hkx
+b -Tn New2PTableSideSex_S4_0 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S4_0.hkx
+b -Tn New2PTableSideSex_S4_1 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S4_1.hkx
+b -Tn New2PTableSideSex_S5_0 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S5_0.hkx
+b -Tn New2PTableSideSex_S5_1 ..\..\..\..\OARE_animations\Furniture\Table\New2PTableSideSex\New2PTableSideSex_S5_1.hkx
+
 b -Tn _Ap-BenchIdle_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdle\_Ap-BenchIdle_0.hkx
 b -Tn _Ap-BenchIdle_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdle\_Ap-BenchIdle_1.hkx
 b -Tn _Ap-BenchIdleFemaleFacingAway_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS_furniture\BenCh\Ap\BenchIdleFemaleFacingAway\_Ap-BenchIdleFemaleFacingAway_0.hkx

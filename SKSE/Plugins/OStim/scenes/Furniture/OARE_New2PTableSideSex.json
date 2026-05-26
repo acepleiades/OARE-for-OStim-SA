@@ -1,0 +1,73 @@
+{
+	"name": "New 2P Table Side Sex",
+	"modPack": "Open Animations Romance and Erotica",
+	"length": 2,
+	"navigations": [{
+		"destination": "OARE_TableIdleSittingFemaleHolding",
+		"priority": -1000,
+		"description": "Return...",
+		"icon": "OARE/oare_return",
+		"noWarnings": false
+	}],
+	"speeds": [{
+			"animation": "New2PTableSideSex_S1",
+			"playbackSpeed": 1,
+			"displaySpeed": 0.5
+		},
+		{
+			"animation": "New2PTableSideSex_S2",
+			"playbackSpeed": 1,
+			"displaySpeed": 1
+		},
+		{
+			"animation": "New2PTableSideSex_S3",
+			"playbackSpeed": 1,
+			"displaySpeed": 1.5
+		},
+		{
+			"animation": "New2PTableSideSex_S4",
+			"playbackSpeed": 1,
+			"displaySpeed": 2
+		},
+		{
+			"animation": "New2PTableSideSex_S5",
+			"playbackSpeed": 1,
+			"displaySpeed": 2.5
+		}
+	],
+	"defaultSpeed": 1,
+	"noRandomSelection": false,
+	"furniture": "table",
+	"tags": [],
+	"autoTransitions": {},
+	"actors": [{
+			"type": "npc",
+			"intendedSex": "male",
+			"sosBend": -1,
+			"scaleHeight": 120.748,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": false,
+			"autoTransitions": {}
+		},
+		{
+			"type": "npc",
+			"intendedSex": "female",
+			"scaleHeight": 120.748,
+			"scale": 1,
+			"lookUp": -50,
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false,
+			"autoTransitions": {}
+		}
+	],
+	"actions": [{
+		"type": "vaginalsex",
+		"actor": 0,
+		"target": 1
+	}]
+}

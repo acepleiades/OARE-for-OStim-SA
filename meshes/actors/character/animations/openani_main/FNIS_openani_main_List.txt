@@ -1,3 +1,36 @@
+b -Tn New2PSittingSex_S1_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S1_0.hkx
+b -Tn New2PSittingSex_S1_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S1_1.hkx
+b -Tn New2PSittingSex_S2_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S2_0.hkx
+b -Tn New2PSittingSex_S2_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S2_1.hkx
+b -Tn New2PSittingSex_S3_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S3_0.hkx
+b -Tn New2PSittingSex_S3_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S3_1.hkx
+b -Tn New2PSittingSex_S4_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S4_0.hkx
+b -Tn New2PSittingSex_S4_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S4_1.hkx
+b -Tn New2PSittingSex_S5_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S5_0.hkx
+b -Tn New2PSittingSex_S5_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S5_1.hkx
+
+b -Tn New2PFellatio_S1_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S1_0.hkx
+b -Tn New2PFellatio_S1_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S1_1.hkx
+b -Tn New2PFellatio_S2_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S2_0.hkx
+b -Tn New2PFellatio_S2_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S2_1.hkx
+b -Tn New2PFellatio_S3_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S3_0.hkx
+b -Tn New2PFellatio_S3_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S3_1.hkx
+b -Tn New2PFellatio_S4_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S4_0.hkx
+b -Tn New2PFellatio_S4_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S4_1.hkx
+b -Tn New2PFellatio_S5_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S5_0.hkx
+b -Tn New2PFellatio_S5_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PFellatio\New2PFellatio_S5_1.hkx
+
+b -Tn New2PMountedSex_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S1_0.hkx
+b -Tn New2PMountedSex_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S1_1.hkx
+b -Tn New2PMountedSex_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S2_0.hkx
+b -Tn New2PMountedSex_S2_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S2_1.hkx
+b -Tn New2PMountedSex_S3_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S3_0.hkx
+b -Tn New2PMountedSex_S3_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S3_1.hkx
+b -Tn New2PMountedSex_S4_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S4_0.hkx
+b -Tn New2PMountedSex_S4_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S4_1.hkx
+b -Tn New2PMountedSex_S5_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S5_0.hkx
+b -Tn New2PMountedSex_S5_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\New2PMountedSex\New2PMountedSex_S5_1.hkx
+
 b -a,Tn _Ap-StandingUndressingFemaleHeadItem_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Ap\StandingUndressingFemaleHeadItem\_Ap-StandingUndressingFemaleHeadItem_0.hkx
 b -a,Tn _Ap-StandingUndressingFemaleHeadItem_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Ap\StandingUndressingFemaleHeadItem\_Ap-StandingUndressingFemaleHeadItem_1.hkx
 b -a,Tn _Ap-StandingUndressingFemaleTop_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Ap\StandingUndressingFemaleTop\_Ap-StandingUndressingFemaleTop_0.hkx
