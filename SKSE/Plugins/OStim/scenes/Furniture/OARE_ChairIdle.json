@@ -7,19 +7,19 @@
 		"origin": "OStimChair2PSittingStandingMF",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
 	{
 		"origin": "OStimChair2PSittingStandingMM",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
 	{
 		"origin": "OStimChair2PSittingStandingFF",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
 	{
 		"destination": "OStimChair2PSittingStandingMF",

@@ -7,19 +7,19 @@
       "origin": "OStimCookingPot2PBehindMF",
       "description": "Access Open Animations RE...",
 	  "icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
     },
 	{
       "origin": "OStimCookingPot2PBehindMM",
       "description": "Access Open Animations RE...",
 	  "icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
     },
 	{
       "origin": "OStimCookingPot2PBehindFF",
       "description": "Access Open Animations RE...",
 	  "icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
     },
 	{
 		"destination": "OStimCookingPot2PBehindMF",

@@ -7,19 +7,19 @@
             "origin": "OStimShelf2PBehindMF",
             "description": "Access Open Animations RE...",
             "icon": "OARE/oare",
-            "priority": 500
+            "priority": -1000000
         },
         {
             "origin": "OStimShelf2PBehindMM",
             "description": "Access Open Animations RE...",
             "icon": "OARE/oare",
-            "priority": 500
+            "priority": -1000000
         },
         {
             "origin": "OStimShelf2PBehindFF",
             "description": "Access Open Animations RE...",
             "icon": "OARE/oare",
-            "priority": 500
+            "priority": -1000000
         },
         {
             "destination": "OStimShelf2PBehindMF",

@@ -7,19 +7,19 @@
 		"origin": "OStim2PStandingApartMF",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
 	{
 		"origin": "OStim2PStandingApartMM",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
 	{
 		"origin": "OStim2PStandingCloseFF",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
 	{
 		"destination": "OStim2PStandingApartMF",
@@ -202,7 +202,7 @@
     {
       "destination": "OARE_GoToDevourVampireBiteMaleStanding",
 	  "description": "(Vampire) Feed on {1}.",
-      "priority": 5000,
+      "priority": -10000000,
 	  "icon": "OARE/oare_vampire",
       "noWarnings": false,
 	  "border": "e05a4e"
@@ -210,7 +210,7 @@
     {
       "destination": "OARE_GoToDevourVampireBiteFemaleStanding",
 	  "description": "({1}) (Vampire) Feed on {0}.",
-      "priority": 5001,
+      "priority": -10000001,
 	  "icon": "OARE/oare_vampire",
       "noWarnings": false,
 	  "border": "e05a4e"

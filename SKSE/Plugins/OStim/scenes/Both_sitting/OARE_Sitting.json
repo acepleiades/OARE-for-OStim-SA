@@ -7,19 +7,19 @@
             "origin": "OStim2PSittingMF",
             "description": "Access Open Animations RE...",
             "icon": "OARE/oare",
-            "priority": 500
+            "priority": -1000000
         },
         {
             "origin": "OStim2PKneelingLyingFrontMM",
             "description": "Access Open Animations RE...",
             "icon": "OARE/oare",
-            "priority": 500
+            "priority": -1000000
         },
         {
             "origin": "OStim2PKneelingLyingFF",
             "description": "Access Open Animations RE...",
             "icon": "OARE/oare",
-            "priority": 500
+            "priority": -1000000
         },
         {
             "destination": "OStim2PSittingMF",

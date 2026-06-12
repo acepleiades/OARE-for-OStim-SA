@@ -7,7 +7,7 @@
 	  "origin": "OStim1PStandingM",	  
 	  "description": "Access Open Animations RE...",
 	  "icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
     },
 	{
       "destination": "OStim1PStandingM",

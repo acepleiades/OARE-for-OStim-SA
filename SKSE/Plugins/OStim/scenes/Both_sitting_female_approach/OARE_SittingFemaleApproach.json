@@ -7,13 +7,13 @@
 		"origin": "OStim2PLyingKneelingMF",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
 	{
 		"origin": "OStim2PLyingKneelingMM",
 		"description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
 	},
     {
       "destination": "OARE_SittingMaleApproach",

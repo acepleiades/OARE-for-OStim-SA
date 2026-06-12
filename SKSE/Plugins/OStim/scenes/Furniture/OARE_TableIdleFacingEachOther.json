@@ -7,19 +7,19 @@
       "origin": "OStimTable2PStandingLeaningMF",
       "description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
     },
     {
       "origin": "OStimTable2PStandingLeaningMM",
       "description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
     },
     {
       "origin": "OStimTable2PStandingLeaningFF",
       "description": "Access Open Animations RE...",
 		"icon": "OARE/oare",
-		"priority": 500
+		"priority": -1000000
     },
 	{
 		"destination": "OStimTable2PStandingLeaningMF",
