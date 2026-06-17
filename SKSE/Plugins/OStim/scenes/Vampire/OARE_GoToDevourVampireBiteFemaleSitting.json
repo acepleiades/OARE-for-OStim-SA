@@ -19,6 +19,7 @@
       "type": "npc",
       "intendedSex": "any",
       "scaleHeight": 120.748,
+      "sosBend": 0,
 	  "scale": 1.03,
       "tags": [
         "sitting"
