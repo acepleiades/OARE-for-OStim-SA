@@ -67,7 +67,7 @@
     {
       "type": "npc",
       "intendedSex": "any",
-      "sosBend": 8,
+      "sosBend": 0,
       "scaleHeight": 120.748,
 	  "scale": 1.03,
       "lookUp": -50,
