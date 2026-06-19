@@ -846,14 +846,6 @@ b -Tn _Sx-CowgirlPushLegsUp_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBKne\Sx\Cow
 b -Tn _Sx-CowgirlPushLegsUp_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBKne\Sx\CowgirlPushLegsUp\_Sx-CowgirlPushLegsUp_S3_1.hkx
 b -Tn _Sx-CowgirlPushLegsUp_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBKne\Sx\CowgirlPushLegsUp\_Sx-CowgirlPushLegsUp_S4_0.hkx
 b -Tn _Sx-CowgirlPushLegsUp_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBKne\Sx\CowgirlPushLegsUp\_Sx-CowgirlPushLegsUp_S4_1.hkx
-b -Tn _Sx-CowgirlCircularGrind_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S1_0.hkx
-b -Tn _Sx-CowgirlCircularGrind_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S1_1.hkx
-b -Tn _Sx-CowgirlCircularGrind_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S2_0.hkx
-b -Tn _Sx-CowgirlCircularGrind_S2_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S2_1.hkx
-b -Tn _Sx-CowgirlCircularGrind_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S3_0.hkx
-b -Tn _Sx-CowgirlCircularGrind_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S3_1.hkx
-b -Tn _Sx-CowgirlCircularGrind_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S4_0.hkx
-b -Tn _Sx-CowgirlCircularGrind_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\CowgirlCircularGrind\_Sx-CowgirlCircularGrind_S4_1.hkx
 b -Tn _Sx-AceCowgirlLegsCrossed_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\AceCowgirlLegsCrossed\_Sx-AceCowgirlLegsCrossed_S1_0.hkx
 b -Tn _Sx-AceCowgirlLegsCrossed_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\AceCowgirlLegsCrossed\_Sx-AceCowgirlLegsCrossed_S1_1.hkx
 b -Tn _Sx-AceCowgirlLegsCrossed_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\LyBSit\Sx\AceCowgirlLegsCrossed\_Sx-AceCowgirlLegsCrossed_S2_0.hkx

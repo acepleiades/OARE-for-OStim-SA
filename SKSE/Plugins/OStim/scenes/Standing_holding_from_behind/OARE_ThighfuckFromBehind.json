@@ -41,7 +41,7 @@
     {
       "type": "npc",
       "intendedSex": "male",
-      "sosBend": 0,
+      "sosBend": -1,
       "scaleHeight": 120.748,
       "scale": 1.03,
       "lookUp": -75,
@@ -57,6 +57,7 @@
       "intendedSex": "any",
       "scaleHeight": 120.748,
       "scale": 1.0,
+      "lookUp": -100,
       "tags": [
         "facingaway",
         "standing"
