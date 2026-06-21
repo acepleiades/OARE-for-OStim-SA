@@ -1,3 +1,12 @@
+b -Tn OARE_NewMountedSexKissing_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S1_0.hkx
+b -Tn OARE_NewMountedSexKissing_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S1_1.hkx
+b -Tn OARE_NewMountedSexKissing_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S2_0.hkx
+b -Tn OARE_NewMountedSexKissing_S2_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S2_1.hkx
+b -Tn OARE_NewMountedSexKissing_S3_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S3_0.hkx
+b -Tn OARE_NewMountedSexKissing_S3_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S3_1.hkx
+b -Tn OARE_NewMountedSexKissing_S4_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S4_0.hkx
+b -Tn OARE_NewMountedSexKissing_S4_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S4_1.hkx
+
 b -Tn New2PSittingSex_S1_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S1_0.hkx
 b -Tn New2PSittingSex_S1_1 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S1_1.hkx
 b -Tn New2PSittingSex_S2_0 ..\..\..\..\OARE_animations\Both_sitting_female_approach\New2PSittingSex\New2PSittingSex_S2_0.hkx

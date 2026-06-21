@@ -58,10 +58,10 @@
 			"noWarnings": false
 		},
 		{
-			"destination": "OARE_New2PMountedSex",
+			"destination": "OARE_NewMountedSexKissing",
 			"priority": 3003,
 			"description": "Have sex with {1} (kissing).",
-			"icon": "OARE/Female_approach_mounted_female/New2PMountedSex",
+			"icon": "OARE/Female_approach_mounted_female/NewMountedSexKissing",
 			"border": "e05a4e",
 			"noWarnings": false
 		}
