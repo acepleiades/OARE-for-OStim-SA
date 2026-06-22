@@ -1,5 +1,5 @@
 
-# Open Animations - Romance & Erotica   [![Badge License]][License]   [![Badge Discord]][Discord]
+# Open Animations - Romance & Erotica   [![Badge Discord]][Discord]
 
 <br>
 
@@ -62,7 +62,6 @@ Join the OStim Discord to see new developments: https://discord.gg/ostim
 
 <!----------------------------------[ Badges ]--------------------------------->
 
-[Badge License]: https://img.shields.io/badge/_-CC_BY_SA-b06e19.svg?style=for-the-badge&logoColor=white&logo=CreativeCommons&labelColor=EF9421
 [Badge Discord]: https://img.shields.io/badge/_-Discord-4751bc?style=for-the-badge&logoColor=white&logo=Discord&labelColor=5865F2
 
 
