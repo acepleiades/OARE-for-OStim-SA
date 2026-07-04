@@ -1,45 +1,47 @@
 {
-  "name": "Transition into Reverse Cowgirl, Mounted 1",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 0.75,
-  "destination": "OARE_GoToReverseCowgirlMounted2",
-  "navigations": [],
-  "speeds": [
-	{
-      "animation": "_Sx-GoToReverseCowgirlMounted1"
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","transition"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 9,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -75,
-      "tags": [
-        "lyingback"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -50,
-      "tags": [
-        "kneeling"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Transition into Reverse Cowgirl, Mounted 1",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 0.75,
+    "destination": "OARE_GoToReverseCowgirlMounted2",
+    "navigations": [],
+    "speeds": [
+        {
+            "animation": "_Sx-GoToReverseCowgirlMounted1"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "transition"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 9,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -75,
+            "tags": [
+                "lyingback"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1.0,
+            "lookUp": -50,
+            "tags": [
+                "kneeling"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

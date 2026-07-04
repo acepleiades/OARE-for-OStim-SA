@@ -41,7 +41,9 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "furniture": "shelf",
-    "tags": ["oare"],
+    "tags": [
+        "oare"
+    ],
     "autoTransitions": {},
     "actors": [
         {

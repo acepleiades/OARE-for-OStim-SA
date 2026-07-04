@@ -1,43 +1,45 @@
 {
-  "name": "Transition into Vampire Bite Female Sitting",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 3.6,
-  "destination": "OARE_DevourVampireBiteFemaleSitting",
-  "navigations": [],
-  "speeds": [
-		{
-			"animation": "_Em-GoToDevourVampireBiteFemaleSitting"
-		}
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","transition"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-      "sosBend": 0,
-	  "scale": 1.03,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Transition into Vampire Bite Female Sitting",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 3.6,
+    "destination": "OARE_DevourVampireBiteFemaleSitting",
+    "navigations": [],
+    "speeds": [
+        {
+            "animation": "_Em-GoToDevourVampireBiteFemaleSitting"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "transition"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "sosBend": 0,
+            "scale": 1.03,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1.0,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

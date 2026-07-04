@@ -60,7 +60,7 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.00,
+            "scale": 1.0,
             "lookUp": -75,
             "tags": [
                 "kneeling"

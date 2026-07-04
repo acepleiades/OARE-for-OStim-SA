@@ -1,44 +1,46 @@
 {
-  "name": "Transition back from Vampire Bite Male Standing",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "destination": "OARE_DevourDrainedFemaleStanding",
-  "navigations": [],
-  "speeds": [
-		{
-			"animation": "_Em-GoBackDevourVampireBiteMaleStanding"
-		}
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","transition"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "drowsy",
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Transition back from Vampire Bite Male Standing",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "destination": "OARE_DevourDrainedFemaleStanding",
+    "navigations": [],
+    "speeds": [
+        {
+            "animation": "_Em-GoBackDevourVampireBiteMaleStanding"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "transition"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1.0,
+            "tags": [
+                "drowsy",
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

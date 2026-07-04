@@ -1,47 +1,49 @@
 {
-  "name": "Standing Spank",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2.666,
-  "destination": "OARE_StandingSpankIdle",
-  "navigations": [],
-  "speeds": [
-		{
-			"animation": "_Ho-StandingSpank"
-		}
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare"],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-      "scale": 1.03,
-      "lookUp": -50,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-      "scale": 1.0,
-      "lookUp": -30,
-      "lookLeft": 75,
-      "tags": [
-        "bendover",
-        "facingaway",
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Standing Spank",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2.666,
+    "destination": "OARE_StandingSpankIdle",
+    "navigations": [],
+    "speeds": [
+        {
+            "animation": "_Ho-StandingSpank"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -50,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1.0,
+            "lookUp": -30,
+            "lookLeft": 75,
+            "tags": [
+                "bendover",
+                "facingaway",
+                "standing"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

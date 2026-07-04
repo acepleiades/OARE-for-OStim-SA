@@ -1,87 +1,89 @@
 {
-  "name": "Bench Idle Both Sitting",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-	{
-		"origin": "OStimBench2PBothSittingMF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-	},
-	{
-		"origin": "OStimBench2PBothSittingMM",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-	},
-	{
-		"origin": "OStimBench2PBothSittingFF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-	},
-    {
-      "destination": "OARE_ChairIdle",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_BenchBothSittingFaceEachother",
-      "priority": 0,
-	  "description": "Face each other.",
-	  "icon": "OARE/Furniture/BenchBothSittingFaceEachother",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_ChairIdleFemaleSitting",
-      "priority": 1,
-	  "description": "Switch places with {1}.",
-	  "icon": "OARE/Furniture/BenchIdleFemaleSitting",
-	  "border": "fce5cd",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ap-BenchIdleBothSitting",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "furniture": "bench",
-  "tags": ["oare","idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Bench Idle Both Sitting",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OStimBench2PBothSittingMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimBench2PBothSittingMM",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimBench2PBothSittingFF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "destination": "OARE_ChairIdle",
+            "priority": -1000,
+            "description": "Return...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_BenchBothSittingFaceEachother",
+            "priority": 0,
+            "description": "Face each other.",
+            "icon": "OARE/Furniture/BenchBothSittingFaceEachother",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_ChairIdleFemaleSitting",
+            "priority": 1,
+            "description": "Switch places with {1}.",
+            "icon": "OARE/Furniture/BenchIdleFemaleSitting",
+            "border": "fce5cd",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ap-BenchIdleBothSitting",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "furniture": "bench",
+    "tags": [
+        "oare",
+        "idle"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1.0,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

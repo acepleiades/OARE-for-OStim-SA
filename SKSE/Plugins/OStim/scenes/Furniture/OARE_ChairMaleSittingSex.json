@@ -49,7 +49,9 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "furniture": "chair",
-    "tags": ["oare"],
+    "tags": [
+        "oare"
+    ],
     "autoTransitions": {},
     "actors": [
         {

@@ -3,3 +3,4 @@ core.autocrlf true
 
 *.txt binary
 *.ini binary
+*.json text eol=crlf
