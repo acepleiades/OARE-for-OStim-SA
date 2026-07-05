@@ -1,123 +1,126 @@
 {
-  "name": "Cooking Pot Idle",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-	{
-      "origin": "OStimCookingPot2PBehindMF",
-      "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare",
-		"priority": -1000000
-    },
-	{
-      "origin": "OStimCookingPot2PBehindMM",
-      "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare",
-		"priority": -1000000
-    },
-	{
-      "origin": "OStimCookingPot2PBehindFF",
-      "description": "Access Open Animations RE...",
-	  "icon": "OARE/oare",
-		"priority": -1000000
-    },
-	{
-		"destination": "OStimCookingPot2PBehindMF",
-		"description": "Return (male and female idle).",
-		"icon": "OARE/oare_returnMF",
-		"priority": -1000
-	},
-	{
-		"destination": "OStimCookingPot2PBehindMM",
-		"description": "Return (two males idle).",
-		"icon": "OARE/oare_returnMM",
-		"priority": -1001
-	},
-	{
-		"destination": "OStimCookingPot2PBehindFF",
-		"description": "Return (two females idle).",
-		"icon": "OARE/oare_returnFF",
-		"priority": -1002
-	},
-	{
-      "destination": "OARE_CookingPotMaleApproach",
-      "priority": 0,
-	  "description": "Approach {1}.",
-	  "icon": "OARE/Furniture/CookingPotMaleApproach",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_CookingTogether",
-      "priority": 1000,
-	  "description": "Cook together.",
-	  "icon": "OARE/Furniture/CookingTogether",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_CookingPotButtGrab",
-      "priority": 3000,
-	  "description": "Touch {1}'s butt.",
-	  "icon": "OARE/Furniture/CookingPotButtGrab",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_CookingPotKissGropeBreasts",
-      "priority": 3001,
-	  "description": "Touch {1}'s breasts.",
-	  "icon": "OARE/Furniture/CookingPotKissGropeBreasts",
-	  "border": "e05a4e",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_CookingPotSex",
-      "priority": 3002,
-	  "description": "Have sex with {1}.",
-	  "icon": "OARE/Furniture/CookingPotSex",
-	  "border": "e05a4e",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ap-CookingPotIdle",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "furniture": "cookingpot",
-  "tags": ["oare","idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -100,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Cooking Pot Idle",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OStimCookingPot2PBehindMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimCookingPot2PBehindMM",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimCookingPot2PBehindFF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "destination": "OStimCookingPot2PBehindMF",
+            "description": "Return (male and female idle).",
+            "icon": "OARE/oare_returnMF",
+            "priority": -1000
+        },
+        {
+            "destination": "OStimCookingPot2PBehindMM",
+            "description": "Return (two males idle).",
+            "icon": "OARE/oare_returnMM",
+            "priority": -1001
+        },
+        {
+            "destination": "OStimCookingPot2PBehindFF",
+            "description": "Return (two females idle).",
+            "icon": "OARE/oare_returnFF",
+            "priority": -1002
+        },
+        {
+            "destination": "OARE_CookingPotMaleApproach",
+            "priority": 0,
+            "description": "Approach {1}.",
+            "icon": "OARE/Furniture/CookingPotMaleApproach",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_CookingTogether",
+            "priority": 1000,
+            "description": "Cook together.",
+            "icon": "OARE/Furniture/CookingTogether",
+            "border": "dd7e5e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_CookingPotButtGrab",
+            "priority": 3000,
+            "description": "Touch {1}'s butt.",
+            "icon": "OARE/Furniture/CookingPotButtGrab",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_CookingPotKissGropeBreasts",
+            "priority": 3001,
+            "description": "Touch {1}'s breasts.",
+            "icon": "OARE/Furniture/CookingPotKissGropeBreasts",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_CookingPotSex",
+            "priority": 3002,
+            "description": "Have sex with {1}.",
+            "icon": "OARE/Furniture/CookingPotSex",
+            "border": "e05a4e",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ap-CookingPotIdle",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "furniture": "cookingpot",
+    "tags": [
+        "oare",
+        "idle"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": -100,
+            "tags": [
+                "standing",
+                "facingaway"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

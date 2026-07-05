@@ -55,7 +55,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -65,9 +65,9 @@
             "scale": 1,
             "lookUp": -100,
             "tags": [
-                "kneeling"
+                "squatting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

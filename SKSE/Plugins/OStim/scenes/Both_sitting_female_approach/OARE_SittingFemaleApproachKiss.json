@@ -1,56 +1,76 @@
 {
-  "name": "Sitting Female Approach Kiss",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-    {
-      "destination": "OARE_SittingFemaleApproach",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ho-SittingFemaleApproachKiss",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare"],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "sitting"
-      ],
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "kneeling"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": [
-    {
-      "type": "kissing",
-      "actor": 0,
-      "target": 1
-    }
-  ]
+    "name": "Sitting Female Approach Kiss",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "OARE_SittingFemaleApproach",
+            "priority": -1000,
+            "description": "Return...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ho-SittingFemaleApproachKiss",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "romantic"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": -4,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "sitting",
+                "onbottom"
+            ],
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "kneeling",
+                "ontop"
+            ],
+            "feetOnGround": false,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "hugging"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "mounting"
+        }
+    ]
 }

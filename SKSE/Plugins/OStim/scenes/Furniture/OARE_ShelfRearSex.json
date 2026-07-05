@@ -49,7 +49,10 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "furniture": "shelf",
-    "tags": ["oare"],
+    "tags": [
+        "oare",
+        "doggystyle"
+    ],
     "autoTransitions": {},
     "actors": [
         {
@@ -62,7 +65,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -76,7 +79,7 @@
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -85,6 +88,11 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
         }
     ]
 }

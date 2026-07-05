@@ -1,132 +1,134 @@
 {
-  "name": "Chair Idle",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-	{
-		"origin": "OStimChair2PSittingStandingMF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-	},
-	{
-		"origin": "OStimChair2PSittingStandingMM",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-	},
-	{
-		"origin": "OStimChair2PSittingStandingFF",
-		"description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-	},
-	{
-		"destination": "OStimChair2PSittingStandingMF",
-		"description": "Return (male and female idle).",
-		"icon": "OARE/oare_returnMF",
-		"priority": -1000
-	},
-	{
-		"destination": "OStimChair2PSittingStandingMM",
-		"description": "Return (two males idle).",
-		"icon": "OARE/oare_returnMM",
-		"priority": -1001
-	},
-	{
-		"destination": "OStimChair2PSittingStandingFF",
-		"description": "Return (two females idle).",
-		"icon": "OARE/oare_returnFF",
-		"priority": -1002
-	},
-    {
-      "destination": "OARE_ChairIdleFemaleSitting",
-      "priority": 0,
-	  "description": "Switch places with {1}.",
-	  "icon": "OARE/Furniture/BenchIdleFemaleSitting",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_ChairIdleFemaleFacingAway",
-      "priority": 1,
-	  "description": "({1}) Turn around.",
-	  "icon": "OARE/Furniture/BenchIdleFemaleFacingAway",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-	{
-      "destination": "OARE_BenchIdleBothSitting",
-      "priority": 2,
-	  "description": "Sit beside each other.",
-	  "icon": "OARE/Furniture/BenchIdleBothSitting",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_ChairKneelingFemale",
-      "priority": 2,
-	  "description": "({1}) Get on your knees.",
-	  "icon": "OARE/Furniture/BenchKneelingFemale",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-	{
-      "destination": "OARE_BenchSitting",
-      "priority": 4,
-	  "description": "({1}) Sit atop {0} .",
-	  "icon": "OARE/Furniture/BenchSitting",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_ChairGropingBreast",
-      "priority": 1000,
-	  "description": "Touch {1}'s breasts.",
-	  "icon": "OARE/Furniture/BenchGropingBreast",
-	  "border": "dd7e5e",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ap-BenchIdle",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "furniture": "chair",
-  "tags": ["oare","idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": 50,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -50,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Chair Idle",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OStimChair2PSittingStandingMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimChair2PSittingStandingMM",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimChair2PSittingStandingFF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "destination": "OStimChair2PSittingStandingMF",
+            "description": "Return (male and female idle).",
+            "icon": "OARE/oare_returnMF",
+            "priority": -1000
+        },
+        {
+            "destination": "OStimChair2PSittingStandingMM",
+            "description": "Return (two males idle).",
+            "icon": "OARE/oare_returnMM",
+            "priority": -1001
+        },
+        {
+            "destination": "OStimChair2PSittingStandingFF",
+            "description": "Return (two females idle).",
+            "icon": "OARE/oare_returnFF",
+            "priority": -1002
+        },
+        {
+            "destination": "OARE_ChairIdleFemaleSitting",
+            "priority": 0,
+            "description": "Switch places with {1}.",
+            "icon": "OARE/Furniture/BenchIdleFemaleSitting",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_ChairIdleFemaleFacingAway",
+            "priority": 1,
+            "description": "({1}) Turn around.",
+            "icon": "OARE/Furniture/BenchIdleFemaleFacingAway",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_BenchIdleBothSitting",
+            "priority": 2,
+            "description": "Sit beside each other.",
+            "icon": "OARE/Furniture/BenchIdleBothSitting",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_ChairKneelingFemale",
+            "priority": 2,
+            "description": "({1}) Get on your knees.",
+            "icon": "OARE/Furniture/BenchKneelingFemale",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_BenchSitting",
+            "priority": 4,
+            "description": "({1}) Sit atop {0} .",
+            "icon": "OARE/Furniture/BenchSitting",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_ChairGropingBreast",
+            "priority": 1000,
+            "description": "Touch {1}'s breasts.",
+            "icon": "OARE/Furniture/BenchGropingBreast",
+            "border": "dd7e5e",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ap-BenchIdle",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "furniture": "chair",
+    "tags": [
+        "oare",
+        "idle"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": 50,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": -50,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

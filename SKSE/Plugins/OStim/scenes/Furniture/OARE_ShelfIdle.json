@@ -80,7 +80,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -89,9 +89,10 @@
             "scaleHeight": 120.748,
             "scale": 1,
             "tags": [
-                "standing"
+                "standing",
+                "facingaway"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

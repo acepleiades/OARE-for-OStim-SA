@@ -1,106 +1,108 @@
 {
-  "name": "Table Idle Facing Each Other",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-    {
-      "origin": "OStimTable2PStandingLeaningMF",
-      "description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-    },
-    {
-      "origin": "OStimTable2PStandingLeaningMM",
-      "description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-    },
-    {
-      "origin": "OStimTable2PStandingLeaningFF",
-      "description": "Access Open Animations RE...",
-		"icon": "OARE/oare",
-		"priority": -1000000
-    },
-	{
-		"destination": "OStimTable2PStandingLeaningMF",
-		"description": "Return (male and female idle).",
-		"icon": "OARE/oare_returnMF",
-		"priority": -1000
-	},
-	{
-		"destination": "OStimTable2PStandingLeaningMM",
-		"description": "Return (two males idle).",
-		"icon": "OARE/oare_returnMM",
-		"priority": -1001
-	},
-	{
-		"destination": "OStimTable2PStandingLeaningFF",
-		"description": "Return (two females idle).",
-		"icon": "OARE/oare_returnFF",
-		"priority": -1002
-	},
-    {
-      "destination": "OARE_TableIdleHolding",
-      "priority": 0,
-	  "description": "Hold {1}.",
-	  "icon": "OARE/Furniture/TableIdleHolding",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_TableIdleSittingFemale",
-      "priority": 1,
-	  "description": "({1}) Sit on the table.",
-	  "icon": "OARE/Furniture/TableIdleSittingFemale",
-	  "border": "fce5cd",
-      "noWarnings": false
-    },
-    {
-      "destination": "OARE_TableIdleFemaleFacingAway",
-      "priority": 2,
-	  "description": "({1}) Turn around.",
-	  "icon": "OARE/Furniture/TableIdle",
-	  "border": "fce5cd",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Ap-TableIdleFacingEachOther",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "furniture": "table",
-  "tags": ["oare","idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Table Idle Facing Each Other",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OStimTable2PStandingLeaningMF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimTable2PStandingLeaningMM",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "origin": "OStimTable2PStandingLeaningFF",
+            "description": "Access Open Animations RE...",
+            "icon": "OARE/oare",
+            "priority": -1000000
+        },
+        {
+            "destination": "OStimTable2PStandingLeaningMF",
+            "description": "Return (male and female idle).",
+            "icon": "OARE/oare_returnMF",
+            "priority": -1000
+        },
+        {
+            "destination": "OStimTable2PStandingLeaningMM",
+            "description": "Return (two males idle).",
+            "icon": "OARE/oare_returnMM",
+            "priority": -1001
+        },
+        {
+            "destination": "OStimTable2PStandingLeaningFF",
+            "description": "Return (two females idle).",
+            "icon": "OARE/oare_returnFF",
+            "priority": -1002
+        },
+        {
+            "destination": "OARE_TableIdleHolding",
+            "priority": 0,
+            "description": "Hold {1}.",
+            "icon": "OARE/Furniture/TableIdleHolding",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_TableIdleSittingFemale",
+            "priority": 1,
+            "description": "({1}) Sit on the table.",
+            "icon": "OARE/Furniture/TableIdleSittingFemale",
+            "border": "fce5cd",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_TableIdleFemaleFacingAway",
+            "priority": 2,
+            "description": "({1}) Turn around.",
+            "icon": "OARE/Furniture/TableIdle",
+            "border": "fce5cd",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Ap-TableIdleFacingEachOther",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "furniture": "table",
+    "tags": [
+        "oare",
+        "idle"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1.0,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

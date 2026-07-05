@@ -68,7 +68,8 @@
             "lookUp": -60,
             "lookLeft": 40,
             "tags": [
-                "lyingside"
+                "lyingside",
+                "facingaway"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -79,6 +80,11 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
         }
     ]
 }

@@ -1,45 +1,46 @@
 {
-  "name": "Transition into Standing Holding",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "destination": "OARE_MaleStandingFemaleSquatting",
-  "navigations": [],
-  "speeds": [
-		{
-			"animation": "_Ap-GoToMaleStandingFemaleSquatting"
-		}
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","transition"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -25,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": 25,
-      "tags": [
-        "squatting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Transition into Standing Holding",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "destination": "OARE_MaleStandingFemaleSquatting",
+    "speeds": [
+        {
+            "animation": "_Ap-GoToMaleStandingFemaleSquatting"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "transition"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -25,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": 25,
+            "tags": [
+                "squatting"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": []
 }

@@ -41,7 +41,10 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "furniture": "chair",
-    "tags": ["oare"],
+    "tags": [
+        "oare",
+        "reversecowgirl"
+    ],
     "autoTransitions": {},
     "actors": [
         {
@@ -54,7 +57,7 @@
             "tags": [
                 "sitting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -64,10 +67,10 @@
             "scale": 1,
             "lookUp": -100,
             "tags": [
-                "standing",
+                "squatting",
                 "facingaway"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -77,6 +80,16 @@
             "actor": 0,
             "target": 1,
             "performer": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingbody"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "holdingthigh"
         }
     ]
 }

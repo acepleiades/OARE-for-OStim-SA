@@ -30,7 +30,8 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "cuddling"
+        "cuddling",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -41,9 +42,10 @@
             "scaleHeight": 120.748,
             "scale": 1.03,
             "tags": [
-                "lyingside"
+                "lyingback",
+                "onbottom"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -53,11 +55,18 @@
             "scale": 1,
             "lookUp": 40,
             "tags": [
-                "lyingside"
+                "allfours",
+                "ontop"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "cuddling"
+        }
+    ]
 }

@@ -1,59 +1,72 @@
 {
-  "name": "Bench Both Sitting Kiss",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 10,
-  "navigations": [
-    {
-      "destination": "OARE_BenchBothSittingFaceEachother",
-      "priority": -1000,
-	  "description": "Return...",
-	  "icon": "OARE/oare_return", 
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Em-BenchBothSittingKiss",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "furniture": "bench",
-  "tags": ["oare","idle"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "sitting"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": [
-    {
-      "type": "kissing",
-      "actor": 0,
-      "target": 1
-    }
-  ]
+    "name": "Bench Both Sitting Kiss",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 10,
+    "navigations": [
+        {
+            "destination": "OARE_BenchBothSittingFaceEachother",
+            "priority": -1000,
+            "description": "Return...",
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Em-BenchBothSittingKiss",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "furniture": "bench",
+    "tags": [
+        "oare",
+        "idle",
+        "romantic"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "hugging"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghand"
+        }
+    ]
 }

@@ -53,7 +53,8 @@
     "defaultSpeed": 0,
     "noRandomSelection": false,
     "tags": [
-        "idle"
+        "idle",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [

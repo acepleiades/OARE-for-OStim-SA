@@ -41,7 +41,10 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "furniture": "shelf",
-    "tags": ["oare"],
+    "tags": [
+        "oare",
+        "doggystyle"
+    ],
     "autoTransitions": {},
     "actors": [
         {
@@ -54,7 +57,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -68,7 +71,7 @@
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

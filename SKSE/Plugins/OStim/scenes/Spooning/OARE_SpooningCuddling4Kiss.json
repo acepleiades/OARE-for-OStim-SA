@@ -33,7 +33,7 @@
             "scaleHeight": 120.748,
             "scale": 1.03,
             "tags": [
-                "lyingside"
+                "lyingback"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -44,7 +44,7 @@
             "scaleHeight": 120.748,
             "scale": 1,
             "tags": [
-                "lyingside"
+                "kneeling"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -55,6 +55,16 @@
             "type": "kissing",
             "actor": 1,
             "target": 0
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "mounting"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
         }
     ]
 }

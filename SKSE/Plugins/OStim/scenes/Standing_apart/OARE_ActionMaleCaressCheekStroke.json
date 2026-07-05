@@ -1,43 +1,51 @@
 {
-  "name": "Action Male Caress Cheek Stroke",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 5,
-  "destination": "OARE_Standing",
-  "navigations": [],
-  "speeds": [
-		{
-			"animation": "_Ap-MalePC_CaressCheekStroke"
-		}
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","action"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": 0,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Action Male Caress Cheek Stroke",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 5,
+    "destination": "OARE_Standing",
+    "speeds": [
+        {
+            "animation": "_Ap-MalePC_CaressCheekStroke"
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "action",
+        "romantic"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": 0,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "pattinghead"
+        }
+    ]
 }

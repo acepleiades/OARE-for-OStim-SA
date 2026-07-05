@@ -1,61 +1,73 @@
 {
-  "name": "Vampire Bite Male Standing",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-    {
-      "destination": "OARE_GoBackDevourVampireBiteMaleStanding",
-	  "description": "Let go of {1}.",
-      "priority": 5000,
-	  "icon": "OARE/oare_vampire",
-      "noWarnings": false,
-	  "border": "e05a4e"
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Em-DevourVampireBiteMaleStanding",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare"],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": -5,
-      "scaleHeight": 120.748,
-	  "scale": 1.03,
-      "lookUp": -25,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-	  "scale": 1.0,
-      "lookUp": -75,
-      "lookLeft": -75,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": [
-    {
-      "type": "vampirebite",
-      "actor": 0,
-      "target": 1
-    }
-  ]
+    "name": "Vampire Bite Male Standing",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "OARE_GoBackDevourVampireBiteMaleStanding",
+            "description": "Let go of {1}.",
+            "priority": 5000,
+            "icon": "OARE/oare_vampire",
+            "noWarnings": false,
+            "border": "e05a4e"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Em-DevourVampireBiteMaleStanding",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": -5,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -25,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": -75,
+            "lookLeft": -75,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "type": "vampirebite",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingbody"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghead"
+        }
+    ]
 }

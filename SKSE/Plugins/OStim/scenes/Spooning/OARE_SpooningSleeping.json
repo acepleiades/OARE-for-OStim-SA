@@ -43,7 +43,8 @@
             "scaleHeight": 120.748,
             "scale": 1,
             "tags": [
-                "lyingside"
+                "lyingside",
+                "facingaway"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -62,6 +63,11 @@
             "type": "sleepingsound",
             "actor": 1,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
         }
     ]
 }

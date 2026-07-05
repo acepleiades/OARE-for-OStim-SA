@@ -1,57 +1,66 @@
 {
-  "name": "Hug From Behind",
-  "modPack": "Open Animations Romance and Erotica",
-  "length": 2,
-  "navigations": [
-    {
-      "destination": "OARE_CuddleFromBehind",
-      "description": "Return...",
-      "priority": -1000,
-      "icon": "OARE/oare_return",
-      "noWarnings": false
-    }
-  ],
-  "speeds": [
-    {
-      "animation": "_Em-HugFromBehind",
-      "playbackSpeed": 1,
-      "displaySpeed": 1
-    }
-  ],
-  "defaultSpeed": 0,
-  "noRandomSelection": false,
-  "tags": ["oare","cuddling"
-  ],
-  "autoTransitions": {},
-  "actors": [
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "sosBend": -7,
-      "scaleHeight": 120.748,
-      "scale": 1.03,
-      "lookUp": -35,
-      "lookLeft": -25,
-      "tags": [
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    },
-    {
-      "type": "npc",
-      "intendedSex": "any",
-      "scaleHeight": 120.748,
-      "scale": 1.0,
-      "lookUp": 35,
-      "lookLeft": 50,
-      "tags": [
-        "facingaway",
-        "standing"
-      ],
-      "feetOnGround": false,
-      "autoTransitions": {}
-    }
-  ],
-  "actions": []
+    "name": "Hug From Behind",
+    "modPack": "Open Animations Romance and Erotica",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "OARE_CuddleFromBehind",
+            "description": "Return...",
+            "priority": -1000,
+            "icon": "OARE/oare_return",
+            "noWarnings": false
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "_Em-HugFromBehind",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        }
+    ],
+    "defaultSpeed": 0,
+    "noRandomSelection": false,
+    "tags": [
+        "oare",
+        "cuddling",
+        "romantic"
+    ],
+    "autoTransitions": {},
+    "actors": [
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "sosBend": -7,
+            "scaleHeight": 120.748,
+            "scale": 1.03,
+            "lookUp": -35,
+            "lookLeft": -25,
+            "tags": [
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        },
+        {
+            "type": "npc",
+            "intendedSex": "any",
+            "scaleHeight": 120.748,
+            "scale": 1,
+            "lookUp": 35,
+            "lookLeft": 50,
+            "tags": [
+                "facingaway",
+                "standing"
+            ],
+            "feetOnGround": true,
+            "autoTransitions": {}
+        }
+    ],
+    "actions": [
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "hugging"
+        }
+    ]
 }

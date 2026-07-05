@@ -52,7 +52,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "missionary"
+        "missionary",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -63,7 +64,7 @@
             "scaleHeight": 120.748,
             "scale": 1.03,
             "tags": [
-                "kneeling"
+                "lyingfront"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -90,6 +91,16 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "hugging"
         }
     ]
 }
