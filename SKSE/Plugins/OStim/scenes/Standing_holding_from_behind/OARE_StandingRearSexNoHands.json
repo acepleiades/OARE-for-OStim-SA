@@ -45,7 +45,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "bodyguard"
     ],
     "autoTransitions": {},
     "actors": [
@@ -59,7 +60,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -72,7 +73,7 @@
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

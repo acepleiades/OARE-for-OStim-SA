@@ -21,7 +21,8 @@
     "noRandomSelection": true,
     "tags": [
         "oare",
-        "idle"
+        "idle",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -43,14 +44,20 @@
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -50,
             "tags": [
-                "sitting"
+                "kneeling"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
+        }
+    ]
 }

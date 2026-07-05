@@ -118,7 +118,8 @@
     "defaultSpeed": 0,
     "noRandomSelection": false,
     "tags": [
-        "idle"
+        "idle",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -133,23 +134,29 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": 35,
             "lookLeft": 50,
             "tags": [
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "hugging"
+        }
+    ]
 }

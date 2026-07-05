@@ -43,25 +43,25 @@
             "scale": 1.03,
             "lookUp": -50,
             "tags": [
-                "nostrip",
                 "standing"
             ],
-            "feetOnGround": false,
+            "noStrip": true,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -30,
             "lookLeft": 100,
             "tags": [
-                "nostrip",
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
+            "noStrip": true,
             "autoTransitions": {}
         }
     ],
@@ -70,6 +70,11 @@
             "type": "buttjob",
             "actor": 1,
             "target": 0
+        },
+        {
+            "actor": 1,
+            "target": 1,
+            "type": "gropingbreast"
         }
     ]
 }

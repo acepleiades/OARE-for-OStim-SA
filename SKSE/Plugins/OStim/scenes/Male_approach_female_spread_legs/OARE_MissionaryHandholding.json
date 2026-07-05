@@ -41,7 +41,9 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "missionary"
+        "missionary",
+        "romantic",
+        "butterfly"
     ],
     "autoTransitions": {},
     "actors": [
@@ -76,6 +78,11 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghand"
         }
     ]
 }

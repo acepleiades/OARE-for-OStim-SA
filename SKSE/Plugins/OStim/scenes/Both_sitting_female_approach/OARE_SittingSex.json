@@ -68,7 +68,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "lap"
     ],
     "autoTransitions": {},
     "actors": [
@@ -79,7 +80,8 @@
             "scaleHeight": 120.748,
             "scale": 1.03,
             "tags": [
-                "sitting"
+                "sitting",
+                "onbottom"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -88,10 +90,11 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": 25,
             "tags": [
-                "sitting"
+                "sitting",
+                "ontop"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -101,7 +104,18 @@
         {
             "type": "vaginalsex",
             "actor": 0,
-            "target": 1
+            "target": 1,
+            "performer": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "leglocking"
         }
     ]
 }

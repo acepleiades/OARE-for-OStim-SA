@@ -43,14 +43,14 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
                 "kneeling"
             ],
@@ -63,6 +63,11 @@
             "type": "audiblebreathing",
             "actor": 1,
             "target": 1
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "boobjob"
         }
     ]
 }

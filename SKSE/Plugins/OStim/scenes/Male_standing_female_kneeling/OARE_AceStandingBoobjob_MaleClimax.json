@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 10,
     "destination": "OARE_AceStandingBoobjob_AfterClimax",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_BoJ-AceStandingBoobjob_MaleClimax"
@@ -26,14 +25,14 @@
                 "climaxing",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
                 "kneeling"
             ],
@@ -46,6 +45,11 @@
             "type": "boobjob",
             "actor": 1,
             "target": 0
+        },
+        {
+            "actor": 1,
+            "target": 1,
+            "type": "gropingbreast"
         }
     ]
 }

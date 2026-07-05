@@ -36,7 +36,9 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "romantic",
+        "carry"
     ],
     "autoTransitions": {},
     "actors": [
@@ -49,14 +51,14 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
                 "suspended"
             ],
@@ -69,6 +71,16 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "leglocking"
         }
     ]
 }

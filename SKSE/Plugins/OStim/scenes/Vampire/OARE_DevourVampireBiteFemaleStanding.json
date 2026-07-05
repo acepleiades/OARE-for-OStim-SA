@@ -37,19 +37,19 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -25,
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -58,6 +58,16 @@
             "type": "vampirebite",
             "actor": 1,
             "target": 0
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "holdingarm"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "holdinghead"
         }
     ]
 }

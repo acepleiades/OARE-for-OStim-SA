@@ -128,6 +128,14 @@
             "border": "dd7e5e"
         },
         {
+            "destination": "OARE_ActionFemaleCaressHoldHands",
+            "description": "({1}) Holds {0}'s hands.",
+            "priority": 1006,
+            "noWarnings": false,
+            "icon": "OARE/Standing_apart/StandingHandHolding",
+            "border": "dd7e5e"
+        },
+        {
             "destination": "OARE_ActionFemaleCaressHug",
             "description": "({1}) Hug {0}.",
             "priority": 1007,
@@ -240,7 +248,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {
                 "devour1": "OpS|Sta!Sta|Ap|StandingDevourVampireMale"
             }
@@ -253,7 +261,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {
                 "devour0": "OpS|Sta!Sta|Ap|StandingDevourVampireFemale"
             }

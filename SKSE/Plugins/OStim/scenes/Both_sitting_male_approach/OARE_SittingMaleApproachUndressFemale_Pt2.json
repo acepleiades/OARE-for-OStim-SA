@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "destination": "OARE_SittingMaleApproach",
-    "navigations": [],
     "speeds": [
         {
             "animation": "SittingMaleApproachUndressFemale_Pt2"
@@ -33,11 +32,11 @@
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
                 "sitting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

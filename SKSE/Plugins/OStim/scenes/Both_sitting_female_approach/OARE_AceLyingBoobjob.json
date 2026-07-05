@@ -65,7 +65,7 @@
             "tags": [
                 "lyingback"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {
                 "climax": "OpS|LyB!Sit|BoJ|AceLyingBoobjob_MaleClimax"
             }
@@ -74,10 +74,10 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -25,
             "tags": [
-                "sitting"
+                "kneeling"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -88,6 +88,11 @@
             "type": "boobjob",
             "actor": 1,
             "target": 0
+        },
+        {
+            "actor": 1,
+            "target": 1,
+            "type": "gropingbreast"
         }
     ]
 }

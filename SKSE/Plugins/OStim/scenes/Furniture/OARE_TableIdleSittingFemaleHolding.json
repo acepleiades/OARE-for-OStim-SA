@@ -63,7 +63,8 @@
     "furniture": "table",
     "tags": [
         "cuddling",
-        "idle"
+        "idle",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -76,7 +77,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -85,7 +86,7 @@
             "scaleHeight": 120.748,
             "scale": 1,
             "tags": [
-                "standing"
+                "sitting"
             ],
             "feetOnGround": false,
             "autoTransitions": {}

@@ -65,19 +65,20 @@
             "tags": [
                 "squatting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -100,
             "tags": [
-                "standing"
+                "standing",
+                "facingaway"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -86,6 +87,11 @@
             "type": "gropingbutt",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingthigh"
         }
     ]
 }

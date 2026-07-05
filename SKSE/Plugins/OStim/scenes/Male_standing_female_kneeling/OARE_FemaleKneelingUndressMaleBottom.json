@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 7,
     "destination": "OARE_MaleStandingFemaleKneeling",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Ap-FemaleKneelingUndressMaleBottom"
@@ -28,7 +27,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {

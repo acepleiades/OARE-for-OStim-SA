@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 5,
     "destination": "OARE_Missionary",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Sx-MissionaryMaleClimaxInternal"
@@ -13,7 +12,9 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "transition"
+        "transition",
+        "romantic",
+        "butterfly"
     ],
     "autoTransitions": {},
     "actors": [
@@ -35,7 +36,7 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -50,
             "tags": [
                 "lyingback"
@@ -49,6 +50,11 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingthigh"
         }
     ]
 }

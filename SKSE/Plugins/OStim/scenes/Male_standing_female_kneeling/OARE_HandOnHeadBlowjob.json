@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 1,
     "destination": "OARE_FSquatting_FellatioHoldHead",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_BJ-SquattingFellatioHoldingHead_S1"
@@ -27,7 +26,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {

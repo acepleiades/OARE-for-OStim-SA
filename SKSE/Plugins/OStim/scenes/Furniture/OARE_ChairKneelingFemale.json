@@ -57,21 +57,27 @@
             "tags": [
                 "sitting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": 0,
             "tags": [
-                "standing"
+                "kneeling"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "holdingleg"
+        }
+    ]
 }

@@ -36,7 +36,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -49,7 +50,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -60,7 +61,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

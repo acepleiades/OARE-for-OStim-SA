@@ -58,7 +58,7 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -100,
             "lookLeft": 65,
             "tags": [
@@ -74,6 +74,16 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingarm"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
         }
     ]
 }

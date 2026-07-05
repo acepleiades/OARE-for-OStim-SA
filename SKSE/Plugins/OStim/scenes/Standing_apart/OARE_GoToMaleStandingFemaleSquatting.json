@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "destination": "OARE_MaleStandingFemaleSquatting",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Ap-GoToMaleStandingFemaleSquatting"
@@ -27,19 +26,19 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": 25,
             "tags": [
                 "squatting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

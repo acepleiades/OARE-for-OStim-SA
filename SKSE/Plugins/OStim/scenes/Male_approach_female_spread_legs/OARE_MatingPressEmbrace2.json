@@ -42,7 +42,8 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "missionary"
+        "romantic",
+        "matingpress"
     ],
     "autoTransitions": {},
     "actors": [
@@ -55,14 +56,14 @@
             "tags": [
                 "squatting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
                 "lyingback"
             ],
@@ -80,6 +81,16 @@
             "type": "kissing",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "leglocking"
         }
     ]
 }

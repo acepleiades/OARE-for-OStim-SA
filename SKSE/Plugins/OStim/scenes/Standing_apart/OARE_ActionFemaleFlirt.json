@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 6,
     "destination": "OARE_Standing",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Ap-ActionFemaleFlirt"
@@ -26,20 +25,26 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "spectating"
+        }
+    ]
 }

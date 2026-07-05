@@ -42,7 +42,8 @@
     "defaultSpeed": 2,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "doggystyle"
     ],
     "autoTransitions": {},
     "actors": [
@@ -56,21 +57,21 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -30,
             "tags": [
                 "bendover",
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -79,6 +80,11 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingarm"
         }
     ]
 }

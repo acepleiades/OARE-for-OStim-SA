@@ -35,7 +35,7 @@
             "tags": [
                 "squatting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

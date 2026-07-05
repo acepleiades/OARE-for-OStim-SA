@@ -60,7 +60,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "cowgirl"
+        "cowgirl",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -88,7 +89,7 @@
             "tags": [
                 "squatting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

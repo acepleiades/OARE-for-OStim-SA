@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 5,
     "destination": "OARE_Standing",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Ap-MalePC_Kiss1"
@@ -13,7 +12,8 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "action"
+        "action",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -26,18 +26,18 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -46,6 +46,16 @@
             "type": "kissing",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "hugging"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
         }
     ]
 }

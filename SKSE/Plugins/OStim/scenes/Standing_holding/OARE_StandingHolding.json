@@ -150,7 +150,8 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "idle"
+        "idle",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -164,21 +165,32 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": 20,
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "cuddling"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "cuddling"
+        }
+    ]
 }

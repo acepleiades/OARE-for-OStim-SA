@@ -37,7 +37,8 @@
     "noRandomSelection": false,
     "furniture": "table",
     "tags": [
-        "oare"
+        "oare",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -50,7 +51,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {

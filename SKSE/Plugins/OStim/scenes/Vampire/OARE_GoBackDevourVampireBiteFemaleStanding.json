@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "destination": "OARE_DevourDrainedMaleStanding",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Em-GoBackDevourVampireBiteFemaleStanding"
@@ -27,7 +26,7 @@
                 "drowsy",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -38,7 +37,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

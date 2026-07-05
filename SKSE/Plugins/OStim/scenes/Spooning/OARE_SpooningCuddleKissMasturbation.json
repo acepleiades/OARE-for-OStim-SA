@@ -41,7 +41,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -63,7 +64,7 @@
             "scaleHeight": 120.748,
             "scale": 1,
             "tags": [
-                "lyingback"
+                "lyingside"
             ],
             "feetOnGround": false,
             "autoTransitions": {}

@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 7,
     "destination": "OARE_MaleStandingFemaleSquatting",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Ap-FemaleSquattingUndressMaleBottom"
@@ -28,7 +27,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -39,7 +38,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

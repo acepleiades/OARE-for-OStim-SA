@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 2.666,
     "destination": "OARE_StandingSpankIdle",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Ho-StandingSpank"
@@ -26,24 +25,34 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -30,
             "lookLeft": 75,
             "tags": [
-                "bendover",
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "spanking"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
+        }
+    ]
 }

@@ -60,10 +60,10 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -75,
             "tags": [
-                "kneeling"
+                "sitting"
             ],
             "feetOnGround": false,
             "autoTransitions": {}

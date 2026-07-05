@@ -30,7 +30,8 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "cuddling"
+        "cuddling",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -41,7 +42,7 @@
             "scaleHeight": 120.748,
             "scale": 1.03,
             "tags": [
-                "lyingside"
+                "lyingback"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -53,11 +54,22 @@
             "scale": 1,
             "lookUp": 20,
             "tags": [
-                "lyingside"
+                "kneeling"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "mounting"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
+        }
+    ]
 }

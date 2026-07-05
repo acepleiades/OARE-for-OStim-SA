@@ -57,7 +57,7 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -30,
             "tags": [
                 "lyingback"
@@ -72,6 +72,11 @@
             "actor": 1,
             "target": 0,
             "performer": 0
+        },
+        {
+            "actor": 1,
+            "target": 1,
+            "type": "gropingbreast"
         }
     ]
 }

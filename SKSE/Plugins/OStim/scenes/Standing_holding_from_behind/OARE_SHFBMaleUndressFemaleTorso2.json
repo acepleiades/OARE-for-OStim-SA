@@ -3,7 +3,6 @@
     "modPack": "Open Animations Romance and Erotica",
     "length": 2,
     "destination": "OARE_StandingHoldingFromBehind",
-    "navigations": [],
     "speeds": [
         {
             "animation": "_Ho-SHFBMaleUndressFemaleTorso2"
@@ -24,20 +23,21 @@
             "scaleHeight": 120.748,
             "scale": 1.03,
             "tags": [
-                "oare"
+                "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "tags": [
-                "oare"
+                "standing",
+                "facingaway"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],

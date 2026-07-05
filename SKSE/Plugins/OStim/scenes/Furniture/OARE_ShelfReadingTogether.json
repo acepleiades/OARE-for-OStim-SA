@@ -38,35 +38,43 @@
     "furniture": "shelf",
     "tags": [
         "oare",
-        "cuddling"
+        "cuddling",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
         {
             "type": "npc",
             "intendedSex": "any",
-            "sosBend": 0,
+            "sosBend": -9,
             "scaleHeight": 120.748,
             "scale": 1.03,
             "lookUp": -75,
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -25,
             "tags": [
-                "standing"
+                "standing",
+                "facingaway"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "hugging"
+        }
+    ]
 }

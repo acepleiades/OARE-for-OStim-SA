@@ -36,7 +36,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "spooning"
     ],
     "autoTransitions": {},
     "actors": [
@@ -57,10 +58,12 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -75,
             "tags": [
-                "lyingside"
+                "lyingside",
+                "facingaway",
+                "spreadlegs"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -71,6 +74,16 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingthigh"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "gropingbreast"
         }
     ]
 }

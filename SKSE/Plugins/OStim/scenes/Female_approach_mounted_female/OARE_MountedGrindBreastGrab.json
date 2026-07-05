@@ -57,7 +57,7 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -25,
             "tags": [
                 "kneeling"
@@ -71,6 +71,16 @@
             "type": "grindingpenis",
             "actor": 1,
             "target": 0
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "gropingbreast"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "mounting"
         }
     ]
 }

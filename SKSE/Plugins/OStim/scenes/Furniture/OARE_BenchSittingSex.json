@@ -42,7 +42,9 @@
     "noRandomSelection": false,
     "furniture": "bench",
     "tags": [
-        "oare"
+        "oare",
+        "romantic",
+        "cowgirl"
     ],
     "autoTransitions": {},
     "actors": [
@@ -56,7 +58,7 @@
             "tags": [
                 "sitting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -66,7 +68,7 @@
             "scale": 1,
             "lookUp": -35,
             "tags": [
-                "sitting"
+                "kneeling"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
@@ -76,7 +78,18 @@
         {
             "type": "vaginalsex",
             "actor": 0,
-            "target": 1
+            "target": 1,
+            "performer": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "gropingbutt"
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
         }
     ]
 }

@@ -51,14 +51,21 @@
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -50,
             "tags": [
-                "kneeling"
+                "kneeling",
+                "facingaway"
             ],
             "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "mounting"
+        }
+    ]
 }

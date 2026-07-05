@@ -36,7 +36,8 @@
     "defaultSpeed": 1,
     "noRandomSelection": false,
     "tags": [
-        "oare"
+        "oare",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -50,20 +51,20 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "any",
             "scaleHeight": 80,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -100,
             "lookLeft": 50,
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
@@ -77,6 +78,11 @@
             "type": "handjob",
             "actor": 1,
             "target": 0
+        },
+        {
+            "actor": 1,
+            "target": 0,
+            "type": "hugging"
         }
     ]
 }

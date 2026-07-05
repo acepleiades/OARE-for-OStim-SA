@@ -37,7 +37,8 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "missionary"
+        "romantic",
+        "anvil"
     ],
     "autoTransitions": {},
     "actors": [
@@ -58,7 +59,7 @@
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -20,
             "tags": [
                 "lyingback"

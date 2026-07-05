@@ -30,7 +30,8 @@
     "noRandomSelection": false,
     "tags": [
         "oare",
-        "cuddling"
+        "cuddling",
+        "platonic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -44,25 +45,25 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -30,
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         }
     ],
     "actions": [
         {
-            "type": "hug",
+            "type": "hugging",
             "actor": 0,
             "target": 1
         }

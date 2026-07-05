@@ -49,16 +49,16 @@
             "scale": 1.03,
             "lookUp": -50,
             "tags": [
-                "kneeling"
+                "squatting"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
             "type": "npc",
             "intendedSex": "female",
             "scaleHeight": 120.748,
-            "scale": 1.0,
+            "scale": 1,
             "lookUp": -80,
             "lookLeft": 80,
             "tags": [
@@ -74,6 +74,11 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingbody"
         }
     ]
 }

@@ -42,7 +42,8 @@
     "noRandomSelection": false,
     "furniture": "table",
     "tags": [
-        "missionary"
+        "missionary",
+        "romantic"
     ],
     "autoTransitions": {},
     "actors": [
@@ -55,7 +56,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": false,
+            "feetOnGround": true,
             "autoTransitions": {}
         },
         {
@@ -76,6 +77,16 @@
             "type": "vaginalsex",
             "actor": 0,
             "target": 1
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdinghip"
+        },
+        {
+            "actor": 0,
+            "target": 1,
+            "type": "holdingthigh"
         }
     ]
 }
