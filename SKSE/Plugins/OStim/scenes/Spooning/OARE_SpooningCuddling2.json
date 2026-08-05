@@ -45,7 +45,7 @@
                 "lyingback",
                 "onbottom"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         },
         {

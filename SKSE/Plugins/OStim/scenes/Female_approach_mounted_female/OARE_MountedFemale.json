@@ -65,6 +65,14 @@
             "icon": "OARE/Female_approach_mounted_female/NewMountedSexKissing",
             "border": "e05a4e",
             "noWarnings": false
+        },
+        {
+            "destination": "OARE_NewMountedSex_MaleLegsUp",
+            "priority": 3004,
+            "description": "Have sex with {1} (male legs up).",
+            "icon": "OARE/Female_approach_mounted_female/MountedSex_MaleLegsUp",
+            "border": "e05a4e",
+            "noWarnings": false
         }
     ],
     "speeds": [

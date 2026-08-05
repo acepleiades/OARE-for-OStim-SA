@@ -63,7 +63,7 @@
                 "standing",
                 "facingaway"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         }
     ],

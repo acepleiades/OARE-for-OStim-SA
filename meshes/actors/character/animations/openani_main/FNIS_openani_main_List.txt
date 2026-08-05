@@ -1,3 +1,14 @@
+b -Tn MountedSex_MaleLegsUp_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S1_0.hkx
+b -Tn MountedSex_MaleLegsUp_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S1_1.hkx
+b -Tn MountedSex_MaleLegsUp_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S2_0.hkx
+b -Tn MountedSex_MaleLegsUp_S2_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S2_1.hkx
+b -Tn MountedSex_MaleLegsUp_S3_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S3_0.hkx
+b -Tn MountedSex_MaleLegsUp_S3_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S3_1.hkx
+b -Tn MountedSex_MaleLegsUp_S4_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S4_0.hkx
+b -Tn MountedSex_MaleLegsUp_S4_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S4_1.hkx
+b -Tn MountedSex_MaleLegsUp_S5_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S5_0.hkx
+b -Tn MountedSex_MaleLegsUp_S5_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S5_1.hkx
+
 b -Tn OARE_NewMountedSexKissing_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S1_0.hkx
 b -Tn OARE_NewMountedSexKissing_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S1_1.hkx
 b -Tn OARE_NewMountedSexKissing_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\NewMountedSexKissing\OARE_NewMountedSexKissing_S2_0.hkx
@@ -390,6 +401,8 @@ b -Tn _Sx-StandingRearSex_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\Stand
 b -Tn _Sx-StandingRearSex_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSex\_Sx-StandingRearSex_S3_1.hkx
 b -Tn _Sx-StandingRearSex_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSex\_Sx-StandingRearSex_S4_0.hkx
 b -Tn _Sx-StandingRearSex_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSex\_Sx-StandingRearSex_S4_1.hkx
+b -Tn _Sx-StandingRearSex_S5_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSex\_Sx-StandingRearSex_S5_0.hkx
+b -Tn _Sx-StandingRearSex_S5_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSex\_Sx-StandingRearSex_S5_1.hkx
 b -Tn _Sx-StandingRearSexNoHands_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S1_0.hkx
 b -Tn _Sx-StandingRearSexNoHands_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S1_1.hkx
 b -Tn _Sx-StandingRearSexNoHands_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S2_0.hkx
@@ -398,6 +411,8 @@ b -Tn _Sx-StandingRearSexNoHands_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\S
 b -Tn _Sx-StandingRearSexNoHands_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S3_1.hkx
 b -Tn _Sx-StandingRearSexNoHands_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S4_0.hkx
 b -Tn _Sx-StandingRearSexNoHands_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S4_1.hkx
+b -Tn _Sx-StandingRearSexNoHands_S5_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S5_0.hkx
+b -Tn _Sx-StandingRearSexNoHands_S5_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexNoHands\_Sx-StandingRearSexNoHands_S5_1.hkx
 b -Tn _Sx-StandingRearSexMasturbation_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S1_0.hkx
 b -Tn _Sx-StandingRearSexMasturbation_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S1_1.hkx
 b -Tn _Sx-StandingRearSexMasturbation_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S2_0.hkx
@@ -406,6 +421,8 @@ b -Tn _Sx-StandingRearSexMasturbation_S3_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\Sta
 b -Tn _Sx-StandingRearSexMasturbation_S3_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S3_1.hkx
 b -Tn _Sx-StandingRearSexMasturbation_S4_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S4_0.hkx
 b -Tn _Sx-StandingRearSexMasturbation_S4_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S4_1.hkx
+b -Tn _Sx-StandingRearSexMasturbation_S5_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S5_0.hkx
+b -Tn _Sx-StandingRearSexMasturbation_S5_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexMasturbation\_Sx-StandingRearSexMasturbation_S5_1.hkx
 b -Tn _Sx-StandingRearSexHoldingArms_S1_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexHoldingArms\_Sx-StandingRearSexHoldingArms_S1_0.hkx
 b -Tn _Sx-StandingRearSexHoldingArms_S1_1 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexHoldingArms\_Sx-StandingRearSexHoldingArms_S1_1.hkx
 b -Tn _Sx-StandingRearSexHoldingArms_S2_0 ..\..\..\..\0SA\mod\0Sex\anim\OpS\StaSta\Sx\StandingRearSexHoldingArms\_Sx-StandingRearSexHoldingArms_S2_0.hkx

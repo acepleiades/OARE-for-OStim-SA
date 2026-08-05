@@ -105,7 +105,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         },
         {
@@ -118,7 +118,7 @@
                 "standing",
                 "facingaway"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         }
     ],

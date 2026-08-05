@@ -65,7 +65,7 @@
             "tags": [
                 "lyingback"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {
                 "climax": "OpS|LyB!Sit|BoJ|AceLyingBoobjob_MaleClimax"
             }

@@ -165,7 +165,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         },
         {
@@ -177,7 +177,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         }
     ],

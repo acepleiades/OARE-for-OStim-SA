@@ -47,7 +47,7 @@
             "tags": [
                 "lyingback"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         }
     ],

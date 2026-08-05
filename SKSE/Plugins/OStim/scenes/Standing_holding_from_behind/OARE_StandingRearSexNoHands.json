@@ -40,6 +40,11 @@
             "animation": "_Sx-StandingRearSexNoHands_S4",
             "playbackSpeed": 1,
             "displaySpeed": 2
+        },
+        {
+            "animation": "_Sx-StandingRearSexNoHands_S5",
+            "playbackSpeed": 1,
+            "displaySpeed": 2.5
         }
     ],
     "defaultSpeed": 1,
@@ -60,7 +65,7 @@
             "tags": [
                 "standing"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         },
         {
@@ -73,7 +78,7 @@
                 "facingaway",
                 "standing"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         }
     ],

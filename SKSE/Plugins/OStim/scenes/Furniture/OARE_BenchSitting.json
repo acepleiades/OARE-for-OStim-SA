@@ -54,7 +54,7 @@
                 "sitting",
                 "onbottom"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         },
         {

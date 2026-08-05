@@ -70,7 +70,7 @@
             "tags": [
                 "sitting"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         },
         {
@@ -81,7 +81,7 @@
             "tags": [
                 "sitting"
             ],
-            "feetOnGround": true,
+            "feetOnGround": false,
             "autoTransitions": {}
         }
     ],
