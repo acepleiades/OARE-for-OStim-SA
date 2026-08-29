@@ -11,14 +11,6 @@
             "noWarnings": false
         },
         {
-            "destination": "OARE_CowgirlCircularGrind",
-            "priority": 2999,
-            "description": "({1}) Lean back and grind.",
-            "icon": "OARE/Female_approach_mounted_female/CowgirlLeanBack",
-            "border": "e05a4e",
-            "noWarnings": false
-        },
-        {
             "destination": "OARE_CowgirlLeanBack",
             "priority": 3000,
             "description": "({1}) Lean back.",
