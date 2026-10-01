@@ -51,8 +51,24 @@
             "noWarnings": false
         },
         {
-            "destination": "OARE_CowgirlKneesOnGround",
+            "destination": "OARE_2026MaleLyingFingering",
             "priority": 3002,
+            "description": "Finger {1}",
+            "icon": "OARE/Female_approach_mounted_female/2026MaleLyingFingering",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_2026MaleLyingCunnilungus",
+            "priority": 3003,
+            "description": "Perform cunnilingus on {1}",
+            "icon": "OARE/Female_approach_mounted_female/2026MaleLyingCunnilungus",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_CowgirlKneesOnGround",
+            "priority": 3004,
             "description": "Have sex with {1}.",
             "icon": "OARE/Female_approach_mounted_female/CowgirlKneesOnGround",
             "border": "e05a4e",
@@ -60,7 +76,7 @@
         },
         {
             "destination": "OARE_NewMountedSexKissing",
-            "priority": 3003,
+            "priority": 3005,
             "description": "Have sex with {1} (kissing).",
             "icon": "OARE/Female_approach_mounted_female/NewMountedSexKissing",
             "border": "e05a4e",
@@ -68,7 +84,7 @@
         },
         {
             "destination": "OARE_NewMountedSex_MaleLegsUp",
-            "priority": 3004,
+            "priority": 3006,
             "description": "Have sex with {1} (male legs up).",
             "icon": "OARE/Female_approach_mounted_female/MountedSex_MaleLegsUp",
             "border": "e05a4e",

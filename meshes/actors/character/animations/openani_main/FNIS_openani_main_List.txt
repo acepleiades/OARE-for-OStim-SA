@@ -1,3 +1,36 @@
+b -Tn 2026MaleLyingCunnilungus_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S1_0.hkx
+b -Tn 2026MaleLyingCunnilungus_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S1_1.hkx
+b -Tn 2026MaleLyingCunnilungus_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S2_0.hkx
+b -Tn 2026MaleLyingCunnilungus_S2_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S2_1.hkx
+b -Tn 2026MaleLyingCunnilungus_S3_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S3_0.hkx
+b -Tn 2026MaleLyingCunnilungus_S3_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S3_1.hkx
+b -Tn 2026MaleLyingCunnilungus_S4_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S4_0.hkx
+b -Tn 2026MaleLyingCunnilungus_S4_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S4_1.hkx
+b -Tn 2026MaleLyingCunnilungus_S5_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S5_0.hkx
+b -Tn 2026MaleLyingCunnilungus_S5_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S5_1.hkx
+
+b -Tn 2026MaleLyingCunnilungus2_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S1_0.hkx
+b -Tn 2026MaleLyingCunnilungus2_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S1_1.hkx
+b -Tn 2026MaleLyingCunnilungus2_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S2_0.hkx
+b -Tn 2026MaleLyingCunnilungus2_S2_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S2_1.hkx
+b -Tn 2026MaleLyingCunnilungus2_S3_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S3_0.hkx
+b -Tn 2026MaleLyingCunnilungus2_S3_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S3_1.hkx
+b -Tn 2026MaleLyingCunnilungus2_S4_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S4_0.hkx
+b -Tn 2026MaleLyingCunnilungus2_S4_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S4_1.hkx
+b -Tn 2026MaleLyingCunnilungus2_S5_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S5_0.hkx
+b -Tn 2026MaleLyingCunnilungus2_S5_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus2\2026MaleLyingCunnilungus2_S5_1.hkx
+
+b -Tn 2026MaleLyingFingering_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S1_0.hkx
+b -Tn 2026MaleLyingFingering_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S1_1.hkx
+b -Tn 2026MaleLyingFingering_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S2_0.hkx
+b -Tn 2026MaleLyingFingering_S2_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S2_1.hkx
+b -Tn 2026MaleLyingFingering_S3_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S3_0.hkx
+b -Tn 2026MaleLyingFingering_S3_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S3_1.hkx
+b -Tn 2026MaleLyingFingering_S4_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S4_0.hkx
+b -Tn 2026MaleLyingFingering_S4_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S4_1.hkx
+b -Tn 2026MaleLyingFingering_S5_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S5_0.hkx
+b -Tn 2026MaleLyingFingering_S5_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingFingering\2026MaleLyingFingering_S5_1.hkx
+
 b -Tn MountedSex_MaleLegsUp_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S1_0.hkx
 b -Tn MountedSex_MaleLegsUp_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S1_1.hkx
 b -Tn MountedSex_MaleLegsUp_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\MountedSex_MaleLegsUp\MountedSex_MaleLegsUp_S2_0.hkx
