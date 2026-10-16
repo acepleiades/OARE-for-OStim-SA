@@ -89,6 +89,14 @@
             "icon": "OARE/Female_approach_mounted_female/MountedSex_MaleLegsUp",
             "border": "e05a4e",
             "noWarnings": false
+        },
+        {
+            "destination": "OARE_OnTopSexKissing",
+            "priority": 3007,
+            "description": "Have sex with {1} (on top sex, kissing).",
+            "icon": "OARE/Female_approach_mounted_female/OARE_OnTopSexKissing",
+            "border": "e05a4e",
+            "noWarnings": false
         }
     ],
     "speeds": [

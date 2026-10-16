@@ -22,7 +22,7 @@
             "destination": "OARE_TableMaleLeaningFellatio",
             "priority": 2901,
             "description": "({1}) Lie on your back and perform fellatio on {0}.",
-            "icon": "OARE/oare_placeholder_erotic",
+            "icon": "OARE/Furniture/TableMaleLeaningFellatio",
             "border": "e05a4e",
             "noWarnings": false
         },
@@ -47,6 +47,14 @@
             "priority": 2904,
             "description": "Have sex with {1} (side).",
             "icon": "OARE/Furniture/New2PTableSideSex",
+            "border": "e05a4e",
+            "noWarnings": false
+        },
+        {
+            "destination": "OARE_TableHoldShouldersFrontalSex",
+            "priority": 2905,
+            "description": "Have sex with {1} (hold shoulders).",
+            "icon": "OARE/Furniture/OARE_TableHoldShouldersFrontalSex",
             "border": "e05a4e",
             "noWarnings": false
         }

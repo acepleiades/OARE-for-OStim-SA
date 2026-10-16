@@ -1,3 +1,25 @@
+b -Tn OARE_OnTopSexKissing_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S1_0.hkx
+b -Tn OARE_OnTopSexKissing_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S1_1.hkx
+b -Tn OARE_OnTopSexKissing_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S2_0.hkx
+b -Tn OARE_OnTopSexKissing_S2_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S2_1.hkx
+b -Tn OARE_OnTopSexKissing_S3_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S3_0.hkx
+b -Tn OARE_OnTopSexKissing_S3_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S3_1.hkx
+b -Tn OARE_OnTopSexKissing_S4_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S4_0.hkx
+b -Tn OARE_OnTopSexKissing_S4_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S4_1.hkx
+b -Tn OARE_OnTopSexKissing_S5_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S5_0.hkx
+b -Tn OARE_OnTopSexKissing_S5_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\OnTopSexKissing\OARE_OnTopSexKissing_S5_1.hkx
+
+b -Tn OARE_TableHoldShouldersFrontalSex_S1_0 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S1_0.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S1_1 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S1_1.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S2_0 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S2_0.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S2_1 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S2_1.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S3_0 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S3_0.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S3_1 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S3_1.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S4_0 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S4_0.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S4_1 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S4_1.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S5_0 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S5_0.hkx
+b -Tn OARE_TableHoldShouldersFrontalSex_S5_1 ..\..\..\..\OARE_animations\Furniture\Table\TableHoldShouldersFrontalSex\OARE_TableHoldShouldersFrontalSex_S5_1.hkx
+
 b -Tn 2026MaleLyingCunnilungus_S1_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S1_0.hkx
 b -Tn 2026MaleLyingCunnilungus_S1_1 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S1_1.hkx
 b -Tn 2026MaleLyingCunnilungus_S2_0 ..\..\..\..\OARE_animations\Female_approach_mounted_female\2026MaleLyingCunnilungus\2026MaleLyingCunnilungus_S2_0.hkx
